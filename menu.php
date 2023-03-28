@@ -24,6 +24,16 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
       
+                    <li class="nav-item">
+            <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
+              <!-- <i class="nav-icon fas fa-th"></i> -->
+              <p>
+                Gestion des Services
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+
           <li class="nav-item">
             <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
               <!-- <i class="nav-icon fas fa-th"></i> -->
@@ -34,6 +44,35 @@
             </a>
           </li>
     
+             <li class="nav-item">
+            <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
+              <!-- <i class="nav-icon fas fa-th"></i> -->
+              <p>
+                Gestion des Parents
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+
+             <li class="nav-item">
+            <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
+              <!-- <i class="nav-icon fas fa-th"></i> -->
+              <p>
+                Gestion des Employées
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+
+             <li class="nav-item">
+            <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
+              <!-- <i class="nav-icon fas fa-th"></i> -->
+              <p>
+                Gestion des Patients
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
