@@ -15,23 +15,6 @@
 
             <?php include("../content-header.php") ?>
 
-            <!-- Content Header (Page header) -->
-            <div class="content-header">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-sm-6">
-                            <h1 class="m-0">Stagiaire CRUD</h1>
-                        </div><!-- /.col -->
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <!-- <li class="breadcrumb-item active">Dashboard v1</li> -->
-                            </ol>
-                        </div><!-- /.col -->
-                    </div><!-- /.row -->
-                </div><!-- /.container-fluid -->
-            </div>
-            <!-- /.content-header -->
 
             <!-- Main content -->
             <section class="content">
@@ -40,12 +23,12 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">
-                                Stagiaires
+                                Type Handicape
                             </h3>
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Add Stagiaire </a>
+                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Add Type Handicape </a>
                                     <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
                                         <option value="">test1</option>
                                         <option value="">test2</option>
@@ -74,11 +57,9 @@
                                             #
                                         </th>
                                         <th style="width: 20%">
-                                            Name Stagiaire
+                                            Name Type Handicape
                                         </th>
-                                        <th style="width: 30%">
-                                            Prenom Stagiaire
-                                        </th>
+
                                         <th style="width: 20%">
                                             Actions
                                         </th>
@@ -92,9 +73,7 @@
                                         <td>
                                             AHOUZI
                                         </td>
-                                        <td>
-                                            Hasnae
-                                        </td>
+
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
