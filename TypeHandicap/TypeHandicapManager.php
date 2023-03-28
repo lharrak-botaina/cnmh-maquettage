@@ -119,17 +119,21 @@
                         <!-- /.card-body -->
                     </div>
                     <!-- /.card -->
-                    <div class="card-header">
-                        <div class="d-flex justify-content-between ">
-                            <h3 class="card-title">
-                                Links
-                            </h3>
-                            <div class="col-sm-12 d-flex justify-content-between p-3">
+                    <div class="card-header row">
+                            <div class="float-right col-md-6">
+                                <ul class="pagination pagination-sm">
+                                    <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">»</a></li>
+                                </ul>
+                            </div>
+                            <div class="float-left col-md-6 d-flex justify-content-end">
                                 <a href="" class="btn btn-outline-secondary"> export_pdf </a>
                                 <a href="" class="btn btn-outline-secondary">export_excel</a>
                                 <a href="" class="btn btn-outline-secondary">import_excel</a>
                             </div>
-                        </div>
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
