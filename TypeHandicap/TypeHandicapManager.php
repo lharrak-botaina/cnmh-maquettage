@@ -45,7 +45,7 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="" class="btn btn-primary"> Add Stagiaire </a>
+                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Add Stagiaire </a>
                                     <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
                                         <option value="">test1</option>
                                         <option value="">test2</option>
