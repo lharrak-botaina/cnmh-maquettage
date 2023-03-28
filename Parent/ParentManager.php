@@ -40,11 +40,11 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../TypeService/TypeServiceForm.php" class="btn btn-primary"> Ajouter un Parents </a>
+                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"> Ajouter un Parents </a>
                                     <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">service 1</option>
-                                        <option value="">service 2</option>
-                                        <option value="">service 3</option>
+                                        <option value="">Parents</option>
+                                        <option value=""></option>
+                                        <option value=""></option>
                                     </select>
                                 </div>
                                 <!-- SEARCH FORM -->
@@ -71,7 +71,7 @@
                                             Prenom
                                         </th>
                                         <th style="width: 40%">
-                                            Nom de Parents
+                                            Sexe
                                         </th>
                                         <th style="width: 50%">
                                             Action
@@ -83,11 +83,20 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            #
+                                            1
                                         </td>
                                         <td>
-                                          
+                                          Essarraj 
                                         </td>
+                                        <td>
+                                          Fouad
+                                        </td>
+                                        <td>
+                                          Homme
+                                        </td>
+
+
+
                                        
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">

@@ -19,12 +19,12 @@
              <div class="col-md-12">
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Ajouter type Parent</h3>
+                <h3 class="card-title">Ajouter un Parents</h3>
               </div>
               <div class="card-body">
                 <!-- Date -->
                 <div class="form-group">
-                  <label>Nom de service</label>
+                  <label>Nom de </label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" class="form-control datetimepicker-input" />
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
