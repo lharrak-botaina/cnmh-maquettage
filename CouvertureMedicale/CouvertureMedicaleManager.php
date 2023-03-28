@@ -108,7 +108,7 @@
                                             <a class="btn btn-danger btn-sm" href="#">
                                                 <i class="fas fa-trash">
                                                 </i>
-                                                Delete
+                                                Supprimer
                                             </a>
                                         </td>
                                     </tr>
