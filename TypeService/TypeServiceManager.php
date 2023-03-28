@@ -20,7 +20,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion de type service</h1>
+                            <h1 class="m-0">Gestion des services</h1>
                         </div><!-- /.col -->
                        
                     </div><!-- /.row -->
@@ -34,26 +34,23 @@
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">
-                              Type service
-                            </h3>
+                            
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../TypeService/TypeServiceForm.php" class="btn btn-primary"> Ajouter un service </a>
-                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">service 1</option>
-                                        <option value="">service 2</option>
-                                        <option value="">service 3</option>
-                                    </select>
+                                    <a href="../TypeService/TypeServiceForm.php" class="btn btn-primary "><i class="fa fa-plus-circle"></i> Ajouter </a>
+                                    
                                 </div>
                                 <!-- SEARCH FORM -->
-                                <form class="form-inline ml-3">
-                                <div class="search-box">
-
-                                    <input type="text" class="form-control" id="search" placeholder="Rechercher&hellip;">
-                                    </div>
-                                </form>
+                                
+                                <div class="input-group col-md-3">
+                                    <input class="form-control py-2 border-right-0 border" type="search" placeholder="Rechercher..." value="" id="example-search-input">
+                                    <span class="input-group-append">
+                                    <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                                            <i class="fa fa-search"></i>
+                                    </button>
+                                    </span>
+                                </div>
 
                             </div>
                         </div>
@@ -61,32 +58,34 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 1%">
+                                        <!-- <th style="width: 1%">
                                             #
-                                        </th>
+                                        </th> -->
                                         <th style="width: 20%">
                                             Nom de service
                                         </th>
-<!--                                        
+                                       
                                         <th style="width: 20%">
-                                            Actions
-                                        </th> -->
+                                            Description
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>
-                                            #
-                                        </td>
+                                       
                                         <td>
                                            Service medical
                                         </td>
-                                       
+                                        <td class="text-truncate" style="max-width: 150px;">
+                                            
+                                        Le service médical de l'Assurance Maladie exerce une mission de service public.
+
+                                        </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
                                                 </i>
-                                                View
+                                                voir
                                             </a>
                                             <a class="btn btn-info btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt">
@@ -100,6 +99,33 @@
                                             </a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                       
+                                       <td>
+                                          Service social
+                                       </td>
+                                       <td class="text-truncate" style="max-width: 150px;">
+                                           
+                                       le service social applique à la fin de vie ce qu'il sait faire par ailleurs.
+                                       </td>
+                                       <td class="project-actions text-right">
+                                           <a class="btn btn-primary btn-sm" href="#">
+                                               <i class="fas fa-folder">
+                                               </i>
+                                               voir
+                                           </a>
+                                           <a class="btn btn-info btn-sm" href="#">
+                                               <i class="fas fa-pencil-alt">
+                                               </i>
+                                               Édit
+                                           </a>
+                                           <a class="btn btn-danger btn-sm" href="#">
+                                               <i class="fas fa-trash">
+                                               </i>
+                                               Supprimer
+                                           </a>
+                                       </td>
+                                   </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -113,13 +139,14 @@
                                     <li class="page-item"><a class="page-link" href="#">1</a></li>
                                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                                     <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">..</a></li>
                                     <li class="page-item"><a class="page-link" href="#">»</a></li>
                                 </ul>
                             </div>
-                            <div class="float-left col-md-6 d-flex justify-content-end">
-                                <a href="" class="btn btn-outline-secondary"> export_pdf </a>
-                                <a href="" class="btn btn-outline-secondary">export_excel</a>
-                                <a href="" class="btn btn-outline-secondary">import_excel</a>
+                            <div class="float-left col-md-6 d-flex justify-content-end  ">
+                                <a href="" class="btn btn-outline-secondary h-75 mr-2"> Export PDF </a>
+                                <a href="" class="btn btn-outline-secondary h-75 mr-2">Export excel</a>
+                                <a href="" class="btn btn-outline-secondary h-75 mr-2">Import excel</a>
                             </div>
                     </div>
                 </div><!-- /.container-fluid -->
