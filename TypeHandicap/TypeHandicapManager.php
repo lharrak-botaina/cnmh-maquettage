@@ -15,6 +15,18 @@
 
             <?php include("../content-header.php") ?>
 
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0">Gestion de type d'handicap</h1>
+                        </div><!-- /.col -->
+                       
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
 
             <!-- Main content -->
             <section class="content">
@@ -29,13 +41,8 @@
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
                                     <a href="./TypeHandicapForm.php" class="btn btn-primary"> Ajouter un type d'handicap </a>
-                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">filter1</option>
-                                        <option value="">filter2</option>
-                                        <option value="">filter3</option>
-                                    </select>
                                 </div>
-                                
+
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
