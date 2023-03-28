@@ -28,17 +28,18 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Add Type Handicape </a>
+                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Ajouter un type d'handicap </a>
                                     <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">test1</option>
-                                        <option value="">test2</option>
-                                        <option value="">test3</option>
+                                        <option value="">filter1</option>
+                                        <option value="">filter2</option>
+                                        <option value="">filter3</option>
                                     </select>
                                 </div>
+                                
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
-                                        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                                        <input class="form-control form-control-navbar" type="rechercher" placeholder="rechercher" aria-label="rechercher">
                                         <div class="input-group-append">
                                             <button class="btn btn-navbar" type="submit">
                                                 <i class="fas fa-search"></i>
@@ -57,38 +58,38 @@
                                             #
                                         </th>
                                         <th style="width: 20%">
-                                            Name Type Handicape
+                                            Type d'handicap
                                         </th>
 
                                         <th style="width: 20%">
-                                            Actions
+                                            
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            #
+                                            
                                         </td>
                                         <td>
-                                            AHOUZI
+                                            RETARD MENTAL
                                         </td>
 
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
                                                 </i>
-                                                View
+                                                Afficher
                                             </a>
                                             <a class="btn btn-info btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
-                                                Edit
+                                                Modifier
                                             </a>
                                             <a class="btn btn-danger btn-sm" href="#">
                                                 <i class="fas fa-trash">
                                                 </i>
-                                                Delete
+                                                Supprimer
                                             </a>
                                         </td>
                                     </tr>
