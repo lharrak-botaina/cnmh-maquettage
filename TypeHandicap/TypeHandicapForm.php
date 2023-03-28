@@ -29,7 +29,9 @@
                                         </div>
                                         <input type="text" class="form-control" placeholder="RETARD MENTAL">
                                     </div>
-                                    <button class="btn btn-primary">Save</button>
+                                    <a  href="./TypeHandicapManager.php" >
+                                        <button class="btn btn-primary">Save</button>
+                                    </a>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
