@@ -39,9 +39,9 @@
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">
+                            <!-- <h3 class="card-title">
                             Pastients
-                            </h3>
+                            </h3> -->
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
@@ -70,14 +70,11 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 1%">
-                                            #
-                                        </th>
                                         <th style="width: 20%">
-                                            Nom Pastient
+                                            Nom
                                         </th>
                                         <th style="width: 30%">
-                                            Prenom Pastient
+                                            Prenom
                                         </th>
                                         <th style="width: 20%">
                                             Actions
@@ -86,9 +83,6 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>
-                                            #
-                                        </td>
                                         <td>
                                             AHOUZI
                                         </td>
