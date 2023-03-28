@@ -25,7 +25,7 @@
                with font-awesome or any other icon font library -->
       
                     <li class="nav-item">
-            <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
+            <a href="/TypeService/TypeHandicapManager.php" class="nav-link">
               <!-- <i class="nav-icon fas fa-th"></i> -->
               <p>
                 Gestion des Services
@@ -45,7 +45,7 @@
           </li>
     
              <li class="nav-item">
-            <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
+            <a href="/Parent/ParentManager.php" class="nav-link">
               <!-- <i class="nav-icon fas fa-th"></i> -->
               <p>
                 Gestion des Parents
@@ -65,10 +65,20 @@
           </li>
 
              <li class="nav-item">
-            <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
+            <a href="/Patient/PatientManager.php" class="nav-link">
               <!-- <i class="nav-icon fas fa-th"></i> -->
               <p>
                 Gestion des Patients
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/CouvertureMedicale/CouvertureMedicaleManager.php" class="nav-link">
+              <!-- <i class="nav-icon fas fa-th"></i> -->
+              <p>
+                Gestion des Couverture Medical
                 <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
