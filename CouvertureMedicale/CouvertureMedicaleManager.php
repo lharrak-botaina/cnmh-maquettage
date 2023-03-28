@@ -17,7 +17,7 @@
     <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-             <h2>Index</h2>
+             <h2>Gestion des couvertures médicales</h2>
               <!-- Content Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
