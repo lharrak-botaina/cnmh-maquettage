@@ -11,63 +11,66 @@
         <?php include("../navbar.php") ?>
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
+        <div class="content-wrapper">  
 
             <?php include("../content-header.php") ?>
 
-            <!-- Content Header (Page header) -->
-            <div class="content-header">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des services</h1>
-                        </div><!-- /.col -->
-                       
-                    </div><!-- /.row -->
-                </div><!-- /.container-fluid -->
-            </div>
-            <!-- /.content-header -->
+ <!-- Content Header (Page header) -->
+ <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Gestion des services</h1>
+          </div><!-- /.col -->
 
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
                     <!-- Default box -->
                     <div class="card">
+                        
                         <div class="card-header">
-                            
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../TypeService/TypeServiceForm.php" class="btn btn-primary "><i class="fa fa-plus-circle"></i> Ajouter </a>
+                                    <a href="./TypeServiceForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                                    
+                                   
                                     
                                 </div>
                                 <!-- SEARCH FORM -->
-                                
-                                <div class="input-group col-md-3">
-                                    <input class="form-control py-2 border-right-0 border" type="search" placeholder="Rechercher..." value="" id="example-search-input">
-                                    <span class="input-group-append">
-                                    <button class="btn btn-outline-secondary border-left-0 border" type="button">
-                                            <i class="fa fa-search"></i>
-                                    </button>
-                                    </span>
-                                </div>
+                                <form class="form-inline ml-3">
+                                    <div class="input-group input-group-sm">
+
+                                        <input type="search" class="form-control form-control-lg"
+                                        placeholder="Type your keywords here">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-lg btn-default">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </form>
 
                             </div>
                         </div>
                         <div class="card-body p-0">
                             <table class="table table-striped projects">
                                 <thead>
-                                    <tr>
-                                        <!-- <th style="width: 1%">
-                                            #
-                                        </th> -->
+                                    <tr>                 
                                         <th style="width: 20%">
-                                            Nom de service
+                                        Nom de service
                                         </th>
-                                       
                                         <th style="width: 20%">
                                             Description
                                         </th>
+                                        <!-- <th  style="width: 20%; text-align: center;">
+                                            Actions
+                                        </th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -85,7 +88,7 @@
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
                                                 </i>
-                                                voir
+                                                Afficher
                                             </a>
                                             <a class="btn btn-info btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt">
@@ -112,7 +115,7 @@
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">
                                                </i>
-                                               voir
+                                               Afficher
                                            </a>
                                            <a class="btn btn-info btn-sm" href="#">
                                                <i class="fas fa-pencil-alt">
@@ -138,7 +141,7 @@
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">
                                                </i>
-                                               voir
+                                               Afficher
                                            </a>
                                            <a class="btn btn-info btn-sm" href="#">
                                                <i class="fas fa-pencil-alt">
@@ -163,7 +166,7 @@
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">
                                                </i>
-                                               voir
+                                               Afficher
                                            </a>
                                            <a class="btn btn-info btn-sm" href="#">
                                                <i class="fas fa-pencil-alt">
@@ -187,7 +190,7 @@
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">
                                                </i>
-                                               voir
+                                               Afficher
                                            </a>
                                            <a class="btn btn-info btn-sm" href="#">
                                                <i class="fas fa-pencil-alt">
@@ -206,25 +209,30 @@
                         </div>
                         <!-- /.card-body -->
                     </div>
+
+
                     <!-- /.card -->
-                    <div class="card-header row">
-                            <div class="float-right col-md-6">
-                                <ul class="pagination pagination">
-                                    <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">..</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">»</a></li>
-                                </ul>
+                    <div class="card-header row" style="display: flow-root;">
+                        <div style="display: flex;  justify-content: space-between;">
+
+                            <ul class="pagination pagination my-0">
+                                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">»</a></li>
+                            </ul>
+                            <div class="">
+                                
+                                <button type="button" class="btn btn-default swalDefaultQuestion">
+                                    <i class="fas fa-download"></i> Export
+                                </button>
+                                <button type="button" class="btn btn-default swalDefaultQuestion">
+                                    <i class="fas fa-file-import"></i> Import
+                                </button>
                             </div>
-                            <div class="float-left col-md-6 d-flex justify-content-end  ">
-                                <a href="" class="btn btn-outline-secondary h-75 mr-2"> Export PDF </a>
-                                <a href="" class="btn btn-outline-secondary h-75 mr-2">Export excel</a>
-                                <a href="" class="btn btn-outline-secondary h-75 mr-2">Import excel</a>
-                            </div>
-                    </div>
-                </div><!-- /.container-fluid -->
+                        </div>
+                    </div><!-- /.container-fluid -->
             </section>
             <!-- /.content -->
         </div>
