@@ -33,17 +33,14 @@
                         <div class="col-12">
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">informations Handicape</h3>
+                                    <h3 class="card-title">Types d'handicap</h3>
                                 </div>
                                 <div class="card-body">
                                     <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">Type</span>
-                                        </div>
                                         <input type="text" class="form-control" placeholder="RETARD MENTAL">
                                     </div>
                                     <a  href="./TypeHandicapManager.php" >
-                                        <button class="btn btn-primary">Save</button>
+                                        <button class="btn btn-primary">Ajouter</button>
                                     </a>
                                 </div>
                                 <!-- /.card-body -->
