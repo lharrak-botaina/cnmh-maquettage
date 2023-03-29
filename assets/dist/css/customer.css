@@ -6,3 +6,6 @@
     display: flex;  justify-content: space-between;
     
 }
+.card-create{
+    width:750px;
+}
