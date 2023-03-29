@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <!-- Date and time -->
-                
+                <div class="d-flex justify-content-between">
                 <div class="d-flex justify-content-between">
                   <a href="" class="btn btn-primary">Enregistrer</a>
 
@@ -68,6 +68,15 @@
 
 
               </div>
+              <div class="d-flex justify-content-between">
+                  <a href="../TypeService/TypeServiceManager.php" class="btn btn-secondary">Annuler</a>
+
+
+
+
+              </div>
+                </div>
+                
                 <!-- /.form group -->
                 <!-- Date range -->
 
