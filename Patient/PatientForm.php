@@ -24,21 +24,96 @@
               <div class="card-body">
                 <!-- Date -->
                 <div class="form-group">
-                  <label>Nom de Patient</label>
+                  <label>Nom</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
                 <div class="form-group">
-                  <label>Prenom de Patient</label>
+                  <label>Prenom</label>
+                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" placeholder="" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Adress</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" placeholder="" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Sexe</label>
+                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                  <select name="" class="form-control "  id="">
+                    <option  value="">Famme</option>
+                    <option value="">Homme</option>
+                  </select>
+                    </div>
+                </div>
+
+                <!-- <div class="form-group">
+                  <label>Sexe</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                     <form  class="">
+                      <div>
+                       <input type="radio" class=" " name = "ans" value="yes">
+                       <label for="huey">Famme</label> 
+                       </div>
+                       <div>
+                       <input type="radio" name = "ans" value="maybe" checked>
+                       <label for="huey">Homme</label>
+                       </div>
+                     </form>
+                    </div>
+                </div> -->
+
+                <div class="form-group">
+                  <label>CIN</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" placeholder="" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Telephone</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="tel" placeholder="" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Email</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="email" placeholder="" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Image</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="file" placeholder="" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Date Naissance</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="date" placeholder="" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Date Enregistrement</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="date" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
                 <!-- Date and time -->
                 
                 <div class="d-flex justify-content-between">
-                  <a href="" class="btn btn-primary">Enregistrer</a>
+                  <a href="PatientManager.php" class="btn btn-primary">Enregistrer</a>
 
 
 
