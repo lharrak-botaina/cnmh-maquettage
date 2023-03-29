@@ -84,21 +84,20 @@
                     </div>
                 </div>
 
-                <div class="form-group">
-                  <label>  Date d'Enregistrement </label>
-                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" class="form-control datetimepicker-input" />
-                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                        </div> -->
-                    </div>
-                </div>
 
              
                 <!-- Date and time -->
                 
                 <div class="d-flex justify-content-between">
                   <a href="" class="btn btn-primary">Enregistrer</a>
+
+                  <!-- <div class="d-flex justify-content-between">
+                  <a href="../Parent/ParentManager.php" class="btn btn-secondary">Annuler</a>
+
+
+
+
+              </div> -->
 
 
 
