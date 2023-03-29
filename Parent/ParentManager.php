@@ -37,15 +37,16 @@
                             <h3 class="card-title">
                               Type Parents
                             </h3>
+                   
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"> Ajouter un Parents </a>
-                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
+                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"> <i class="fa fa-plus-circle"></i> Ajouter </a>
+                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
                                         <option value="">Parents</option>
                                         <option value=""></option>
                                         <option value=""></option>
-                                    </select>
+                                    </select> -->
                                 </div>
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
@@ -57,7 +58,7 @@
 
                             </div>
                         </div>
-                        <div class="card-body  p-0">
+                        <div class="card-body text-center p-0">
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
@@ -83,7 +84,7 @@
                                             Adress
                                         </th>
                                         
-                                        <th style="width: 80%">
+                                        <th class="d-flex justify-content-center" style="width: 80%">
                                             Action
                                         </th>
                                         
