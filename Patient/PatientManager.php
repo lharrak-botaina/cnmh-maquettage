@@ -44,11 +44,11 @@
                                         <a href="PatientForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
                                     <!-- <a href="PatientForm.php" class="btn btn-primary">+ Add </a> -->
-                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
+                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
                                         <option value="">Nom</option>
                                         <option value="">Hamza</option>
                                         <option value="">Kamal</option>
-                                    </select>
+                                    </select> -->
                                 </div>
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
