@@ -22,7 +22,7 @@
                         <div class="col-sm-6">
                             <h1 class="m-0">Gestion de type d'handicap</h1>
                         </div><!-- /.col -->
-                       
+
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
             </div>
@@ -45,13 +45,9 @@
 
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
-                                    <div class="input-group input-group-sm">
-                                        <input class="form-control form-control-navbar" type="rechercher" placeholder="rechercher" aria-label="rechercher">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-navbar" type="submit">
-                                                <i class="fas fa-search"></i>
-                                            </button>
-                                        </div>
+                                    <div class="search-box">
+
+                                        <input type="text" class="form-control" id="search" placeholder="Rechercher&hellip;">
                                     </div>
                                 </form>
 
@@ -62,21 +58,21 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 1%">
-                                            #
+
                                         </th>
                                         <th style="width: 20%">
                                             Type d'handicap
                                         </th>
 
                                         <th style="width: 20%">
-                                            
+
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            
+
                                         </td>
                                         <td>
                                             RETARD MENTAL
@@ -107,20 +103,18 @@
                     </div>
                     <!-- /.card -->
                     <div class="card-header row">
-                            <div class="float-right col-md-6">
-                                <ul class="pagination pagination-sm">
-                                    <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">»</a></li>
-                                </ul>
-                            </div>
-                            <div class="float-left col-md-6 d-flex justify-content-end">
-                                <a href="" class="btn btn-outline-secondary"> export_pdf </a>
-                                <a href="" class="btn btn-outline-secondary">export_excel</a>
-                                <a href="" class="btn btn-outline-secondary">import_excel</a>
-                            </div>
+                        <ul class="pagination pagination my-0">
+                            <li class="page-item"><a class="page-link" href="#">«</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">»</a></li>
+                        </ul>
+                        <div class="float-left col-md-10 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-secondary"> export_pdf </a>
+                            <a href="" class="btn btn-outline-secondary">export_excel</a>
+                            <a href="" class="btn btn-outline-secondary">import_excel</a>
+                        </div>
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
