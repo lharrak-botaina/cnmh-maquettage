@@ -57,7 +57,7 @@
 
                             </div>
                         </div>
-                        <div class="card-body p-0">
+                        <div class="card-body  p-0">
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
@@ -74,6 +74,16 @@
                                             Sexe
                                         </th>
                                         <th style="width: 50%">
+                                            Cin
+                                        </th>
+                                        <th style="width: 60%">
+                                            Telephone
+                                        </th>
+                                        <th style="width: 70%">
+                                            Adress
+                                        </th>
+                                        
+                                        <th style="width: 80%">
                                             Action
                                         </th>
                                         
@@ -94,22 +104,28 @@
                                         <td>
                                           Homme
                                         </td>
-
-
-
-                                       
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#">
-                                                <i class="fas fa-folder">
+                                        <td>
+                                          K3579B
+                                        </td>
+                                        <td>
+                                          0600000000
+                                        </td>
+                                        <td>
+                                          Tanger Rue 05
+                                        </td>
+                                        
+                                        <td class="project-actions d-flex ">
+                                            <a class="btn btn-primary mr-2 btn-sm" href="#">
+                                                <i class="fas fa-folder ">
                                                 </i>
                                                 View
                                             </a>
-                                            <a class="btn btn-info btn-sm" href="#">
+                                            <a class="btn btn-info mr-2 btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
                                                 Édit
                                             </a>
-                                            <a class="btn btn-danger btn-sm" href="#">
+                                            <a class="btn btn-danger mr-2 btn-sm" href="#">
                                                 <i class="fas fa-trash">
                                                 </i>
                                                 Supprimer
