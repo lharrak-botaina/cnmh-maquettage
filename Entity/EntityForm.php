@@ -20,7 +20,7 @@
                             <h2>Formulaire</h2>
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">informations Handicape</h3>
+                                    <h3 class="card-title">informations Entity</h3>
                                 </div>
                                 <div class="card-body">
                                     <div class="input-group mb-3">

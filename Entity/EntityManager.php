@@ -28,7 +28,7 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Add Entity </a>
+                                    <a href="./EntityForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                    
                                 </div>
                                 <!-- SEARCH FORM -->
