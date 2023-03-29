@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <?php include("../head.php") ?>
 </head>
-
 <body class="hold-transition sidebar-mini">
-    <div class="wrapper">
-        <?php include("../menu.php") ?>
-        <?php include("../navbar.php") ?>
+<div class="wrapper">
+<?php include("../menu.php") ?>
+<?php include("../navbar.php") ?>
 
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
+<div class="content-wrapper">
 
-            <?php include("../content-header.php") ?>
 
-            <!-- Content Header (Page header) -->
+<?php include("../content-header.php") ?>
+
+<section class="content">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+             <h2>Index</h2>
+              <!-- Content Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Pastient</h1>
+                      
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Acceuil</a></li>
                                 <!-- <li class="breadcrumb-item active">Dashboard v1</li> -->
                             </ol>
                         </div><!-- /.col -->
@@ -40,16 +43,16 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">
-                            Pastients
+                                Couverture
                             </h3>
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="PatientForm.php" class="btn btn-primary"> Add Pastient </a>
+                                    <a href="" class="btn btn-primary"> Ajouter Couverture </a>
                                     <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Nom</option>
-                                        <option value="">Hamza</option>
-                                        <option value="">Kamal</option>
+                                        <option value="">test1</option>
+                                        <option value="">test2</option>
+                                        <option value="">test3</option>
                                     </select>
                                 </div>
                                 <!-- SEARCH FORM -->
@@ -71,15 +74,14 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 1%">
-                                            #
+                                            Couverture
                                         </th>
                                         <th style="width: 20%">
-                                            Nom Pastient
+                                            Nom Couverture
                                         </th>
-                                        <th style="width: 30%">
-                                            Prenom Pastient
-                                        </th>
-                                        <th style="width: 20%">
+                                        <!-- <th style="width: 30%">
+                                        </th> -->
+                                        <th style="width: 9%">
                                             Actions
                                         </th>
                                     </tr>
@@ -87,29 +89,26 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            #
+                                            1
                                         </td>
                                         <td>
-                                            AHOUZI
-                                        </td>
-                                        <td>
-                                            Hanan
+                                            couverture 1
                                         </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
                                                 </i>
-                                                View
+                                                Afficher
                                             </a>
                                             <a class="btn btn-info btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
-                                                Edit
+                                                Modifier
                                             </a>
                                             <a class="btn btn-danger btn-sm" href="#">
                                                 <i class="fas fa-trash">
                                                 </i>
-                                                Delete
+                                                Supprimer
                                             </a>
                                         </td>
                                     </tr>
@@ -130,9 +129,9 @@
                                 </ul>
                             </div>
                             <div class="float-left col-md-6 d-flex justify-content-end">
-                                <a href="" class="btn btn-outline-secondary"> export pdf </a>
-                                <a href="" class="btn btn-outline-secondary">export excel</a>
-                                <a href="" class="btn btn-outline-secondary">import excel</a>
+                                <a href="" class="btn btn-outline-secondary">exporter pdf </a>
+                                <a href="" class="btn btn-outline-secondary">exporter excel</a>
+                                <a href="" class="btn btn-outline-secondary">importer excel</a>
                             </div>
                     </div>
                 </div><!-- /.container-fluid -->
@@ -140,9 +139,18 @@
             <!-- /.content -->
         </div>
 
-        <?php include("../footer.php") ?>
+        </div>
     </div>
-    <?php include("../scripts.php") ?>
-</body>
 
+    </div>
+   
+</section>
+
+
+</div>
+
+<?php include("../footer.php") ?>
+</div>
+<?php include("../scripts.php") ?>
+</body>
 </html>
