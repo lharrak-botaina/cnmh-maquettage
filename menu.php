@@ -31,19 +31,19 @@
           <ul class="nav nav-treeview" style="display: none;">
             <li class="nav-item">
               <a href="/TypeService/TypeServiceManager.php" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
+                <!-- <i class="far fa-circle nav-icon"></i> -->
                 <p>Gestion des Services</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
+                <!-- <i class="far fa-circle nav-icon"></i> -->
                 <p>Gestion du type d'handicap</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="/CouvertureMedicale/CouvertureMedicaleManager.php" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
+                <!-- <i class="far fa-circle nav-icon"></i> -->
                 <p>Gestion de Couverture Médicale</p>
               </a>
             </li>
@@ -61,7 +61,7 @@
           <ul class="nav nav-treeview" style="display: none;">
             <li class="nav-item">
               <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
+                <!-- <i class="far fa-circle nav-icon"></i> -->
                 <p>Gestion des Employées</p>
               </a>
             </li>
