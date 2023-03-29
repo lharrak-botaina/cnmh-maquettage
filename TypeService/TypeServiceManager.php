@@ -126,6 +126,81 @@
                                            </a>
                                        </td>
                                    </tr>
+                                   <tr>
+                                       
+                                       <td>
+                                          Service éducatif
+                                       </td>
+                                       <td class="text-truncate" style="max-width: 150px;">
+                                       Les Services éducatifs assurent un rôle de soutien, de coordination, de conseil et de développement pédagogique auprès des établissements d'enseignement
+                                       </td>
+                                       <td class="project-actions text-right">
+                                           <a class="btn btn-primary btn-sm" href="#">
+                                               <i class="fas fa-folder">
+                                               </i>
+                                               voir
+                                           </a>
+                                           <a class="btn btn-info btn-sm" href="#">
+                                               <i class="fas fa-pencil-alt">
+                                               </i>
+                                               Édit
+                                           </a>
+                                           <a class="btn btn-danger btn-sm" href="#">
+                                               <i class="fas fa-trash">
+                                               </i>
+                                               Supprimer
+                                           </a>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       
+                                       <td>
+                                          Service formation professionnelle
+                                       </td>
+                                       <td class="text-truncate" style="max-width: 150px;">
+                                       La formation professionnelle est une obligation pour les entreprises, pour maintenir les niveaux de compétences des salariés et les faire évoluer.                                       </td>
+                                       <td class="project-actions text-right">
+                                           <a class="btn btn-primary btn-sm" href="#">
+                                               <i class="fas fa-folder">
+                                               </i>
+                                               voir
+                                           </a>
+                                           <a class="btn btn-info btn-sm" href="#">
+                                               <i class="fas fa-pencil-alt">
+                                               </i>
+                                               Édit
+                                           </a>
+                                           <a class="btn btn-danger btn-sm" href="#">
+                                               <i class="fas fa-trash">
+                                               </i>
+                                               Supprimer
+                                           </a>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       
+                                       <td>
+                                          Service sport
+                                       </td>
+                                       <td class="text-truncate" style="max-width: 150px;">
+                                       Établit le planning d'utilisation des gymnases et du stade en collaboration avec l'Office Municipal des Sports (OMS).                                       <td class="project-actions text-right">
+                                           <a class="btn btn-primary btn-sm" href="#">
+                                               <i class="fas fa-folder">
+                                               </i>
+                                               voir
+                                           </a>
+                                           <a class="btn btn-info btn-sm" href="#">
+                                               <i class="fas fa-pencil-alt">
+                                               </i>
+                                               Édit
+                                           </a>
+                                           <a class="btn btn-danger btn-sm" href="#">
+                                               <i class="fas fa-trash">
+                                               </i>
+                                               Supprimer
+                                           </a>
+                                       </td>
+                                   </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -134,7 +209,7 @@
                     <!-- /.card -->
                     <div class="card-header row">
                             <div class="float-right col-md-6">
-                                <ul class="pagination pagination-sm">
+                                <ul class="pagination pagination">
                                     <li class="page-item"><a class="page-link" href="#">«</a></li>
                                     <li class="page-item"><a class="page-link" href="#">1</a></li>
                                     <li class="page-item"><a class="page-link" href="#">2</a></li>
