@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <?php include("../head.php") ?>
 </head>
-
 <body class="hold-transition sidebar-mini">
-    <div class="wrapper">
-        <?php include("../menu.php") ?>
-        <?php include("../navbar.php") ?>
+<div class="wrapper">
+<?php include("../menu.php") ?>
+<?php include("../navbar.php") ?>
 
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
+<div class="content-wrapper">
 
-            <?php include("../content-header.php") ?>
 
-            <!-- Content Header (Page header) -->
+<?php include("../content-header.php") ?>
+
+<section class="content">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+             <h2>Index</h2>
+              <!-- Content Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Parents</h1>
+                      
                         </div><!-- /.col -->
-                       
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Acceuil</a></li>
+                                <!-- <li class="breadcrumb-item active">Dashboard v1</li> -->
+                            </ol>
+                        </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
             </div>
@@ -35,23 +43,27 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">
-                              Type Parents
+                                Couverture
                             </h3>
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"> Ajouter un Parents </a>
+                                    <a href="" class="btn btn-primary"> Ajouter Couverture </a>
                                     <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Parents</option>
-                                        <option value=""></option>
-                                        <option value=""></option>
+                                        <option value="">test1</option>
+                                        <option value="">test2</option>
+                                        <option value="">test3</option>
                                     </select>
                                 </div>
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
-                                <div class="search-box">
-
-                                    <input type="text" class="form-control" id="search" placeholder="Rechercher&hellip;">
+                                    <div class="input-group input-group-sm">
+                                        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-navbar" type="submit">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
                                     </div>
                                 </form>
 
@@ -62,22 +74,16 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 1%">
-                                            #
+                                            Couverture
                                         </th>
                                         <th style="width: 20%">
-                                            Nom 
+                                            Nom Couverture
                                         </th>
-                                        <th style="width: 30%">
-                                            Prenom
+                                        <!-- <th style="width: 30%">
+                                        </th> -->
+                                        <th style="width: 9%">
+                                            Actions
                                         </th>
-                                        <th style="width: 40%">
-                                            Sexe
-                                        </th>
-                                        <th style="width: 50%">
-                                            Action
-                                        </th>
-                                        
-
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -86,28 +92,18 @@
                                             1
                                         </td>
                                         <td>
-                                          Essarraj 
+                                            couverture 1
                                         </td>
-                                        <td>
-                                          Fouad
-                                        </td>
-                                        <td>
-                                          Homme
-                                        </td>
-
-
-
-                                       
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
                                                 </i>
-                                                View
+                                                Afficher
                                             </a>
                                             <a class="btn btn-info btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
-                                                Édit
+                                                Modifier
                                             </a>
                                             <a class="btn btn-danger btn-sm" href="#">
                                                 <i class="fas fa-trash">
@@ -133,9 +129,9 @@
                                 </ul>
                             </div>
                             <div class="float-left col-md-6 d-flex justify-content-end">
-                                <a href="" class="btn btn-outline-secondary"> export_pdf </a>
-                                <a href="" class="btn btn-outline-secondary">export_excel</a>
-                                <a href="" class="btn btn-outline-secondary">import_excel</a>
+                                <a href="" class="btn btn-outline-secondary">exporter pdf </a>
+                                <a href="" class="btn btn-outline-secondary">exporter excel</a>
+                                <a href="" class="btn btn-outline-secondary">importer excel</a>
                             </div>
                     </div>
                 </div><!-- /.container-fluid -->
@@ -143,9 +139,18 @@
             <!-- /.content -->
         </div>
 
-        <?php include("../footer.php") ?>
+        </div>
     </div>
-    <?php include("../scripts.php") ?>
-</body>
 
+    </div>
+   
+</section>
+
+
+</div>
+
+<?php include("../footer.php") ?>
+</div>
+<?php include("../scripts.php") ?>
+</body>
 </html>

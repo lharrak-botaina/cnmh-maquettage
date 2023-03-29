@@ -20,7 +20,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Parents</h1>
+                            <h1 class="m-0">Gestion de type service</h1>
                         </div><!-- /.col -->
                        
                     </div><!-- /.row -->
@@ -35,16 +35,16 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">
-                              Type Parents
+                              Type service
                             </h3>
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"> Ajouter un Parents </a>
+                                    <a href="../TypeService/TypeServiceForm.php" class="btn btn-primary"> Ajouter un service </a>
                                     <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Parents</option>
-                                        <option value=""></option>
-                                        <option value=""></option>
+                                        <option value="">service 1</option>
+                                        <option value="">service 2</option>
+                                        <option value="">service 3</option>
                                     </select>
                                 </div>
                                 <!-- SEARCH FORM -->
@@ -65,38 +65,22 @@
                                             #
                                         </th>
                                         <th style="width: 20%">
-                                            Nom 
+                                            Nom de service
                                         </th>
-                                        <th style="width: 30%">
-                                            Prenom
-                                        </th>
-                                        <th style="width: 40%">
-                                            Sexe
-                                        </th>
-                                        <th style="width: 50%">
-                                            Action
-                                        </th>
-                                        
-
+<!--                                        
+                                        <th style="width: 20%">
+                                            Actions
+                                        </th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            1
+                                            #
                                         </td>
                                         <td>
-                                          Essarraj 
+                                           Service medical
                                         </td>
-                                        <td>
-                                          Fouad
-                                        </td>
-                                        <td>
-                                          Homme
-                                        </td>
-
-
-
                                        
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">

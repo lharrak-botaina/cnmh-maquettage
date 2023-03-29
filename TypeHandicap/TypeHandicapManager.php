@@ -15,6 +15,18 @@
 
             <?php include("../content-header.php") ?>
 
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0">Gestion de type d'handicap</h1>
+                        </div><!-- /.col -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
 
             <!-- Main content -->
             <section class="content">
@@ -28,22 +40,14 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Add Type Handicape </a>
-                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">test1</option>
-                                        <option value="">test2</option>
-                                        <option value="">test3</option>
-                                    </select>
+                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Ajouter un type d'handicap </a>
                                 </div>
+
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
-                                    <div class="input-group input-group-sm">
-                                        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-navbar" type="submit">
-                                                <i class="fas fa-search"></i>
-                                            </button>
-                                        </div>
+                                    <div class="search-box">
+
+                                        <input type="text" class="form-control" id="search" placeholder="Rechercher&hellip;">
                                     </div>
                                 </form>
 
@@ -54,41 +58,41 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 1%">
-                                            #
+
                                         </th>
                                         <th style="width: 20%">
-                                            Name Type Handicape
+                                            Type d'handicap
                                         </th>
 
                                         <th style="width: 20%">
-                                            Actions
+
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            #
+
                                         </td>
                                         <td>
-                                            AHOUZI
+                                            RETARD MENTAL
                                         </td>
 
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
                                                 </i>
-                                                View
+                                                Afficher
                                             </a>
                                             <a class="btn btn-info btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
-                                                Edit
+                                                Modifier
                                             </a>
                                             <a class="btn btn-danger btn-sm" href="#">
                                                 <i class="fas fa-trash">
                                                 </i>
-                                                Delete
+                                                Supprimer
                                             </a>
                                         </td>
                                     </tr>
@@ -99,20 +103,18 @@
                     </div>
                     <!-- /.card -->
                     <div class="card-header row">
-                            <div class="float-right col-md-6">
-                                <ul class="pagination pagination-sm">
-                                    <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">»</a></li>
-                                </ul>
-                            </div>
-                            <div class="float-left col-md-6 d-flex justify-content-end">
-                                <a href="" class="btn btn-outline-secondary"> export_pdf </a>
-                                <a href="" class="btn btn-outline-secondary">export_excel</a>
-                                <a href="" class="btn btn-outline-secondary">import_excel</a>
-                            </div>
+                        <ul class="pagination pagination my-0">
+                            <li class="page-item"><a class="page-link" href="#">«</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">»</a></li>
+                        </ul>
+                        <div class="float-left col-md-10 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-secondary"> export_pdf </a>
+                            <a href="" class="btn btn-outline-secondary">export_excel</a>
+                            <a href="" class="btn btn-outline-secondary">import_excel</a>
+                        </div>
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
