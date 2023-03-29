@@ -20,13 +20,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Pastient</h1>
-                        </div><!-- /.col -->
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <!-- <li class="breadcrumb-item active">Dashboard v1</li> -->
-                            </ol>
+                            <h1 class="m-0">Patient</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
@@ -39,13 +33,17 @@
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">
-                            Pastients
-                            </h3>
+                            <!-- <h3 class="card-title">
+                            Pa
+                            tients
+                            </h3> -->
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="PatientForm.php" class="btn btn-primary"> Add Pastient </a>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="PatientForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
+                                    </div>
+                                    <!-- <a href="PatientForm.php" class="btn btn-primary">+ Add </a> -->
                                     <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
                                         <option value="">Nom</option>
                                         <option value="">Hamza</option>
@@ -55,11 +53,12 @@
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
-                                        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                                        <input type="search" class="form-control form-control-lg" placeholder="Type your keywords here">
                                         <div class="input-group-append">
-                                            <button class="btn btn-navbar" type="submit">
-                                                <i class="fas fa-search"></i>
+                                            <button type="submit" class="btn btn-lg btn-default">
+                                                <i class="fa fa-search"></i>
                                             </button>
+
                                         </div>
                                     </div>
                                 </form>
@@ -70,47 +69,131 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 1%">
-                                            #
-                                        </th>
-                                        <th style="width: 20%">
-                                            Nom Pastient
-                                        </th>
-                                        <th style="width: 30%">
-                                            Prenom Pastient
-                                        </th>
-                                        <th style="width: 20%">
-                                            Actions
-                                        </th>
+                                        <th style="width: 10%"> Image </th>
+                                        <th style="width: 10%"> Nom </th>
+                                        <th style="width: 10%"> Prenom </th>
+                                        <th style="width: 10%"> Telephon </th>
+                                        <th style="width: 20%" class=""> Actions </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>
-                                            #
-                                        </td>
-                                        <td>
-                                            AHOUZI
-                                        </td>
-                                        <td>
-                                            Hanan
-                                        </td>
+                                    <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> AHOUZI </td>
+                                        <td> Hanan </td>
+                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#">
-                                                <i class="fas fa-folder">
-                                                </i>
-                                                View
-                                            </a>
-                                            <a class="btn btn-info btn-sm" href="#">
-                                                <i class="fas fa-pencil-alt">
-                                                </i>
-                                                Edit
-                                            </a>
-                                            <a class="btn btn-danger btn-sm" href="#">
-                                                <i class="fas fa-trash">
-                                                </i>
-                                                Delete
-                                            </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> Mnari </td>
+                                        <td> Karim </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> alami </td>
+                                        <td> Salma </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> Nwino </td>
+                                        <td> Nabila </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> Bchnigha </td>
+                                        <td> Yousra </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> Alwahabi </td>
+                                        <td> Yaser </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> Tork </td>
+                                        <td> Kamal </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> Elkaki </td>
+                                        <td> Nasim </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> Elmagni </td>
+                                        <td> Nora </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <img src="" alt="image" srcset=""> </td>
+                                        <td> AHOUZI </td>
+                                        <td> Yakin </td>
+                                        <td> 0645729821 </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -120,22 +203,26 @@
                     </div>
                     <!-- /.card -->
                     <div class="card-header row">
-                            <div class="float-right col-md-6">
-                                <ul class="pagination pagination-sm">
-                                    <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">»</a></li>
-                                </ul>
-                            </div>
-                            <div class="float-left col-md-6 d-flex justify-content-end">
-                                <a href="" class="btn btn-outline-secondary"> export pdf </a>
-                                <a href="" class="btn btn-outline-secondary">export excel</a>
-                                <a href="" class="btn btn-outline-secondary">import excel</a>
-                            </div>
-                    </div>
-                </div><!-- /.container-fluid -->
+                        <div class="float-right col-md-6">
+                            <ul class="pagination pagination-sm">
+                                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">»</a></li>
+                            </ul>
+                        </div>
+                        <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
+                            <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-download"></i> export_pdf
+                            </button> -->
+                            <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
+                                <i class="fas fa-download"></i> export
+                            </button>
+                            <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-file-import"></i> import
+                            </button>
+                        </div><!-- /.container-fluid -->
             </section>
             <!-- /.content -->
         </div>
