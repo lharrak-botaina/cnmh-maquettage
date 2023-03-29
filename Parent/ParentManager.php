@@ -83,8 +83,10 @@
                                         <th style="width: 70%">
                                             Adress
                                         </th>
-                                        
-                                        <th class="d-flex justify-content-center" style="width: 80%">
+                                        <th style="width: 80%">
+                                            Date 
+                                        </th>
+                                        <th class="d-flex justify-content-center" style="width: 90%">
                                             Action
                                         </th>
                                         
@@ -114,6 +116,9 @@
                                         <td>
                                           Tanger Rue 05
                                         </td>
+                                        <td>
+                                          29/03/2023
+                                        </td>
                                         
                                         <td class="project-actions d-flex ">
                                             <a class="btn btn-primary mr-2 btn-sm" href="#">
@@ -134,8 +139,102 @@
                                         </td>
                                     </tr>
                                 </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                          Tebaa
+                                        </td>
+                                        <td>
+                                          Adnan
+                                        </td>
+                                        <td>
+                                          Homme
+                                        </td>
+                                        <td>
+                                          K3579B
+                                        </td>
+                                        <td>
+                                          0600000000
+                                        </td>
+                                        <td>
+                                          Tanger Rue 05
+                                        </td>
+                                        <td>
+                                          29/03/2023
+                                        </td>
+                                        
+                                        <td class="project-actions d-flex ">
+                                            <a class="btn btn-primary mr-2 btn-sm" href="#">
+                                                <i class="fas fa-folder ">
+                                                </i>
+                                                View
+                                            </a>
+                                            <a class="btn btn-info mr-2 btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Édit
+                                            </a>
+                                            <a class="btn btn-danger mr-2 btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                          Stitou
+                                        </td>
+                                        <td>
+                                          Nada
+                                        </td>
+                                        <td>
+                                          Femme
+                                        </td>
+                                        <td>
+                                          K3579B
+                                        </td>
+                                        <td>
+                                          0600000000
+                                        </td>
+                                        <td>
+                                          Tanger Rue 05
+                                        </td>
+                                        <td>
+                                          29/03/2023
+                                        </td>
+                                        
+                                        <td class="project-actions d-flex ">
+                                            <a class="btn btn-primary mr-2 btn-" href="#">
+                                                <i class="fas fa-folder ">
+                                                </i>
+                                                View
+                                            </a>
+                                            <a class="btn btn-info mr-2 btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Édit
+                                            </a>
+                                            <a class="btn btn-danger mr-2 btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
+
+                        
                         <!-- /.card-body -->
                     </div>
                     <!-- /.card -->
