@@ -73,7 +73,7 @@
                  
                 <div class="d-flex">
                 <div class="form-group col-6">
-                  <label> Telephone </label>
+                  <label> Téléphone </label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" class="form-control datetimepicker-input" />
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
