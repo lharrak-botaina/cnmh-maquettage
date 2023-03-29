@@ -102,7 +102,7 @@
                 <div class="d-flex justify-content-between">
                   <a href="" class="btn btn-primary">Enregistrer</a>
 
-                  <a href="./TypeHandicapManager.php" class="btn btn-outline-secondary">Annuler</a>
+                  <a href="../Parent/ParentManager.php" class="btn btn-outline-secondary">Annuler</a>
 
 
 
