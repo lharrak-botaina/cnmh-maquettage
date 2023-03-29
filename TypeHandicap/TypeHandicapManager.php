@@ -37,14 +37,15 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="./TypeServiceForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                                 </div>
 
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
 
-                                        <input type="search" class="form-control form-control-lg" placeholder="Type your keywords here">
+                                        <input type="search" class="form-control form-control-lg"
+                                            placeholder="Tapez vos mots-clés ici">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-lg btn-default">
                                                 <i class="fa fa-search"></i>
@@ -291,8 +292,10 @@
                         </div>
                         <!-- /.card-body -->
                     </div>
-                    <!-- /.card -->
-                    <div class="card-header row">
+                <!-- /.card -->
+                <div class="card-header row" style="display: flow-root;">
+                    <div style="display: flex;  justify-content: space-between;">
+
                         <ul class="pagination pagination my-0">
                             <li class="page-item"><a class="page-link" href="#">«</a></li>
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -300,7 +303,8 @@
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                             <li class="page-item"><a class="page-link" href="#">»</a></li>
                         </ul>
-                        <div class="float-left col-md-10 d-flex justify-content-end">
+                        <div class="">
+
                             <button type="button" class="btn btn-default swalDefaultQuestion">
                                 <i class="fas fa-download"></i> Export
                             </button>
