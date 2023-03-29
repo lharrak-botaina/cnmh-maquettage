@@ -68,25 +68,25 @@
                                         <th style="width: 20%">
                                             Nom 
                                         </th>
-                                        <th style="width: 30%">
+                                        <th style="width: 20%">
                                             Prenom
                                         </th>
-                                        <th style="width: 40%">
+                                        <th style="width: 20%">
                                             Sexe
                                         </th>
-                                        <th style="width: 50%">
+                                        <th style="width: 20%">
                                             Cin
                                         </th>
-                                        <th style="width: 60%">
+                                        <th style="width: 20%">
                                             Telephone
                                         </th>
-                                        <th style="width: 70%">
+                                        <th style="width: 20%">
                                             Adress
                                         </th>
-                                        <th style="width: 80%">
+                                        <th style="width: 20%">
                                             Date 
                                         </th>
-                                        <th class="d-flex justify-content-center" style="width: 90%">
+                                        <th class="d-flex justify-content-center" style="width: 100%">
                                             Action
                                         </th>
                                         
@@ -213,7 +213,53 @@
                                         </td>
                                         
                                         <td class="project-actions d-flex ">
-                                            <a class="btn btn-primary mr-2 btn-" href="#">
+                                            <a class="btn btn-primary mr-2 " href="#">
+                                                <i class="fas fa-folder ">
+                                                </i>
+                                                View
+                                            </a>
+                                            <a class="btn btn-info mr-2 btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Édit
+                                            </a>
+                                            <a class="btn btn-danger mr-2 btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                          Ajroudi
+                                        </td>
+                                        <td>
+                                          Imane
+                                        </td>
+                                        <td>
+                                          Femme
+                                        </td>
+                                        <td>
+                                          K3579B
+                                        </td>
+                                        <td>
+                                          0600000000
+                                        </td>
+                                        <td>
+                                          Tanger Rue 05
+                                        </td>
+                                        <td>
+                                          29/03/2023
+                                        </td>
+                                        
+                                        <td class="project-actions d-flex ">
+                                            <a class="btn btn-primary mr-2 " href="#">
                                                 <i class="fas fa-folder ">
                                                 </i>
                                                 View
