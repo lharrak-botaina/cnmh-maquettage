@@ -23,27 +23,31 @@
               </div>
               <div class="card-body">
                 <!-- Date -->
-                <div class="form-group">
+                <div class="d-flex ">
+                <div class="form-group col-6">
                   <label>Nom</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
-                <div class="form-group">
+                
+                <div class="form-group col-6">
                   <label>Prenom</label>
                   <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
+                </div>
 
-                <div class="form-group">
+                <div class="d-flex">
+                <div class="form-group col-6">
                   <label>Adress</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group col-6">
                   <label>Sexe</label>
                   <div class="input-group date" id="reservationdate" data-target-input="nearest">
                   <select name="" class="form-control "  id="">
@@ -52,8 +56,9 @@
                   </select>
                     </div>
                 </div>
+                </div>
 
-                <!-- <div class="form-group">
+                <!-- <div class="form-group col-6">
                   <label>Sexe</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                      <form  class="">
@@ -68,47 +73,44 @@
                      </form>
                     </div>
                 </div> -->
-
-                <div class="form-group">
+                <div class="d-flex ">
+                <div class="form-group col-6">
                   <label>CIN</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group col-6">
                   <label>Telephone</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="tel" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
-
-                <div class="form-group">
+                </div>
+                <div class="d-flex ">
+                <div class="form-group col-6">
                   <label>Email</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="email" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group col-6">
                   <label>Image</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="file" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
+                </div>
 
-                <div class="form-group">
+                <div class="d-flex ">
+                <div class="form-group col-6">
                   <label>Date Naissance</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="date" placeholder="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
-
-                <div class="form-group">
-                  <label>Date Enregistrement</label>
-                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="date" placeholder="" class="form-control datetimepicker-input" />
-                    </div>
                 </div>
                 <!-- Date and time -->
                 
