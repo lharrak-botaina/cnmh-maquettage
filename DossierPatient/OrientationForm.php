@@ -1,4 +1,4 @@
-<div id="information-part" class="content" role="tabpanel" aria-labelledby="information-part-trigger">
+<div id="orientation-part" class="content" role="tabpanel" aria-labelledby="information-part-trigger">
     <div id="stepper2" class="d-flex">
              <div class="form-group col-6">
                 
@@ -102,4 +102,4 @@
                       <button class="btn btn-primary" onclick="stepper1.previous()">Previous</button>
                       <button class="btn btn-primary" data-target="#orientation-part"   onclick="stepper1.next()">Next</button>
                       <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                    </div>
+                </div>

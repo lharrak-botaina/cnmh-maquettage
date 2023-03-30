@@ -3,9 +3,6 @@
 
 <head>
     <?php include("../head.php") ?>
-    <link rel="stylesheet" href="https://unpkg.com/bs-stepper/dist/css/bs-stepper.min.css">
-<script src="https://unpkg.com/bs-stepper/dist/js/bs-stepper.min.js"></script>
-
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -23,7 +20,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Gestion des services</h1>
+            <h1 class="m-0">Gestion des dossiers médical</h1>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
@@ -33,45 +30,188 @@
             <section class="content">
                 <div class="container-fluid">
                     <!-- Default box -->
-                
-                    <div class="row">
-          <div class="col-md-12">
-            <div class="card card-default">
-              <div class="card-header">
-                <h3 class="card-title">bs-stepper</h3>
-              </div>
-              <div class="card-body p-0">
-                <div class="bs-stepper" id="stepper1">
-                  <div class="bs-stepper-header" role="tablist">
-                    <!-- your steps here -->
-                    <div class="step" data-target="#logins-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="logins-part" id="logins-part-trigger">
-                        <span class="bs-stepper-circle">1</span>
-                        <span class="bs-stepper-label">Les parents</span>
-                      </button>
+                    <div class="card">
+                        
+                        <div class="card-header">
+
+                            <div class="col-sm-12 d-flex justify-content-between p-3">
+                                <div class="d-flex justify-content-between">
+                                    <a href="./DossierPatientForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                                    
+                                   
+                                    
+                                </div>
+                                <!-- SEARCH FORM -->
+                                <form class="form-inline ml-3">
+                                    <div class="input-group input-group-sm">
+
+                                        <input type="search" class="form-control form-control-lg"
+                                        placeholder="Rechercher">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-lg btn-default">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="card-body p-0">
+                            <table class="table table-striped projects">
+                                <thead>
+                                    <tr>                 
+                                        <th style="width: 20%">
+                                          Numéro de dossier
+                                        </th>
+                                        <th style="width: 20%">
+                                            Nom des parents
+                                        </th>
+                                        <!-- <th style="width: 20%">
+                                            Nom des patients
+                                        </th> -->
+                                        <th  style="width: 20%; text-align: center;">
+                                            Actions
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                       
+                                        <td>
+                                          123
+                                        </td>
+                                        <td class="text-truncate" style="max-width: 150px;">
+                                            lharrak botaina
+
+                                        </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Édit
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                       
+                                       <td>
+                                          1234
+                                       </td>
+                                       <td class="text-truncate" style="max-width: 150px;">
+                                           nada stito
+                                       </td>
+                                       <td class="project-actions text-right">
+                                           <a class="btn btn-primary btn-sm" href="#">
+                                               <i class="fas fa-folder">
+                                               </i>
+                                               Afficher
+                                           </a>
+                                           <a class="btn btn-info btn-sm" href="#">
+                                               <i class="fas fa-pencil-alt">
+                                               </i>
+                                               Édit
+                                           </a>
+                                           <a class="btn btn-danger btn-sm" href="#">
+                                               <i class="fas fa-trash">
+                                               </i>
+                                               Supprimer
+                                           </a>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       
+                                       <td>
+                                         12345
+                                       </td>
+                                       <td class="text-truncate" style="max-width: 150px;">
+                                       hicham el mliki
+                                       </td>
+                                       <td class="project-actions text-right">
+                                           <a class="btn btn-primary btn-sm" href="#">
+                                               <i class="fas fa-folder">
+                                               </i>
+                                               Afficher
+                                           </a>
+                                           <a class="btn btn-info btn-sm" href="#">
+                                               <i class="fas fa-pencil-alt">
+                                               </i>
+                                               Édit
+                                           </a>
+                                           <a class="btn btn-danger btn-sm" href="#">
+                                               <i class="fas fa-trash">
+                                               </i>
+                                               Supprimer
+                                           </a>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       
+                                       <td>
+                                          12435
+                                       </td>
+                                       <td class="text-truncate" style="max-width: 150px;">
+                                            imane ajroudi
+                                       <td class="project-actions text-right">
+                                           <a class="btn btn-primary btn-sm" href="#">
+                                               <i class="fas fa-folder">
+                                               </i>
+                                               Afficher
+                                           </a>
+                                           <a class="btn btn-info btn-sm" href="#">
+                                               <i class="fas fa-pencil-alt">
+                                               </i>
+                                               Édit
+                                           </a>
+                                           <a class="btn btn-danger btn-sm" href="#">
+                                               <i class="fas fa-trash">
+                                               </i>
+                                               Supprimer
+                                           </a>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       
+                                   <td>
+                                          17435
+                                       </td>
+                                       <td class="text-truncate" style="max-width: 150px;">
+                                            yahya mohammed
+                                       <td class="project-actions text-right">
+                                           <a class="btn btn-primary btn-sm" href="#">
+                                               <i class="fas fa-folder">
+                                               </i>
+                                               Afficher
+                                           </a>
+                                           <a class="btn btn-info btn-sm" href="#">
+                                               <i class="fas fa-pencil-alt">
+                                               </i>
+                                               Édit
+                                           </a>
+                                           <a class="btn btn-danger btn-sm" href="#">
+                                               <i class="fas fa-trash">
+                                               </i>
+                                               Supprimer
+                                           </a>
+                                       </td>
+                                   </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
                     </div>
-                    <div class="line"></div>
-                    <div class="step" data-target="#information-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-                        <span class="bs-stepper-circle">2</span>
-                        <span class="bs-stepper-label">Patient</span>
-                      </button>
-                    </div>
-                    
-                  </div>
-                  <div class="bs-stepper-content">
-                    <!-- your steps content here -->
-                    <?php include("./ParentForm.php") ?>
-                    <?php include("./PatientForm.php") ?>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card-body -->
-             
-            </div>
-            <!-- /.card -->
-          </div>
-        </div>
+
 
                     <!-- /.card -->
                     <div class="card-header row" style="display: flow-root;">
@@ -102,16 +242,6 @@
         <?php include("../footer.php") ?>
     </div>
     <?php include("../scripts.php") ?>
-    <script src="dist/js/bs-stepper.js"></script>
-    <script>
-      var stepper1Node = document.querySelector('#stepper1')
-      var stepper1 = new Stepper(document.querySelector('#stepper1'))
-
-    //   stepper1Node.addEventListener('show.bs-stepper', function (event) {
-    //     console.warn('show.bs-stepper', event)
-    //   })
-  
-    </script>
 </body>
 
 </html>
