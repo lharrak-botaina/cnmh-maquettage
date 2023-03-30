@@ -18,9 +18,9 @@
              <h2>Formulaire</h2>
              <div class="col-md-12">
             <div class="card card-primary">
-              <!-- <div class="card-header">
+              <div class="card-header">
                 <h3 class="card-title">Ajouter Patient</h3>
-              </div> -->
+              </div>
               <div class="card-body">
                 <!-- Date -->
                 <div class="d-flex ">
@@ -58,21 +58,6 @@
                 </div>
                 </div>
 
-                <!-- <div class="form-group col-6">
-                  <label>Sexe</label>
-                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                     <form  class="">
-                      <div>
-                       <input type="radio" class=" " name = "ans" value="yes">
-                       <label for="huey">Famme</label> 
-                       </div>
-                       <div>
-                       <input type="radio" name = "ans" value="maybe" checked>
-                       <label for="huey">Homme</label>
-                       </div>
-                     </form>
-                    </div>
-                </div> -->
                 <div class="d-flex ">
                 <div class="form-group col-6">
                   <label>CIN</label>
@@ -115,24 +100,13 @@
                 <!-- Date and time -->
                 
                 <div class="d-flex justify-content-between">
-                  <a href="PatientManager.php" class="btn btn-primary">Enregistrer</a>
+                  <a href="PatientManager.php" class="btn btn-primary">Suivre</a>
+                  <a href="PatientManager.php" class="btn btn-outline-secondary">Annuler</a>
 
 
 
 
               </div>
-                <!-- /.form group -->
-                <!-- Date range -->
-
-                <!-- /.form group -->
-
-                <!-- Date and time range -->
-
-                <!-- /.form group -->
-
-                <!-- Date and time range -->
-
-                <!-- /.form group -->
               </div>
 
 
