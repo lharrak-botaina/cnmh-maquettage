@@ -34,23 +34,26 @@
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">
-                                Type Handicape
-                            </h3>
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"> Ajouter un type d'handicap </a>
+                                    <a href="./TypeHandicapForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                                 </div>
 
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
-                                    <div class="search-box">
+                                    <div class="input-group input-group-sm">
 
-                                        <input type="text" class="form-control" id="search" placeholder="Rechercher&hellip;">
+                                        <input type="search" class="form-control form-control-lg"
+                                            placeholder="Tapez vos mots-clés ici">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-lg btn-default">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+
+                                        </div>
                                     </div>
                                 </form>
-
                             </div>
                         </div>
                         <div class="card-body p-0">
@@ -63,19 +66,26 @@
                                         <th style="width: 20%">
                                             Type d'handicap
                                         </th>
+                                        <th style="width: 20%">
+                                            Description type d'handicap
+                                        </th>
 
                                         <th style="width: 20%">
-
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
+
                                     <tr>
                                         <td>
 
                                         </td>
                                         <td>
                                             RETARD MENTAL
+                                        </td>
+
+                                        <td>
+                                            Description RETARD MENTAL
                                         </td>
 
                                         <td class="project-actions text-right">
@@ -96,13 +106,196 @@
                                             </a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            TSA
+                                        </td>
+
+                                        <td>
+                                            Description TSA
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            TRISOMIE 21
+                                        </td>
+
+                                        <td>
+                                            Description TRISOMIE 21
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            IMC
+                                        </td>
+
+                                        <td>
+                                            Description IMC
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            RPM
+                                        </td>
+
+                                        <td>
+                                            Description RPM
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            RETARD DE LANGUAGE
+                                        </td>
+
+                                        <td>
+                                            Description RETARD DE LANGUAGE
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            HANDICAP MOTEUR
+                                        </td>
+
+                                        <td>
+                                            Description HANDICAP MOTEUR
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+
                                 </tbody>
                             </table>
                         </div>
                         <!-- /.card-body -->
                     </div>
-                    <!-- /.card -->
-                    <div class="card-header row">
+                <!-- /.card -->
+                <div class="card-header row" style="display: flow-root;">
+                    <div style="display: flex;  justify-content: space-between;">
+
                         <ul class="pagination pagination my-0">
                             <li class="page-item"><a class="page-link" href="#">«</a></li>
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -110,10 +303,14 @@
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                             <li class="page-item"><a class="page-link" href="#">»</a></li>
                         </ul>
-                        <div class="float-left col-md-10 d-flex justify-content-end">
-                            <a href="" class="btn btn-outline-secondary"> export_pdf </a>
-                            <a href="" class="btn btn-outline-secondary">export_excel</a>
-                            <a href="" class="btn btn-outline-secondary">import_excel</a>
+                        <div class="">
+
+                            <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-download"></i> Export
+                            </button>
+                            <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-file-import"></i> Import
+                            </button>
                         </div>
                     </div>
                 </div><!-- /.container-fluid -->

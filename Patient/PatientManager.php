@@ -43,7 +43,8 @@
                                     <div class="d-flex justify-content-between">
                                         <a href="PatientForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
-                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
+                                    <!-- <a href="PatientForm.php" class="btn btn-primary">+ Add </a> -->
+                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
                                         <option value="">Nom</option>
                                         <option value="">Hamza</option>
                                         <option value="">Kamal</option>

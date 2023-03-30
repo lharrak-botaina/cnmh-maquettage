@@ -22,7 +22,7 @@
                         <div class="col-sm-6">
                             <h1 class="m-0">Gestion des Parents</h1>
                         </div><!-- /.col -->
-                       
+
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
             </div>
@@ -34,27 +34,25 @@
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">
-                              Type Parents
-                            </h3>
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"> Ajouter un Parents </a>
-                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Parents</option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                    </select>
+                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                                 </div>
+
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
-                                <div class="search-box">
+                                    <div class="input-group input-group-sm">
 
-                                    <input type="text" class="form-control" id="search" placeholder="Rechercher&hellip;">
+                                        <input type="search" class="form-control form-control-lg" placeholder="Type your keywords here">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-lg btn-default">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+
+                                        </div>
                                     </div>
                                 </form>
-
                             </div>
                         </div>
                         <div class="card-body p-0">
@@ -62,52 +60,49 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 1%">
-                                            #
+                                         
                                         </th>
                                         <th style="width: 20%">
-                                            Nom 
+                                            Nom
                                         </th>
-                                        <th style="width: 30%">
-                                            Prenom
+                                        <th style="width: 20%">
+                                        Prénom
                                         </th>
-                                        <th style="width: 40%">
-                                            Sexe
+                                        <th style="width: 20%">
+                                        Téléphone
                                         </th>
-                                        <th style="width: 50%">
-                                            Action
-                                        </th>
-                                        
 
+                                        <th style="width: 30%">
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
+
                                     <tr>
                                         <td>
-                                            1
+                                          1
                                         </td>
                                         <td>
-                                          Essarraj 
+                                            Radi
+                                        </td>
+
+                                        <td>
+                                            Said
                                         </td>
                                         <td>
-                                          Fouad
-                                        </td>
-                                        <td>
-                                          Homme
+                                            0600000000
                                         </td>
 
-
-
-                                       
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
                                                 </i>
-                                                View
+                                                Afficher
                                             </a>
                                             <a class="btn btn-info btn-sm" href="#">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
-                                                Édit
+                                                Modifier
                                             </a>
                                             <a class="btn btn-danger btn-sm" href="#">
                                                 <i class="fas fa-trash">
@@ -116,27 +111,231 @@
                                             </a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                        2
+                                        </td>
+                                        <td>
+                                            Ben
+                                        </td>
+
+                                        <td>
+                                            Ahmed
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                          3
+                                        </td>
+                                        <td>
+                                            Chair
+                                        </td>
+
+                                        <td>
+                                            Yassin
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+                                       
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                         4
+                                        </td>
+                                        <td>
+                                            lani
+                                        </td>
+
+                                        <td>
+                                            Fatima
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                         5
+                                        </td>
+                                        <td>
+                                            Riyad
+                                        </td>
+
+                                        <td>
+                                            Anissa
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                         6
+                                        </td>
+                                        <td>
+                                            Yamin
+                                        </td>
+
+                                        <td>
+                                            Mohammed
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                         7
+                                        </td>
+                                        <td>
+                                            Abom
+                                        </td>
+
+                                        <td>
+                                            Adil
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                            <a class="btn btn-danger btn-sm" href="#">
+                                                <i class="fas fa-trash">
+                                                </i>
+                                                Supprimer
+                                            </a>
+                                        </td>
+                                    </tr>
+
                                 </tbody>
                             </table>
                         </div>
                         <!-- /.card-body -->
                     </div>
                     <!-- /.card -->
-                    <div class="card-header row">
-                            <div class="float-right col-md-6">
-                                <ul class="pagination pagination-sm">
-                                    <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">»</a></li>
-                                </ul>
-                            </div>
-                            <div class="float-left col-md-6 d-flex justify-content-end">
-                                <a href="" class="btn btn-outline-secondary"> export_pdf </a>
-                                <a href="" class="btn btn-outline-secondary">export_excel</a>
-                                <a href="" class="btn btn-outline-secondary">import_excel</a>
-                            </div>
+                    <div class="card-header row" style="display: flow-root;">
+                    <div style="display: flex;  justify-content: space-between;">
+
+                        <ul class="pagination pagination my-0">
+                            <li class="page-item"><a class="page-link" href="#">«</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">»</a></li>
+                        </ul>
+                        <div class="">
+
+                            <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-download"></i> Export
+                            </button>
+                            <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-file-import"></i> Import
+                            </button>
+                        </div>
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
