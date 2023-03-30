@@ -20,7 +20,7 @@
               <div class="card-header">
                 <h3 class="card-title">Ajouter un Parents</h3>
               </div>
-              <div class="card-body">
+              <div class="card-body" id="logins-part">
                 <!-- Date -->
                 <div class="d-flex">
                 <div class="form-group col-6">

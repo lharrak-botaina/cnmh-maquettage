@@ -49,7 +49,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Réclamations</h1>
+                            <!-- <h1 class="m-0">Gestion des Réclamations</h1> -->
                         </div><!-- /.col -->
                        
                     </div><!-- /.row -->
@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
                                 <!-- SEARCH FORM -->
-                                <form class="form-inline ml-3">
+                                <!-- <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
                                         <input type="search" class="form-control form-control-lg" placeholder="Tapez vos mots-clés ici">
                                         <div class="input-group-append">
@@ -86,7 +86,7 @@
 
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
 
                             </div>
                         </div>
@@ -94,41 +94,41 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10%"> Description </th>
-                                        <th style="width: 10%"> Date Reclamation </th>
+                                        <!-- <th style="width: 10%"> Description </th> -->
+                                        <th style="width: 20%"> Date Reclamation </th>
                                         <th style="width: 10%" class="">  </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                   <td> AHOUZI </td>
-                                        <td> Hanan </td>
+                                   <!-- <td> AHOUZI </td> -->
+                                        <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <td> Mnari </td>
-                                        <td> Karim </td>
+                                       <!-- <td> Mnari </td> -->
+                                        <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <td> alami </td>
-                                        <td> Salma </td>
+                                       <!-- <td> alami </td> -->
+                                        <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <td> Nwino </td>
-                                        <td> Nabila </td>
+                                       <!-- <td> Nwino </td> -->
+                                        <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -148,18 +148,9 @@
                             </ul>
                         </div>
                         <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
-                            <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
-                                <i class="fas fa-download"></i> export_pdf
-                            </button> -->
-                            <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
-                                <i class="fas fa-download"></i> export
-                            </button>
-                            <button type="button" class="btn btn-default swalDefaultQuestion">
-                                <i class="fas fa-file-import"></i> import
-                            </button>
-                        </div><!-- /.container-fluid -->
+                        <a href="PatientManager.php" class="btn btn-outline-secondary">Annuler</a>
+                        </div>
                         <div class="d-flex justify-content-between mt-3">
-                  <a href="PatientManager.php" class="btn btn-outline-secondary">Annuler</a>
               </div>
             </section>
             </form>
