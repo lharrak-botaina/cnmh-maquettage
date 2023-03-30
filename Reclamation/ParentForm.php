@@ -77,7 +77,7 @@
                 
                 <div class="d-flex justify-content-between">
                   <a href="PatientManager.php" class="btn btn-primary">Suivre</a>
-                  <a href="ReclamationManager.php" class="btn btn-outline-secondary">Annuler</a>
+                  <a href="ParentManager.php" class="btn btn-outline-secondary">Annuler</a>
                 </div>
                 <!-- /.form group -->
                 <!-- Date range -->
