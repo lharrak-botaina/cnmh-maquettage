@@ -31,17 +31,14 @@
       </button>
     </div>
     <div class="line"></div>
-    <div class="step" data-target="#information-part">
-      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
+    <div class="step" data-target="#Reclamation-part">
+      <button type="button" class="step-trigger" role="tab" aria-controls="Reclamation-part" id="Reclamation-part-trigger">
         <span class="bs-stepper-circle">3</span>
         <span class="bs-stepper-label">Reclamation</span>
       </button>
     </div>
   </div>
   <div class="bs-stepper-content">
-    <!-- your steps content here -->
-    <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger"></div>
-    <div id="information-part" class="content" role="tabpanel" aria-labelledby="information-part-trigger"></div>
   </div>
 </div>
             <!-- Content Header (Page header) -->
@@ -49,7 +46,6 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Parents</h1>
                         </div><!-- /.col -->
                        
                     </div><!-- /.row -->
@@ -158,16 +154,13 @@
                             </ul>
                         </div>
                         <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
-                            <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
-                                <i class="fas fa-download"></i> export_pdf
-                            </button> -->
                             <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
                                 <i class="fas fa-download"></i> export
                             </button>
                             <button type="button" class="btn btn-default swalDefaultQuestion">
                                 <i class="fas fa-file-import"></i> import
                             </button>
-                        </div><!-- /.container-fluid -->
+                        </div>
             </section>
             </form>
         
@@ -177,6 +170,22 @@
         <?php include("../footer.php") ?>
     </div>
     <?php include("../scripts.php") ?>
+    <script src="../assets/plugins/bs-stepper/js/bs-stepper.js"></script>
+    <script>
+      var stepper1Node = document.querySelector('#stepper1')
+      var stepper1 = new Stepper(document.querySelector('#stepper1'))
+      stepper1Node.addEventListener('show.bs-stepper', function (event) {
+  // You can call prevent to stop the rendering of your step
+  // event.preventDefault()
+
+  console.warn(event.detail.indexStep)
+})
+
+stepper1Node.addEventListener('shown.bs-stepper', function (event) {
+  console.warn('step shown')
+})
+
+    </script>
 </body>
 
 </html>

@@ -26,11 +26,9 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                           
-                        </div><!-- /.col -->
-                       
-                    </div><!-- /.row -->
-                </div><!-- /.container-fluid -->
+                        </div>
+                    </div>
+                </div>
             </div>
         <div class="col-12">
             
@@ -41,11 +39,19 @@
               </div>
               <div class="card-body">
                 <!-- Date -->
-                <div class="form-group">
+                <div class="d-flex">
+                <div class="form-group col-6">
                   <label>Date Reclamation</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="date" value="Service medical" class="form-control datetimepicker-input" />
                     </div>
+                </div>
+                <div class="form-group col-6">
+                <label>Search</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="search" value="Retrouver les parents" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
                 </div>
                 <div class="form-group">
                   <label>Description</label>
@@ -59,11 +65,7 @@
                   <a href="ReclamationManager.php" class="btn btn-primary">Suivre</a></div>
               <div class="d-flex justify-content-between">
                   <a href="ReclamationManager.php" class="btn btn-secondary">Annuler</a>
-
-
-
-
-              </div>
+                 </div>
                 </div>
 
 
