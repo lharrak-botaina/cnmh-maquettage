@@ -43,8 +43,7 @@
                                     <div class="d-flex justify-content-between">
                                         <a href="PatientForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
-                                    <!-- <a href="PatientForm.php" class="btn btn-primary">+ Add </a> -->
-                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
+                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
                                         <option value="">Nom</option>
                                         <option value="">Hamza</option>
                                         <option value="">Kamal</option>
@@ -83,9 +82,7 @@
                                         <td> Hanan </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -95,9 +92,7 @@
                                         <td> Karim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -107,9 +102,7 @@
                                         <td> Salma </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -119,9 +112,7 @@
                                         <td> Nabila </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -131,9 +122,7 @@
                                         <td> Yousra </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -143,9 +132,7 @@
                                         <td> Yaser </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -155,9 +142,7 @@
                                         <td> Kamal </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -167,9 +152,7 @@
                                         <td> Nasim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -179,9 +162,7 @@
                                         <td> Nora </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -191,9 +172,7 @@
                                         <td> Yakin </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
-                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -223,7 +202,12 @@
                                 <i class="fas fa-file-import"></i> import
                             </button>
                         </div><!-- /.container-fluid -->
+                        <div class="d-flex justify-content-between mt-3">
+                  <!-- <a href="PatientManager.php" class="btn btn-primary">Suivre</a> -->
+                  <a href="ReclamationManager.php" class="btn btn-outline-secondary">Annuler</a>
+                </div>
             </section>
+            
             <!-- /.content -->
         </div>
 
