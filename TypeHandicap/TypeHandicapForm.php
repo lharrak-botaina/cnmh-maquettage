@@ -95,7 +95,7 @@
 <script>
     $(document).ready(function() {
         $('#id_textarea').summernote({
-            placeholder: 'Saisir une description .',
+            placeholder: 'Saisir une description.',
             height: 100
         });
         $('.dropdown-toggle').dropdown();
