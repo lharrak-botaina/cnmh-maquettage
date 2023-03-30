@@ -43,11 +43,6 @@
                                     <div class="d-flex justify-content-between">
                                         <a href="PatientForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
-                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Nom</option>
-                                        <option value="">Hamza</option>
-                                        <option value="">Kamal</option>
-                                    </select> -->
                                 </div>
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
@@ -71,7 +66,7 @@
                                         <th style="width: 10%"> Image </th>
                                         <th style="width: 10%"> Nom </th>
                                         <th style="width: 10%"> Prenom </th>
-                                        <th style="width: 10%"> Telephon </th>
+                                        <th style="width: 10%"> Telephone </th>
                                         <th style="width: 20%" class="">  </th>
                                     </tr>
                                 </thead>
@@ -100,56 +95,6 @@
                                         <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
                                         <td> alami </td>
                                         <td> Salma </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Nwino </td>
-                                        <td> Nabila </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Bchnigha </td>
-                                        <td> Yousra </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Alwahabi </td>
-                                        <td> Yaser </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Tork </td>
-                                        <td> Kamal </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Elkaki </td>
-                                        <td> Nasim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
