@@ -36,7 +36,7 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="./TypeServiceForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                                    <a href="./EmployeForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                                     
                                    
                                     
