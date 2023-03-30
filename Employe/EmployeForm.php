@@ -44,14 +44,14 @@
                 <div class="form-group col-6">
                   <label>Nom</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="Madani" class="form-control datetimepicker-input" />
                     </div>
                 </div>
 
                 <div class="form-group col-6">
                   <label>Prénom</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="Ali" class="form-control datetimepicker-input" />
                     </div>
                 </div>
                 </div>
@@ -60,14 +60,14 @@
                 <div class="form-group col-6">
                   <label>Téléphone</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="0611223344" class="form-control datetimepicker-input" />
                     </div>
                 </div>
 
                 <div class="form-group col-6">
                   <label>Email</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="MadaniAli@gmail.com" class="form-control datetimepicker-input" />
                     </div>
                 </div>
                 </div>
@@ -76,14 +76,14 @@
                 <div class="form-group col-6">
                   <label>Cin</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="K12334" class="form-control datetimepicker-input" />
                     </div>
                 </div>
 
                 <div class="form-group col-6">
                   <label>Adreese</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="Ahlan1" class="form-control datetimepicker-input" />
                     </div>
                 </div>
                 </div>
