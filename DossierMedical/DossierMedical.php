@@ -40,7 +40,19 @@
                     </div>
                 </nav>
                 <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="1-tab-pane" role="tabpanel">...</div>
+                    <div class="tab-pane fade show active" id="1-tab-pane" role="tabpanel">
+<br>
+                        <form>
+                            <div class="form-group row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Nom parent</label>
+                                <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="AHOUZI Fahd">
+                                </div>
+                            </div>
+                        
+                        </form>
+
+                    </div>
                     <div class="tab-pane fade" id="2-tab-pane" role="tabpanel">...</div>
                     <div class="tab-pane fade" id="3-tab-pane" role="tabpanel">...</div>
                     <div class="tab-pane fade" id="4-tab-pane" role="tabpanel">...</div>
