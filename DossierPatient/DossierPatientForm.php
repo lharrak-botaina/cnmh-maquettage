@@ -38,7 +38,7 @@
           <div class="col-md-12">
             <div class="card card-default">
               <div class="card-header">
-                <h3 class="card-title">bs-stepper</h3>
+                <h3 class="card-title"></h3>
               </div>
               <div class="card-body p-0">
                 <div class="bs-stepper" id="stepper1">
@@ -64,6 +64,20 @@
                         <span class="bs-stepper-label">Orientation externe</span>
                       </button>
                     </div>
+                    <div class="line"></div>
+                    <div class="step"  id="step3" data-target="#Entretien-part">
+                      <button type="button" class="step-trigger" role="tab" aria-controls="Entretien-part" id="Entretien-part-trigger">
+                        <span class="bs-stepper-circle">4</span>
+                        <span class="bs-stepper-label">Entretien social</span>
+                      </button>
+                    </div>
+                    <!-- <div class="line"></div>
+                    <div class="step"  id="step3" data-target="#RendezVous-part">
+                      <button type="button" class="step-trigger" role="tab" aria-controls="Entretien-part" id="Entretien-part-trigger">
+                        <span class="bs-stepper-circle">4</span>
+                        <span class="bs-stepper-label">Render-Vous</span>
+                      </button>
+                    </div> -->
                     
                   </div>
                   <div class="bs-stepper-content">
@@ -71,6 +85,7 @@
                     <?php include("./ParentForm.php") ?>
                     <?php include("./PatientForm.php") ?>
                     <?php include("./OrientationForm.php") ?>
+                    <?php include("./EntretienSocialForm.php") ?>
                   </div>
                 </div>
               </div>
