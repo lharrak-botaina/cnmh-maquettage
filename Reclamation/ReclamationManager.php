@@ -49,7 +49,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Parents</h1>
+                            <h1 class="m-0">Gestion des Réclamations</h1>
                         </div><!-- /.col -->
                        
                     </div><!-- /.row -->
@@ -72,13 +72,8 @@
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex justify-content-between">
-                                        <a href="ParentForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
+                                        <a href="ReclamationForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
-                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Nom</option>
-                                        <option value="">Hamza</option>
-                                        <option value="">Kamal</option>
-                                    </select> -->
                                 </div>
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
@@ -99,9 +94,8 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10%"> Nom </th>
-                                        <th style="width: 10%"> Prenom </th>
-                                        <th style="width: 10%"> Telephon </th>
+                                        <th style="width: 10%"> Description </th>
+                                        <th style="width: 10%"> Date Reclamation </th>
                                         <th style="width: 10%" class="">  </th>
                                     </tr>
                                 </thead>
@@ -109,7 +103,6 @@
                                     <tr>
                                    <td> AHOUZI </td>
                                         <td> Hanan </td>
-                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
@@ -118,7 +111,6 @@
                                     <tr>
                                        <td> Mnari </td>
                                         <td> Karim </td>
-                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
@@ -127,7 +119,6 @@
                                     <tr>
                                        <td> alami </td>
                                         <td> Salma </td>
-                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
@@ -136,7 +127,6 @@
                                     <tr>
                                        <td> Nwino </td>
                                         <td> Nabila </td>
-                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
@@ -168,6 +158,9 @@
                                 <i class="fas fa-file-import"></i> import
                             </button>
                         </div><!-- /.container-fluid -->
+                        <div class="d-flex justify-content-between mt-3">
+                  <a href="PatientManager.php" class="btn btn-outline-secondary">Annuler</a>
+              </div>
             </section>
             </form>
         
