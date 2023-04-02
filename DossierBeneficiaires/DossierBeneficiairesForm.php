@@ -23,7 +23,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Création dossier medical</h1>
+            <h1 class="m-0">Création dossier bénéficiaire</h1>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
@@ -47,7 +47,7 @@
                     <div class="step" data-target="#logins-part">
                       <button type="button" class="step-trigger" role="tab" aria-controls="logins-part" id="logins-part-trigger">
                         <span class="bs-stepper-circle">1</span>
-                        <span class="bs-stepper-label">Les parents</span>
+                        <span class="bs-stepper-label">Parents</span>
                       </button>
                     </div>
                     <div class="line"></div>
@@ -71,13 +71,20 @@
                         <span class="bs-stepper-label">Entretien social</span>
                       </button>
                     </div>
-                    <!-- <div class="line"></div>
+                    <div class="line"></div>
                     <div class="step"  id="step3" data-target="#RendezVous-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="Entretien-part" id="Entretien-part-trigger">
-                        <span class="bs-stepper-circle">4</span>
+                      <button type="button" class="step-trigger" role="tab" aria-controls="RendezVous-part" id="RendezVous-part-trigger">
+                        <span class="bs-stepper-circle">5</span>
                         <span class="bs-stepper-label">Render-Vous</span>
                       </button>
-                    </div> -->
+                    </div>
+                    <div class="line"></div>
+                    <div class="step"  id="step3" data-target="#ListAttente-part">
+                      <button type="button" class="step-trigger" role="tab" aria-controls="ListAttente-part" id="ListAttente-part-trigger">
+                        <span class="bs-stepper-circle">6</span>
+                        <span class="bs-stepper-label">List d'attente</span>
+                      </button>
+                    </div>
                     
                   </div>
                   <div class="bs-stepper-content">
@@ -86,6 +93,8 @@
                     <?php include("./PatientForm.php") ?>
                     <?php include("./OrientationForm.php") ?>
                     <?php include("./EntretienSocialForm.php") ?>
+                    <?php include("./RendezVousForm.php") ?>
+                    <?php include("./ListAttenteForm.php") ?>
                   </div>
                 </div>
               </div>
