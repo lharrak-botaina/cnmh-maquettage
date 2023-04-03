@@ -59,8 +59,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
-                                        <td> AHOUZI </td>
+                                        <td> Alami </td>
                                         <td> Hanan </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
@@ -69,8 +68,7 @@
                                     </tr>
 
                                     <tr>
-                                        <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
-                                        <td> Mnari </td>
+                                        <td> Alami </td>
                                         <td> Karim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
@@ -79,8 +77,7 @@
                                     </tr>
 
                                     <tr>
-                                        <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
-                                        <td> alami </td>
+                                        <td> Alami </td>
                                         <td> Salma </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
@@ -88,8 +85,7 @@
                                         </td>
                                     </tr>
 
-                                    <tr>
-                                        <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
+                                    <!-- <tr>
                                         <td> Elmagni </td>
                                         <td> Nora </td>
                                         <td> 0645729821 </td>
@@ -99,14 +95,13 @@
                                     </tr>
 
                                     <tr>
-                                        <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
                                         <td> AHOUZI </td>
                                         <td> Yakin </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="ReclamationForm.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
@@ -114,7 +109,7 @@
                     </div>
                     <!-- /.card -->
                     <div class="card-header row">
-                        <div class="float-right col-md-6">
+                        <!-- <div class="float-right col-md-6">
                             <ul class="pagination pagination my-0">
                                 <li class="page-item"><a class="page-link" href="#">«</a></li>
                                 <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -122,10 +117,10 @@
                                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                                 <li class="page-item"><a class="page-link" href="#">»</a></li>
                             </ul>
-                        </div>
-                        <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
-                      
+                        </div> -->
+                        <div class="float-right col-md-6 d-flex" style="align-items: center; ">
                             <a href="ParentManager.php" class="btn btn-outline-secondary">Annuler</a>
+                      
                         </div>
             </section>
             
