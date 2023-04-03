@@ -26,47 +26,99 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                        </div>
-                    </div>
-                </div>
+                           
+                        </div><!-- /.col -->
+                       
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
             </div>
         <div class="col-12">
             
-             <div class="col-md-12">
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Ajouter une réclamation</h3>
+                <h3 class="card-title"> employé</h3>
               </div>
               <div class="card-body">
-                <!-- Date -->
+              
                 <div class="d-flex">
                 <div class="form-group col-6">
-                  <label>Date Reclamation</label>
+                  <label>Nom</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="date" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="Madani" class="form-control datetimepicker-input" />
                     </div>
                 </div>
+
                 <div class="form-group col-6">
-                <label>Search</label>
+                  <label>Prénom</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="search" value="Retrouver les parents" class="form-control datetimepicker-input" />
+                        <input type="text" value="Ali" class="form-control datetimepicker-input" />
                     </div>
                 </div>
                 </div>
-                <div class="form-group">
-                  <label>Description</label>
-                    <div class=" col-md-12" id="reservationdate" data-target-input="nearest">
-                    <textarea name="description" id="summernote" class="form-control" rows="4"></textarea>
+
+                <div class="d-flex">
+                <div class="form-group col-6">
+                  <label>Téléphone</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" value="0611223344" class="form-control datetimepicker-input" />
                     </div>
                 </div>
+
+                <div class="form-group col-6">
+                  <label>Email</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" value="MadaniAli@gmail.com" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+                </div>
+               
+                <div class="d-flex">
+                <div class="form-group col-6">
+                  <label>Cin</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" value="K12334" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group col-6">
+                  <label>Adreese</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" value="Ahlan1" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+                </div>
+               
                 <!-- Date and time -->
                 <div class="d-flex justify-content-between">
                 <div class="d-flex justify-content-between">
-                  <a href="ReclamationManager.php" class="btn btn-primary">Suivre</a></div>
+                  <a href="./OrientationExterne/OrientationExterneForm.php" class="btn btn-primary">Suivre</a>
+
+
+
+
+              </div>
               <div class="d-flex justify-content-between">
-                  <a href="ReclamationManager.php" class="btn btn-secondary">Annuler</a>
-                 </div>
+                  <a href="../TypeService/TypeServiceManager.php" class="btn btn-secondary">Annuler</a>
+
+
+
+
+              </div>
                 </div>
+                
+                <!-- /.form group -->
+                <!-- Date range -->
+
+                <!-- /.form group -->
+
+                <!-- Date and time range -->
+
+                <!-- /.form group -->
+
+                <!-- Date and time range -->
+
+                <!-- /.form group -->
+              </div>
 
 
               <!-- /.card-body -->
@@ -76,7 +128,7 @@
             <!-- iCheck -->
 
             <!-- /.card -->
-          </div>
+        
         </div>
         <!-- /.col -->
     </div>
@@ -86,6 +138,7 @@
 </section>
 
 </div>
+
 
 <?php include("../footer.php") ?>
 </div>
