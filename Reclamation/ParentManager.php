@@ -70,7 +70,7 @@
                                     <tr>
                                         <th style="width: 10%"> Nom </th>
                                         <th style="width: 10%"> Prenom </th>
-                                        <th style="width: 10%"> Telephon </th>
+                                        <th style="width: 10%"> Telephone </th>
                                         <th style="width: 10%" class="">  </th>
                                     </tr>
                                 </thead>

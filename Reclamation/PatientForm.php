@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php include("../head.php") ?>
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+<?php include("../menu.php") ?>
+<?php include("../navbar.php") ?>
+
+<div class="content-wrapper">
+    <?php include("../content-header.php") ?>
 
 <section class="content">
     <div class="container-fluid">
@@ -26,25 +38,6 @@
                 </div>
                 </div>
 
-                <div class="d-flex">
-                <div class="form-group col-6">
-                  <label>Adress</label>
-                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" placeholder="" value="Rue ibn nasim" value="gggagggg" class="form-control datetimepicker-input" />
-                    </div>
-                </div>
-
-                <div class="form-group col-6">
-                  <label>Sexe</label>
-                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                  <select name="" class="form-control "  id="">
-                    <option  value="">Famme</option>
-                    <option value="">Homme</option>
-                  </select>
-                    </div>
-                </div>
-                </div>
-
                 <div class="d-flex ">
                 <div class="form-group col-6">
                   <label>CIN</label>
@@ -60,35 +53,55 @@
                     </div>
                 </div>
                 </div>
-                <div class="d-flex ">
-                <div class="form-group col-6">
+                <!-- <div class="d-flex "> -->
+                <!-- <div class="form-group col-6">
                   <label>Email</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="email" placeholder="" value="nasim@gmail.com" class="form-control datetimepicker-input" />
                     </div>
-                </div>
+                </div> -->
 
-                <div class="form-group col-6">
+                <!-- <div class="form-group col-6">
                   <label>Image</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="file" placeholder="" value="img" class="form-control datetimepicker-input" />
                     </div>
-                </div>
-                </div>
+                </div> -->
+                <!-- </div> -->
 
-                <div class="d-flex ">
+                <!-- <div class="d-flex ">
                 <div class="form-group col-6">
                   <label>Date Naissance</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="date" placeholder="" value="18/03/2023" class="form-control datetimepicker-input" />
                     </div>
                 </div>
+                </div> -->
+
+                <div class="d-flex">
+                <div class="form-group col-6">
+                  <label>Adress</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" placeholder="" value="Rue ibn nasim" value="gggagggg" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group col-6">
+                  <label>Remarques</label>
+                    <div class=" col-md-12" id="reservationdate" data-target-input="nearest">
+                    <textarea name="description" placeholder="" id="summernote" class="form-control" rows="4"></textarea>
+                    </div>
+                </div>
                 </div>
                 <!-- Date and time -->
                 
                 <div class="d-flex justify-content-between">
-                  <a href="ReclamationManager.php" class="btn btn-primary">Suivre</a>
+                  <a href="PatientManager.php" class="btn btn-primary">Enregistrer</a>
                   <a href="PatientManager.php" class="btn btn-outline-secondary">Annuler</a>
+
+
+
+
               </div>
                 <!-- /.form group -->
                 <!-- Date range -->
@@ -120,3 +133,11 @@
     </div>
     <!-- /.container-fluid -->
 </section>
+
+</div>
+
+<?php include("../footer.php") ?>
+</div>
+<?php include("../scripts.php") ?>
+</body>
+</html>
