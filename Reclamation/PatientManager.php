@@ -20,6 +20,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
+                        <h1 class="m-0">Patient</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
@@ -33,8 +34,7 @@
                     <div class="card">
                         <div class="card-header">
                             <!-- <h3 class="card-title">
-                            Pa
-                            tients
+                            Patients
                             </h3> -->
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
@@ -64,7 +64,7 @@
                                         <td> Hanan </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationForm.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -74,7 +74,7 @@
                                         <td> Karim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationForm.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -84,7 +84,7 @@
                                         <td> Salma </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationForm.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -94,7 +94,7 @@
                                         <td> Nora </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationForm.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -104,7 +104,7 @@
                                         <td> Yakin </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationForm.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
                                 </tbody>

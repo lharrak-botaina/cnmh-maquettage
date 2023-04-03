@@ -96,7 +96,7 @@
                 <!-- Date and time -->
                 
                 <div class="d-flex justify-content-between">
-                  <a href="PatientManager.php" class="btn btn-primary">Enregistrer</a>
+                  <a href="ReclamationForm.php" class="btn btn-primary">Enregistrer</a>
                   <a href="PatientManager.php" class="btn btn-outline-secondary">Annuler</a>
 
 
