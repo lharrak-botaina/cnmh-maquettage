@@ -53,15 +53,16 @@
                             <form action="..php" method="post" enctype="multipart/form-data">
 
                                 <div class="card-body">
+                                <div class="card-body">
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Nom d'orientation</label>
+                                        <label for="exampleInputEmail1" hidden>id</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" name="type_handicap" hidden>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Objet</label>
                                         <input type="text" class="form-control" id="exampleInputEmail1" name="type_handicap">
                                     </div>
-                                    <div class="card-body">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Date orientation</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" name="type_handicap">
-                                    </div>
+                                  
 
 
                                     <div class="form-group">
@@ -69,6 +70,11 @@
                                         <div class=" col-md-12" id="reservationdate" data-target-input="nearest">
                                             <textarea name="description" id="id_textarea" class="form-control" rows="4"></textarea>
                                         </div>
+                                    </div>
+                                    <div class="card-body">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Remarque</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" name="type_handicap">
                                     </div>
                                 </div>
                                 <!-- /.card-body -->
