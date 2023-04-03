@@ -38,7 +38,7 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <!-- <a href="../Parent/ParentForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a> -->
+                                    <a href="../Rendez-vous/Rendez-vousForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                                 </div>
 
                                 <!-- SEARCH FORM -->
@@ -72,7 +72,7 @@
                                         <th style="width: 10%">
                                         Prénom
                                         </th>
-                                        <th style="width: 20%">
+                                        <th style="width: 50%">
                                         Téléphone
                                         </th>
 
@@ -100,18 +100,14 @@
                                             0600000000
                                         </td>
 
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#">
-                                                <i class="fas fa-folder">
-                                                </i>
-                                                Afficher
-                                            </a>
-                                            
+                                      
+                                            <td>                                      
                                           <!-- Button trigger modal -->
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
-  RendezVous
-</button>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        Afficher
+                                        </button>
+                                        </td> 
 
 
                                    
@@ -174,8 +170,8 @@
                   <label> HeureDebut </label>
                   
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                    <input type="datetime-local" id="meeting-time"
-                    value="2023-06-12T10:30">
+                   <input  type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
 
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
@@ -185,7 +181,8 @@
               <div class="form-group">
                   <label>Remarque</label>
                   <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" class="form-control datetimepicker-input" />
+                        <input type="text" class="form-control datetimepicker-input" 
+                        value="loream 1"/>
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                         </div> -->
