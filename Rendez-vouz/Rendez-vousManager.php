@@ -38,7 +38,7 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                                    <!-- <a href="../Parent/ParentForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a> -->
                                 </div>
 
                                 <!-- SEARCH FORM -->
@@ -106,51 +106,13 @@
                                                 </i>
                                                 Afficher
                                             </a>
+                                            
                                           <!-- Button trigger modal -->
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
   RendezVous
 </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">RendezVous</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <div class="card-body">
-                <!-- Date -->
-                <div class="form-group">
-                  <label style="text-align: unset;">Date </label>
-                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="date" class="form-control datetimepicker-input" />
-                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                        </div> -->
-                    </div>
-                </div>
-              <div class="form-group">
-                  <label>Description</label>
-                    <div class=" col-md-12" id="reservationdate" data-target-input="nearest">
-                    <textarea name="description" id="summernote" class="form-control" rows="4"></textarea>
-                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                        </div> -->
-                    </div>
-                </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary btn-sm">Save</button>
-      </div>
-    </div>
-  </div>
-</div>
 
                                    
                                     </tr>
@@ -183,6 +145,62 @@
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
+
+            
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">RendezVous</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="card-body">
+                <!-- Date -->
+                <div class="form-group ">
+                  <label > DateRendezVous </label>
+                  
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="date" value="2023-07-22" class="form-control datetimepicker-input" />
+                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="form-group ">
+                  <label> HeureDebut </label>
+                  
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                    <input type="datetime-local" id="meeting-time"
+                    value="2023-06-12T10:30">
+
+                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div> -->
+                    </div>
+                </div>
+              <div class="form-group">
+                  <label>Remarque</label>
+                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input" />
+                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div> -->
+                    </div>
+                </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary btn-sm">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
             <!-- /.content -->
         </div>
 

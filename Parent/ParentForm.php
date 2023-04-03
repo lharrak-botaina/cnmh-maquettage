@@ -15,7 +15,7 @@
     <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-             <h2>Formulaire</h2>
+             <h2></h2>
              <div class="col-md-12">
             <div class="card card-primary">
               <div class="card-header">
@@ -61,7 +61,7 @@
                
 
                 <div class="form-group col-6">
-                  <label> CIN </label>
+                  <label> Téléphone </label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" class="form-control datetimepicker-input" />
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
@@ -73,7 +73,7 @@
                  
                 <div class="d-flex">
                 <div class="form-group col-6">
-                  <label> Téléphone </label>
+                  <label> Email </label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" class="form-control datetimepicker-input" />
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
@@ -85,6 +85,29 @@
                 
                 <div class="form-group col-6">
                   <label> Adresse </label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input" />
+                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div> -->
+                    </div>
+                </div>
+                </div>
+
+                <div class="d-flex">
+                <div class="form-group col-6">
+                  <label> CIN </label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input" />
+                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div> -->
+                    </div>
+                    </div>
+                
+                
+                <div class="form-group col-6">
+                  <label> Remarque </label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" class="form-control datetimepicker-input" />
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">

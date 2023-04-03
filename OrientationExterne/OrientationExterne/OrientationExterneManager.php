@@ -15,29 +15,7 @@
 
             <?php include("../../content-header.php") ?>
             <div class="bs-stepper">
-  <div class="bs-stepper-header" role="tablist">
-    <!-- your steps here -->
-    <div class="step" data-target="#logins-part">
-      <button type="button" class="step-trigger" role="tab" aria-controls="logins-part" id="logins-part-trigger">
-        <span class="bs-stepper-circle">1</span>
-        <span class="bs-stepper-label">Parent</span>
-      </button>
-    </div>
-    <div class="line"></div>
-    <div class="step" data-target="#information-part">
-      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-        <span class="bs-stepper-circle">2</span>
-        <span class="bs-stepper-label">Patient</span>
-      </button>
-    </div>
-    <div class="line"></div>
-    <div class="step" data-target="#information-part">
-      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-        <span class="bs-stepper-circle">3</span>
-        <span class="bs-stepper-label">Accompagnement</span>
-      </button>
-    </div>
-  </div>
+  
   <div class="bs-stepper-content">
     <!-- your steps content here -->
     <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger"></div>
@@ -99,9 +77,10 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10%"> Nom d'orientation </th>
-                                        <th style="width: 10%"> Date orientation  </th>
-                                        <th style="width: 10%"> Description </th>
+                                        <th style="width: 10%" hidden> id </th>
+                                        <th style="width: 10%"> Objet </th>
+                                        <th style="width: 10%"> Description  </th>
+                                        <th style="width: 10%"> Remarque </th>
                                         <th style="width: 10%" class="">  </th>
                                     </tr>
                                 </thead>
@@ -111,34 +90,50 @@
                                         <td> 12/12/2022 </td>
                                         <td> Description </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="../ParentManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                        <a class="btn btn-primary btn-sm" href="../OrientationExterne/OrientationAfficher.php">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
                                         </td>
                                     </tr>
 
                                     <tr>
                                        <td> Orientation 2 </td>
-                                        <td> 12/12/2000 </td>
-                                        <td> Description </td>
+                                        <td> Description</td>
+                                        <td> Remarque1 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="../ParentManager.php"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                       <td> Orientation 2 </td>
-                                        <td> 01/12/2020</td>
-                                        <td> Description </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="../ParentManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                        <a class="btn btn-primary btn-sm" href="../OrientationExterne/OrientationAfficher.php">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
                                         </td>
                                     </tr>
 
                                     <tr>
                                        <td> Orientation 3 </td>
-                                        <td> 12/02/2000 </td>
-                                        <td> Description </td>
+                                        <td>Description </td>
+                                        <td> Remarque2 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="../ParentManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                        <a class="btn btn-primary btn-sm" href="../OrientationExterne/OrientationAfficher.php">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                       <td> Orientation 3 </td>
+                                        <td> Description  </td>
+                                        <td> Remarque 3 </td>
+                                        <td class="project-actions text-right">
+                                        <a class="btn btn-primary btn-sm" href="../OrientationExterne/OrientationAfficher.php">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -149,15 +144,15 @@
                     <!-- /.card -->
                     <div class="card-header row">
                         <div class="float-right col-md-6">
-                            <ul class="pagination pagination my-0">
-                                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">»</a></li>
-                            </ul>
+                           
+                        <div class="card-footer">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="../ParentManager.php" class="btn btn-primary">Suivre</a>
+                    
+                                    </div>
+                                </div>
                         </div>
-                        
+
                         <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
                             <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
                                 <i class="fas fa-download"></i> export_pdf
