@@ -116,4 +116,6 @@
 </div>
 <?php include("../scripts.php") ?>
 </body>
+<!-- menu-open -->
+
 </html>
