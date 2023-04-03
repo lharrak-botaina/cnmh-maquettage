@@ -43,15 +43,9 @@
                 <div class="form-group col-6">
                   <label>Objet</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="" class="form-control datetimepicker-input" />
                     </div>
                 </div>
-                <!-- <div class="form-group col-6">
-                <label>Search</label>
-                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="search" value="Retrouver les parents" class="form-control datetimepicker-input" />
-                    </div>
-                </div> -->
                 </div>
                 <div class="form-group">
                   <label>Description</label>
@@ -59,7 +53,7 @@
                     <textarea name="description" id="summernote" class="form-control" rows="4"></textarea>
                     </div>
                 </div>
-                <!-- Date and time -->
+                <!-- Date and time -->Remarques
                 <div class="d-flex justify-content-between">
                 <div class="d-flex justify-content-between">
                   <a href="ReclamationManager.php" class="btn btn-primary">Suivre</a></div>
