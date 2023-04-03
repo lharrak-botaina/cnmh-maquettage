@@ -14,36 +14,6 @@
         <div class="content-wrapper">
 
             <?php include("../content-header.php") ?>
-            <div class="bs-stepper">
-  <div class="bs-stepper-header" role="tablist">
-    <!-- your steps here -->
-    <div class="step" data-target="#logins-part">
-      <button type="button" class="step-trigger" role="tab" aria-controls="logins-part" id="logins-part-trigger">
-        <span class="bs-stepper-circle">1</span>
-        <span class="bs-stepper-label">Parent</span>
-      </button>
-    </div>
-    <div class="line"></div>
-    <div class="step" data-target="#information-part">
-      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-        <span class="bs-stepper-circle">2</span>
-        <span class="bs-stepper-label">Patient</span>
-      </button>
-    </div>
-    <div class="line"></div>
-    <div class="step" data-target="#information-part">
-      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-        <span class="bs-stepper-circle">3</span>
-        <span class="bs-stepper-label">Reclamation</span>
-      </button>
-    </div>
-  </div>
-  <div class="bs-stepper-content">
-    <!-- your steps content here -->
-    <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger"></div>
-    <div id="information-part" class="content" role="tabpanel" aria-labelledby="information-part-trigger"></div>
-  </div>
-</div>
             <!-- Content Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
@@ -104,7 +74,7 @@
                                    <!-- <td> AHOUZI </td> -->
                                         <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
                                     </tr>
 
@@ -112,7 +82,7 @@
                                        <!-- <td> Mnari </td> -->
                                         <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
                                     </tr>
 
@@ -120,7 +90,7 @@
                                        <!-- <td> alami </td> -->
                                         <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
                                     </tr>
 
@@ -128,7 +98,7 @@
                                        <!-- <td> Nwino </td> -->
                                         <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
                                     </tr>
                                 </tbody>

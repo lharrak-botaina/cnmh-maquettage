@@ -14,37 +14,6 @@
         <div class="content-wrapper">
 
             <?php include("../content-header.php") ?>
-            <div class="bs-stepper" id="stepper1">
-                  <div class="bs-stepper-header" role="tablist">
-                    <!-- your steps here -->
-                    <div class="step" data-target="#logins-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="logins-part" id="logins-part-trigger">
-                        <span class="bs-stepper-circle">1</span>
-                        <span class="bs-stepper-label">Les parents</span>
-                      </button>
-                    </div>
-                    <div class="line"></div>
-                    <div class="step" data-target="#information-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-                        <span class="bs-stepper-circle">2</span>
-                        <span class="bs-stepper-label">Patient</span>
-                      </button>
-                    </div>
-                    <div class="line"></div>
-                    <div class="step"  id="step3" data-target="#orientation-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="orientation-part" id="orientation-part-trigger">
-                        <span class="bs-stepper-circle">3</span>
-                        <span class="bs-stepper-label">Orientation externe</span>
-                      </button>
-                    </div>
-                    
-                  </div>
-                  <div class="bs-stepper-content">
-                    <!-- your steps content here -->
-               
-                  
-                  </div>
-                </div>
             <!-- Content Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
@@ -166,7 +135,7 @@
                             </button>
                         </div>
             </section>
-            </form>
+            <!-- </form> -->
         
             <!-- /.content -->
         </div>
@@ -174,39 +143,7 @@
         <?php include("../footer.php") ?>
     </div>
     <?php include("../scripts.php") ?>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Summernote JS - CDN Link -->
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
-<script>
-        $(document).ready(function() {
-          $('#summernote').summernote({
-        placeholder: 'Saisir une description du service.',
-       
-        height: 100
-      });
-            $('.dropdown-toggle').dropdown();
-        });
-    </script>
-
-
-    <script src="../assets/plugins/bs-stepper/js/bs-stepper.js"></script>
-    <script>
-      var stepper1Node = document.querySelector('#stepper1')
-      var stepper1 = new Stepper(document.querySelector('#stepper1'))
-      stepper1Node.addEventListener('show.bs-stepper', function (event) {
-  // You can call prevent to stop the rendering of your step
-  // event.preventDefault()
-
-  console.warn(event.detail.indexStep)
-})
-
-stepper1Node.addEventListener('shown.bs-stepper', function (event) {
-  console.warn('step shown')
-})
-      
-    </script>
 </body>
 
 </html>
