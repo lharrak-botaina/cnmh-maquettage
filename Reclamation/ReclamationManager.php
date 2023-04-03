@@ -19,7 +19,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <!-- <h1 class="m-0">Gestion des Réclamations</h1> -->
+                            <h1 class="m-0">Gestion des Réclamations</h1>
                         </div><!-- /.col -->
                        
                     </div><!-- /.row -->
@@ -42,7 +42,7 @@
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex justify-content-between">
-                                        <a href="ReclamationForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
+                                        <a href="ParentManager.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
                                 </div>
                                 <!-- SEARCH FORM -->
@@ -74,7 +74,7 @@
                                    <!-- <td> AHOUZI </td> -->
                                         <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> Afficher </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
                                     </tr>
 
@@ -82,7 +82,7 @@
                                        <!-- <td> Mnari </td> -->
                                         <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> Afficher </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
                                     </tr>
 
@@ -90,7 +90,7 @@
                                        <!-- <td> alami </td> -->
                                         <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> Afficher </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
                                     </tr>
 
@@ -98,7 +98,7 @@
                                        <!-- <td> Nwino </td> -->
                                         <td> 18/02/2023 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> Afficher </a>
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -118,7 +118,7 @@
                             </ul>
                         </div>
                         <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
-                        <a href="PatientManager.php" class="btn btn-outline-secondary">Annuler</a>
+                        <a href="#" class="btn btn-outline-secondary">Annuler</a>
                         </div>
                         <div class="d-flex justify-content-between mt-3">
               </div>

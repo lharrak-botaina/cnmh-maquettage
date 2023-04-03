@@ -39,26 +39,26 @@
               </div>
               <div class="card-body">
                 <!-- Date -->
-                <div class="d-flex">
-                <div class="form-group col-6">
+                <!-- <div class="d-flex"> -->
+                <div class="form-group">
                   <label>Objet</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" value="" class="form-control datetimepicker-input" />
+                        <input type="text" value="Saisir un objet" class="form-control datetimepicker-input" />
                     </div>
                 </div>
-                </div>
+                <!-- </div> -->
                 <div class="form-group">
                   <label>Description</label>
                     <div class=" col-md-12" id="reservationdate" data-target-input="nearest">
                     <textarea name="description" id="summernote" class="form-control" rows="4"></textarea>
                     </div>
                 </div>
-                <!-- Date and time -->Remarques
+                <!-- Date and time -->
                 <div class="d-flex justify-content-between">
                 <div class="d-flex justify-content-between">
                   <a href="ReclamationManager.php" class="btn btn-primary">Suivre</a></div>
               <div class="d-flex justify-content-between">
-                  <a href="ReclamationManager.php" class="btn btn-secondary">Annuler</a>
+                  <a href="PatientManager.php" class="btn btn-secondary">Annuler</a>
                  </div>
                 </div>
 
