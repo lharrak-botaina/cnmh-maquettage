@@ -1,83 +1,93 @@
-<?php if ($role == 'Admin'): ?>
-      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+<?php if ($role == 'Admin') : ?>
+  <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+    <li class="nav-item">
+      <a href="/Reclamation/ReclamationManager.php" class="nav-link">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p class="pl-2">
+          Statistique
+        </p>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">
+        <i class="fa-solid fa-gears"></i>
+        <p class="pl-2">
+          Paramètres
+          <i class="right fas fa-angle-left"></i>
+        </p>
+      </a>
+      <ul class="nav nav-treeview" style="display: none;">
         <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fa-solid fa-gears"></i>
-            <p class="pl-2">
-              Paramètres
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview" style="display: none;">
-            <li class="nav-item">
-              <a href="/TypeService/TypeServiceManager.php" class="nav-link">
-                <p>Gestion des Services</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
-                <p>Gestion du type d'handicap</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="/CouvertureMedicale/CouvertureMedicaleManager.php" class="nav-link">
-                <p>Gestion de Couverture Médicale</p>
-              </a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-          <i class="fa-solid fa-users-line"></i>
-            <p class="pl-2">
-              Ressource Humaines
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview" style="display: none;">
-            <li class="nav-item">
-              <a href="/Employe/EmployeManager.php" class="nav-link">
-                <p>Gestion des Employés</p>
-              </a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="nav-item">
-          <a href="/Parent/ParentManager.php" class="nav-link">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            <p class="pl-2">
-            Orientations externes
-            </p>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/Reclamation/PatientManager.php" class="nav-link">
-          <i class="fa-solid fa-circle-exclamation"></i>
-            <p class="pl-2">
-           Réclamations
-            </p>
+          <a href="/TypeService/TypeServiceManager.php" class="nav-link">
+            <p>Gestion des Services</p>
           </a>
         </li>
         <li class="nav-item">
-          <a href="/Patient/PatientManager.php" class="nav-link">
-            <i class="fa-solid fa-hospital-user"></i>
-            <p class="pl-2">
-            Dossier bénéficiaires
-            </p>
+          <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
+            <p>Gestion du type d'handicap</p>
           </a>
         </li>
         <li class="nav-item">
-          <a href="/Patient/PatientManager.php" class="nav-link">
-          <i class="fa-regular fa-calendar-check"></i>
-            <p class="pl-2">
-            Rendez-vous
-            </p>
+          <a href="/CouvertureMedicale/CouvertureMedicaleManager.php" class="nav-link">
+            <p>Gestion de Couverture Médicale</p>
           </a>
         </li>
-
-
       </ul>
-    <?php endif; ?>
+    </li>
+
+    <li class="nav-item">
+      <a href="#" class="nav-link">
+        <i class="fa-solid fa-users-line"></i>
+        <p class="pl-2">
+          Ressource Humaines
+          <i class="right fas fa-angle-left"></i>
+        </p>
+      </a>
+      <ul class="nav nav-treeview" style="display: none;">
+        <li class="nav-item">
+          <a href="/Employe/EmployeManager.php" class="nav-link">
+            <p>Gestion des Employés</p>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="nav-item">
+      <a href="/OrientationExterne/OrientationExterne/OrientationExterneManager.php" class="nav-link">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        <p class="pl-2">
+          Orientations externes
+        </p>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a href="/Reclamation/ReclamationManager.php" class="nav-link">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p class="pl-2">
+          Réclamations
+        </p>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/DossierBeneficiaires/DossierBeneficiairesManager.php" class="nav-link">
+        <i class="fa-solid fa-hospital-user"></i>
+        <p class="pl-2">
+          Dossier bénéficiaires
+        </p>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/Rendez-vouz/Rendez-vousManager.php" class="nav-link">
+        <i class="fa-regular fa-calendar-check"></i>
+        <p class="pl-2">
+          Rendez-vous
+        </p>
+      </a>
+    </li>
+
+
+            
+  </ul>
+  
+<?php endif; ?>
