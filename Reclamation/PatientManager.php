@@ -50,16 +50,16 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10%"> Image </th>
+                                        <!-- <th style="width: 10%"> Image </th> -->
                                         <th style="width: 10%"> Nom </th>
                                         <th style="width: 10%"> Prenom </th>
                                         <th style="width: 10%"> Telephone </th>
-                                        <th style="width: 20%" class="">  </th>
+                                        <th style="width: 10%" class="">  </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
+                                    <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
                                         <td> AHOUZI </td>
                                         <td> Hanan </td>
                                         <td> 0645729821 </td>
@@ -69,7 +69,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
+                                        <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
                                         <td> Mnari </td>
                                         <td> Karim </td>
                                         <td> 0645729821 </td>
@@ -79,7 +79,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
+                                        <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
                                         <td> alami </td>
                                         <td> Salma </td>
                                         <td> 0645729821 </td>
@@ -89,7 +89,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
+                                        <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
                                         <td> Elmagni </td>
                                         <td> Nora </td>
                                         <td> 0645729821 </td>
@@ -99,7 +99,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
+                                        <!-- <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td> -->
                                         <td> AHOUZI </td>
                                         <td> Yakin </td>
                                         <td> 0645729821 </td>

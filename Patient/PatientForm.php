@@ -38,25 +38,6 @@
                 </div>
                 </div>
 
-                <div class="d-flex">
-                <div class="form-group col-6">
-                  <label>Adress</label>
-                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" placeholder="" value="Rue ibn nasim" value="gggagggg" class="form-control datetimepicker-input" />
-                    </div>
-                </div>
-
-                <div class="form-group col-6">
-                  <label>Sexe</label>
-                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                  <select name="" class="form-control "  id="">
-                    <option  value="">Femme</option>
-                    <option value="">Homme</option>
-                  </select>
-                    </div>
-                </div>
-                </div>
-
                 <div class="d-flex ">
                 <div class="form-group col-6">
                   <label>CIN</label>
@@ -72,27 +53,43 @@
                     </div>
                 </div>
                 </div>
-                <div class="d-flex ">
-                <div class="form-group col-6">
+                <!-- <div class="d-flex "> -->
+                <!-- <div class="form-group col-6">
                   <label>Email</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="email" placeholder="" value="nasim@gmail.com" class="form-control datetimepicker-input" />
                     </div>
-                </div>
+                </div> -->
 
-                <div class="form-group col-6">
+                <!-- <div class="form-group col-6">
                   <label>Image</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="file" placeholder="" value="img" class="form-control datetimepicker-input" />
                     </div>
-                </div>
-                </div>
+                </div> -->
+                <!-- </div> -->
 
-                <div class="d-flex ">
+                <!-- <div class="d-flex ">
                 <div class="form-group col-6">
                   <label>Date Naissance</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="date" placeholder="" value="18/03/2023" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+                </div> -->
+
+                <div class="d-flex">
+                <div class="form-group col-6">
+                  <label>Adress</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" placeholder="" value="Rue ibn nasim" value="gggagggg" class="form-control datetimepicker-input" />
+                    </div>
+                </div>
+
+                <div class="form-group col-6">
+                  <label>Remarques</label>
+                    <div class=" col-md-12" id="reservationdate" data-target-input="nearest">
+                    <textarea name="description" placeholder="" id="summernote" class="form-control" rows="4"></textarea>
                     </div>
                 </div>
                 </div>
