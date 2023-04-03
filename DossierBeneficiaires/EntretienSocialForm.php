@@ -72,23 +72,22 @@
                                 
                             </div>
                             <div class="custom-control custom-checkbox">
-                                <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="checkbox" id="customCheckbox5" >
+                                <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="checkbox" id="customCheckbox" >
                                 <label for="customCheckbox5" class="custom-control-label">Primaire </label>
-                            
-                                
                             </div>
                             <div class="custom-control custom-checkbox">
-                                <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="checkbox" id="customCheckbox5" >
+                                <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="checkbox" >
                                 <label for="customCheckbox5" class="custom-control-label">Collégial </label>
                             </div>
                             <div class="custom-control custom-checkbox">
-                                <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="checkbox" id="customCheckbox5" >
+                                <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="checkbox"  >
                                 <label for="customCheckbox5" class="custom-control-label">Secondaire </label>
                             </div>
                             <div class="custom-control custom-checkbox">
-                                <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="checkbox" id="customCheckbox5" >
+                                <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="checkbox"  >
                                 <label for="customCheckbox5" class="custom-control-label">Univairsitaire </label>
                             </div>
+                           
                             
                         </div>
                     
@@ -101,7 +100,7 @@
 
                 <div class="form-group col-6" >
                     <div class="form-group">
-                    <label>Date Enregistrement</label>
+                    <label>Date Entretien</label>
                         <div class="input-group date" id="reservationdate" data-target-input="nearest">
                             <input type="date" placeholder="" class="form-control datetimepicker-input" />
                         </div>
