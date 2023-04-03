@@ -49,7 +49,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0"> Parent</h1>
+                            <h1 class="m-0"> L'orientation externe</h1>
                         </div><!-- /.col -->
                        
                     </div><!-- /.row -->
@@ -72,7 +72,7 @@
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex justify-content-between">
-                                        <a href="../Parent.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
+                                        <a href="../OrientationExterne/OrientationExterneForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
                                     <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
                                         <option value="">Nom</option>
@@ -99,46 +99,46 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10%"> Nom </th>
-                                        <th style="width: 10%"> Prenom </th>
-                                        <th style="width: 10%"> Telephon </th>
+                                        <th style="width: 10%"> Nom d'orientation </th>
+                                        <th style="width: 10%"> Date orientation  </th>
+                                        <th style="width: 10%"> Description </th>
                                         <th style="width: 10%" class="">  </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                   <td> AHOUZI </td>
-                                        <td> Hanan </td>
-                                        <td> 0645729821 </td>
+                                   <td> Orientation 1 </td>
+                                        <td> 12/12/2022 </td>
+                                        <td> Description </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="../PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="../ParentManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <td> Mnari </td>
-                                        <td> Karim </td>
-                                        <td> 0645729821 </td>
+                                       <td> Orientation 2 </td>
+                                        <td> 12/12/2000 </td>
+                                        <td> Description </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="../PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="../ParentManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <td> alami </td>
-                                        <td> Salma </td>
-                                        <td> 0645729821 </td>
+                                       <td> Orientation 2 </td>
+                                        <td> 01/12/2020</td>
+                                        <td> Description </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="../PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="../ParentManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <td> Nwino </td>
-                                        <td> Nabila </td>
-                                        <td> 0645729821 </td>
+                                       <td> Orientation 3 </td>
+                                        <td> 12/02/2000 </td>
+                                        <td> Description </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="../PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="../ParentManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -157,6 +157,7 @@
                                 <li class="page-item"><a class="page-link" href="#">»</a></li>
                             </ul>
                         </div>
+                        
                         <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
                             <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
                                 <i class="fas fa-download"></i> export_pdf

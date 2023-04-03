@@ -82,7 +82,7 @@
                                         <td> Hanan </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href=""> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -92,7 +92,7 @@
                                         <td> Karim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -102,7 +102,7 @@
                                         <td> Salma </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -112,7 +112,7 @@
                                         <td> Nabila </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -122,7 +122,7 @@
                                         <td> Yousra </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -132,7 +132,7 @@
                                         <td> Yaser </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -142,7 +142,7 @@
                                         <td> Kamal </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -152,7 +152,7 @@
                                         <td> Nasim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -162,7 +162,7 @@
                                         <td> Nora </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -172,7 +172,7 @@
                                         <td> Yakin </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
                                 </tbody>

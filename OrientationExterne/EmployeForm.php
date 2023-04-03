@@ -36,7 +36,7 @@
             
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Ajouter un nouvel employé</h3>
+                <h3 class="card-title"> employé</h3>
               </div>
               <div class="card-body">
               
@@ -91,7 +91,7 @@
                 <!-- Date and time -->
                 <div class="d-flex justify-content-between">
                 <div class="d-flex justify-content-between">
-                  <a href="" class="btn btn-primary">Enregistrer</a>
+                  <a href="./OrientationExterne/OrientationExterneForm.php" class="btn btn-primary">Suivre</a>
 
 
 

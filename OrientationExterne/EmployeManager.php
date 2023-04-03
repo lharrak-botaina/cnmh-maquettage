@@ -94,21 +94,9 @@
                                            0611223344
                                         </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#">
-                                                <i class="fas fa-folder">
-                                                </i>
-                                                Afficher
-                                            </a>
-                                            <a class="btn btn-info btn-sm" href="#">
-                                                <i class="fas fa-pencil-alt">
-                                                </i>
-                                                Édit
-                                            </a>
-                                            <a class="btn btn-danger btn-sm" href="#">
-                                                <i class="fas fa-trash">
-                                                </i>
-                                                Supprimer
-                                            </a>
+                                        
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                       
                                         </td>
                                     </tr>
                                     <tr>
@@ -123,23 +111,9 @@
                                        <td>
                                            0611223344
                                         </td>
-                                       <td class="project-actions text-right">
-                                           <a class="btn btn-primary btn-sm" href="#">
-                                               <i class="fas fa-folder">
-                                               </i>
-                                               Afficher
-                                           </a>
-                                           <a class="btn btn-info btn-sm" href="#">
-                                               <i class="fas fa-pencil-alt">
-                                               </i>
-                                               Édit
-                                           </a>
-                                           <a class="btn btn-danger btn-sm" href="#">
-                                               <i class="fas fa-trash">
-                                               </i>
-                                               Supprimer
-                                           </a>
-                                       </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                        </td>
                                    </tr>
                                    <tr>
                                        
@@ -153,23 +127,9 @@
                                            0611223344
                                         </td>
                     
-                                       <td class="project-actions text-right">
-                                           <a class="btn btn-primary btn-sm" href="#">
-                                               <i class="fas fa-folder">
-                                               </i>
-                                               Afficher
-                                           </a>
-                                           <a class="btn btn-info btn-sm" href="#">
-                                               <i class="fas fa-pencil-alt">
-                                               </i>
-                                               Édit
-                                           </a>
-                                           <a class="btn btn-danger btn-sm" href="#">
-                                               <i class="fas fa-trash">
-                                               </i>
-                                               Supprimer
-                                           </a>
-                                       </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                        </td>
                                    </tr>
                                    <tr>
                                        
@@ -183,23 +143,9 @@
                                            0611223344
                                         </td>
                     
-                                       <td class="project-actions text-right">
-                                           <a class="btn btn-primary btn-sm" href="#">
-                                               <i class="fas fa-folder">
-                                               </i>
-                                               Afficher
-                                           </a>
-                                           <a class="btn btn-info btn-sm" href="#">
-                                               <i class="fas fa-pencil-alt">
-                                               </i>
-                                               Édit
-                                           </a>
-                                           <a class="btn btn-danger btn-sm" href="#">
-                                               <i class="fas fa-trash">
-                                               </i>
-                                               Supprimer
-                                           </a>
-                                       </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                        </td>
                                    </tr>
                                    <tr>
                                        
@@ -214,23 +160,9 @@
                                            0611223344
                                         </td>
                                                        
-                                       <td class="project-actions text-right">
-                                           <a class="btn btn-primary btn-sm" href="#">
-                                               <i class="fas fa-folder">
-                                               </i>
-                                               Afficher
-                                           </a>
-                                           <a class="btn btn-info btn-sm" href="#">
-                                               <i class="fas fa-pencil-alt">
-                                               </i>
-                                               Édit
-                                           </a>
-                                           <a class="btn btn-danger btn-sm" href="#">
-                                               <i class="fas fa-trash">
-                                               </i>
-                                               Supprimer
-                                           </a>
-                                       </td>
+                                        <td class="project-actions text-right">
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                        </td>
                                    </tr>
                                 </tbody>
                             </table>
