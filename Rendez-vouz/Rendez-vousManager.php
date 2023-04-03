@@ -38,7 +38,7 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="../Parent/ParentForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                                    <!-- <a href="../Parent/ParentForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a> -->
                                 </div>
 
                                 <!-- SEARCH FORM -->
@@ -161,7 +161,7 @@
       <div class="card-body">
                 <!-- Date -->
                 <div class="form-group ">
-                  <label >Date </label>
+                  <label > DateRendezVous </label>
                   
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="date" value="date" class="form-control datetimepicker-input" />
@@ -170,10 +170,21 @@
                         </div> -->
                     </div>
                 </div>
+                <div class="form-group ">
+                  <label> HeureDebut </label>
+                  
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                    <input type="datetime-local" id="meeting-time">
+
+                        <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div> -->
+                    </div>
+                </div>
               <div class="form-group">
-                  <label>Description</label>
-                    <div class=" col-md-12" id="reservationdate" data-target-input="nearest">
-                    <textarea name="description" id="summernote" class="form-control" rows="4"></textarea>
+                  <label>Remarque</label>
+                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input" />
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                         </div> -->
