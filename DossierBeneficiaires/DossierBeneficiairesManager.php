@@ -72,7 +72,7 @@
                                     <tr>
                                     <td> 123 </td>
                                         <td class="text-capitalize">  lharrak botaina </td>
-                                        <td> <span class="badge bg-primary">En attente</span> </td>
+                                        <td> <span class="badge bg-primary">Accueil</span> </td>
                                        
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
@@ -84,7 +84,7 @@
                                     <tr>
                                         <td>234</td>
                                         <td class="text-capitalize"> Nada stito </td>
-                                        <td> <span class="badge bg-primary">En attente</span> </td>
+                                        <td> <span class="badge bg-primary">Entretien social</span> </td>
                                        
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
@@ -96,7 +96,7 @@
                                     <tr>
                                         <td>1113 </td>
                                         <td class="text-capitalize"> Hicham </td>
-                                        <td>  <span class="badge bg-success">Approuvé</span> </td>
+                                        <td>  <span class="badge bg-success">Dossier social</span> </td>
                                        
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
@@ -108,7 +108,7 @@
                                     <tr>
                                         <td> 645 </td>
                                         <td class="text-capitalize"> yahya </td>
-                                        <td> <span class="badge bg-primary">En attente</span> </td>
+                                        <td> <span class="badge bg-primary">Dossier médical</span> </td>
                                        
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
