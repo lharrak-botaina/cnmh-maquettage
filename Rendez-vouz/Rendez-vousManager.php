@@ -164,7 +164,7 @@
                   <label > DateRendezVous </label>
                   
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="date" value="date" class="form-control datetimepicker-input" />
+                        <input type="date" value="2023-07-22" class="form-control datetimepicker-input" />
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                         </div> -->
@@ -174,7 +174,8 @@
                   <label> HeureDebut </label>
                   
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                    <input type="datetime-local" id="meeting-time">
+                    <input type="datetime-local" id="meeting-time"
+                    value="2023-06-12T10:30">
 
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
