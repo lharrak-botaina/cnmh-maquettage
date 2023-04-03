@@ -10,6 +10,13 @@
       </a>
     </li>
 
-
+<li class="nav-item">
+      <a href="/Consultation/consultation.php" class="nav-link">
+        <i class="fa-regular fa-calendar-check"></i>
+        <p class="pl-2">
+        Consultation
+        </p>
+      </a>
+    </li>
       </ul>
     <?php endif; ?>
