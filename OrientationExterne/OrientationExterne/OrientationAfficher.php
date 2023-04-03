@@ -39,6 +39,8 @@
             <!-- <form action="" id="wizard"> -->
             <section class="content">
                 <div class="container-fluid">
+
+
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header"></div>
@@ -62,67 +64,55 @@
                                         <td> Description </td>
 
                                     </tr>
-
-                                    <tr>
-                                        <td> Nom parent </td>
-                                        <td> Nom patient </td>
-                                        <td> Orientation 2 </td>
-                                        <td> Description</td>
-                                        <td> Remarque1 </td>
-
-                                    </tr>
-
-                                    <tr>
-                                        <td> Nom parent </td>
-                                        <td> Nom patient </td>
-                                        <td> Orientation 3 </td>
-                                        <td>Description </td>
-                                        <td> Remarque2 </td>
-
-                                    </tr>
-
-                                    <tr>
-                                        <td> Nom parent </td>
-                                        <td> Nom patient </td>
-                                        <td> Orientation 3 </td>
-                                        <td> Description </td>
-                                        <td> Remarque 3 </td>
-
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div class="card-footer d-flex">
-                            <div class="float-start">
-                                <a href=" ../OrientationExterne/OrientationExterneManager.php" class="btn btn-primary">Retour</a>
-
-                            </div>
-                            <div class="float-end" style="align-items: center; ">
-                                <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
-                                    <i class="fas fa-download"></i> export
-                                </button>
-                                <button type="button" class="btn btn-default swalDefaultQuestion">
-                                    <i class="fas fa-file-import"></i> import
-                                </button>
-                            </div>
-                        </div>
+                 
 
                     </div>
                 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- /.card -->
+                <div class="card-header row" style="display: flow-root;">
+                    <div style="display: flex;  justify-content: space-between;">
+
+                        <a href=" ../OrientationExterne/OrientationExterneManager.php" class="btn btn-primary">Retour</a>
+
+
+
+                        <div class="">
+
+                            <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-download"></i> Export
+                            </button>
+                            <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-file-import"></i> Import
+                            </button>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+
                 <!-- /.card-body -->
+            </section>
+
         </div>
         <!-- /.card -->
-        <div class="card-header row">
 
-<div class="d-flex justify-content-space-between">
-    
-</div>
-<!-- /.container-fluid -->
-</div>
-</section>
 
-<!-- /.content -->
+        <!-- /.content -->
 
         <?php include("../../footer.php") ?>
     </div>
