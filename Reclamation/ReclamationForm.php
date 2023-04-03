@@ -41,17 +41,17 @@
                 <!-- Date -->
                 <div class="d-flex">
                 <div class="form-group col-6">
-                  <label>Date Reclamation</label>
+                  <label>Objet</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="date" value="Service medical" class="form-control datetimepicker-input" />
+                        <input type="text" value="Service medical" class="form-control datetimepicker-input" />
                     </div>
                 </div>
-                <div class="form-group col-6">
+                <!-- <div class="form-group col-6">
                 <label>Search</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="search" value="Retrouver les parents" class="form-control datetimepicker-input" />
                     </div>
-                </div>
+                </div> -->
                 </div>
                 <div class="form-group">
                   <label>Description</label>
