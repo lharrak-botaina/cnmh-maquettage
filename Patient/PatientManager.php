@@ -43,12 +43,6 @@
                                     <div class="d-flex justify-content-between">
                                         <a href="PatientForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
-                                    <!-- <a href="PatientForm.php" class="btn btn-primary">+ Add </a> -->
-                                    <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Nom</option>
-                                        <option value="">Hamza</option>
-                                        <option value="">Kamal</option>
-                                    </select> -->
                                 </div>
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
@@ -72,7 +66,7 @@
                                         <th style="width: 10%"> Image </th>
                                         <th style="width: 10%"> Nom </th>
                                         <th style="width: 10%"> Prenom </th>
-                                        <th style="width: 10%"> Telephon </th>
+                                        <th style="width: 10%"> Telephone </th>
                                         <th style="width: 20%" class="">  </th>
                                     </tr>
                                 </thead>

@@ -20,7 +20,6 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Patients</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
@@ -43,24 +42,7 @@
                                     <div class="d-flex justify-content-between">
                                         <a href="PatientForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
-                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Nom</option>
-                                        <option value="">Hamza</option>
-                                        <option value="">Kamal</option>
-                                    </select> -->
                                 </div>
-                                <!-- SEARCH FORM -->
-                                <form class="form-inline ml-3">
-                                    <div class="input-group input-group-sm">
-                                        <input type="search" class="form-control form-control-lg" placeholder="Tapez vos mots-clés ici">
-                                        <div class="input-group-append">
-                                            <button type="submit" class="btn btn-lg btn-default">
-                                                <i class="fa fa-search"></i>
-                                            </button>
-
-                                        </div>
-                                    </div>
-                                </form>
 
                             </div>
                         </div>
@@ -71,7 +53,7 @@
                                         <th style="width: 10%"> Image </th>
                                         <th style="width: 10%"> Nom </th>
                                         <th style="width: 10%"> Prenom </th>
-                                        <th style="width: 10%"> Telephon </th>
+                                        <th style="width: 10%"> Telephone </th>
                                         <th style="width: 20%" class="">  </th>
                                     </tr>
                                 </thead>
@@ -82,7 +64,7 @@
                                         <td> Hanan </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -92,7 +74,7 @@
                                         <td> Karim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -102,57 +84,7 @@
                                         <td> Salma </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Nwino </td>
-                                        <td> Nabila </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Bchnigha </td>
-                                        <td> Yousra </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Alwahabi </td>
-                                        <td> Yaser </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Tork </td>
-                                        <td> Kamal </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td> <img class="rounded-circle"  width="50" height="50" src="../assets/dist/img/User-avatar.svg.png" alt="image" srcset=""> </td>
-                                        <td> Elkaki </td>
-                                        <td> Nasim </td>
-                                        <td> 0645729821 </td>
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -162,7 +94,7 @@
                                         <td> Nora </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
@@ -172,7 +104,7 @@
                                         <td> Yakin </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="ReclamationManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -192,20 +124,9 @@
                             </ul>
                         </div>
                         <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
-                            <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
-                                <i class="fas fa-download"></i> export_pdf
-                            </button> -->
-                            <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
-                                <i class="fas fa-download"></i> export
-                            </button>
-                            <button type="button" class="btn btn-default swalDefaultQuestion">
-                                <i class="fas fa-file-import"></i> import
-                            </button>
-                        </div><!-- /.container-fluid -->
-                        <div class="d-flex justify-content-between mt-3">
-                  <!-- <a href="PatientManager.php" class="btn btn-primary">Suivre</a> -->
-                  <a href="ReclamationManager.php" class="btn btn-outline-secondary">Annuler</a>
-                </div>
+                      
+                            <a href="ParentManager.php" class="btn btn-outline-secondary">Annuler</a>
+                        </div>
             </section>
             
             <!-- /.content -->

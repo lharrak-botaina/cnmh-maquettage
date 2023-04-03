@@ -20,7 +20,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Gestion des Employés</h1>
+            <h1 class="m-0">Gestion des dossiers médical</h1>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
@@ -36,7 +36,7 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="./EmployeForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                                    <a href="./DossierPatientForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                                     
                                    
                                     
@@ -46,7 +46,7 @@
                                     <div class="input-group input-group-sm">
 
                                         <input type="search" class="form-control form-control-lg"
-                                        placeholder="Type your keywords here">
+                                        placeholder="Rechercher">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-lg btn-default">
                                                 <i class="fa fa-search"></i>
@@ -63,35 +63,28 @@
                                 <thead>
                                     <tr>                 
                                         <th style="width: 20%">
-                                        Nom
+                                          Numéro de dossier
                                         </th>
                                         <th style="width: 20%">
-                                        Prénom
+                                            Nom des parents
                                         </th>
-                                        <th style="width: 20%">
-                                        Téléphone
-                                        </th>
-                                        <th style="width: 40%">
-                                        
-                                        </th>
-                                    
-                                    
-                                        <!-- <th  style="width: 20%; text-align: center;">
-                                            Actions
+                                        <!-- <th style="width: 20%">
+                                            Nom des patients
                                         </th> -->
+                                        <th  style="width: 20%; text-align: center;">
+                                            Actions
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                        
                                         <td>
-                                           Madani
+                                          123
                                         </td>
                                         <td class="text-truncate" style="max-width: 150px;">
-                                            Ali
-                                        </td>
-                                        <td>
-                                           0611223344
+                                            lharrak botaina
+
                                         </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#">
@@ -114,15 +107,11 @@
                                     <tr>
                                        
                                        <td>
-                                       Chami
+                                          1234
                                        </td>
                                        <td class="text-truncate" style="max-width: 150px;">
-                                           
-                                       Mohamed
+                                           nada stito
                                        </td>
-                                       <td>
-                                           0611223344
-                                        </td>
                                        <td class="project-actions text-right">
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">
@@ -144,15 +133,11 @@
                                    <tr>
                                        
                                        <td>
-                                          Idrissi
+                                         12345
                                        </td>
                                        <td class="text-truncate" style="max-width: 150px;">
-                                         Fatima
+                                       hicham el mliki
                                        </td>
-                                       <td>
-                                           0611223344
-                                        </td>
-                    
                                        <td class="project-actions text-right">
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">
@@ -174,15 +159,10 @@
                                    <tr>
                                        
                                        <td>
-                                          Samadi
+                                          12435
                                        </td>
                                        <td class="text-truncate" style="max-width: 150px;">
-                                          Ahmed
-                                     </td>
-                                     <td>
-                                           0611223344
-                                        </td>
-                    
+                                            imane ajroudi
                                        <td class="project-actions text-right">
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">
@@ -203,17 +183,11 @@
                                    </tr>
                                    <tr>
                                        
-                                       <td>
-                                          Idrissi
+                                   <td>
+                                          17435
                                        </td>
                                        <td class="text-truncate" style="max-width: 150px;">
-
-                                       Mohamed   
-                                       </td>
-                                       <td>
-                                           0611223344
-                                        </td>
-                                                       
+                                            yahya mohammed
                                        <td class="project-actions text-right">
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">

@@ -292,6 +292,7 @@
                         </div>
                         <!-- /.card-body -->
                     </div>
+                </div>
                 <!-- /.card -->
                 <div class="card-header row" style="display: flow-root;">
                     <div style="display: flex;  justify-content: space-between;">

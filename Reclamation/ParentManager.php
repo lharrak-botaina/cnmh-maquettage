@@ -31,17 +31,14 @@
       </button>
     </div>
     <div class="line"></div>
-    <div class="step" data-target="#information-part">
-      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
+    <div class="step" data-target="#Reclamation-part">
+      <button type="button" class="step-trigger" role="tab" aria-controls="Reclamation-part" id="Reclamation-part-trigger">
         <span class="bs-stepper-circle">3</span>
         <span class="bs-stepper-label">Reclamation</span>
       </button>
     </div>
   </div>
   <div class="bs-stepper-content">
-    <!-- your steps content here -->
-    <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger"></div>
-    <div id="information-part" class="content" role="tabpanel" aria-labelledby="information-part-trigger"></div>
   </div>
 </div>
             <!-- Content Header (Page header) -->
@@ -49,7 +46,6 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <!-- <h1 class="m-0">Gestion des Réclamations</h1> -->
                         </div><!-- /.col -->
                        
                     </div><!-- /.row -->
@@ -72,11 +68,16 @@
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex justify-content-between">
-                                        <a href="ReclamationForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
+                                        <a href="ParentForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
+                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
+                                        <option value="">Nom</option>
+                                        <option value="">Hamza</option>
+                                        <option value="">Kamal</option>
+                                    </select> -->
                                 </div>
                                 <!-- SEARCH FORM -->
-                                <!-- <form class="form-inline ml-3">
+                                <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
                                         <input type="search" class="form-control form-control-lg" placeholder="Tapez vos mots-clés ici">
                                         <div class="input-group-append">
@@ -86,7 +87,7 @@
 
                                         </div>
                                     </div>
-                                </form> -->
+                                </form>
 
                             </div>
                         </div>
@@ -94,41 +95,46 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <!-- <th style="width: 10%"> Description </th> -->
-                                        <th style="width: 20%"> Date Reclamation </th>
+                                        <th style="width: 10%"> Nom </th>
+                                        <th style="width: 10%"> Prenom </th>
+                                        <th style="width: 10%"> Telephon </th>
                                         <th style="width: 10%" class="">  </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                   <!-- <td> AHOUZI </td> -->
-                                        <td> 18/02/2023 </td>
+                                   <td> AHOUZI </td>
+                                        <td> Hanan </td>
+                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <!-- <td> Mnari </td> -->
-                                        <td> 18/02/2023 </td>
+                                       <td> Mnari </td>
+                                        <td> Karim </td>
+                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <!-- <td> alami </td> -->
-                                        <td> 18/02/2023 </td>
+                                       <td> alami </td>
+                                        <td> Salma </td>
+                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                       <!-- <td> Nwino </td> -->
-                                        <td> 18/02/2023 </td>
+                                       <td> Nwino </td>
+                                        <td> Nabila </td>
+                                        <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-primary btn-sm" href="PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -148,10 +154,13 @@
                             </ul>
                         </div>
                         <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
-                        <a href="PatientManager.php" class="btn btn-outline-secondary">Annuler</a>
+                            <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
+                                <i class="fas fa-download"></i> export
+                            </button>
+                            <button type="button" class="btn btn-default swalDefaultQuestion">
+                                <i class="fas fa-file-import"></i> import
+                            </button>
                         </div>
-                        <div class="d-flex justify-content-between mt-3">
-              </div>
             </section>
             </form>
         
@@ -161,6 +170,22 @@
         <?php include("../footer.php") ?>
     </div>
     <?php include("../scripts.php") ?>
+    <script src="../assets/plugins/bs-stepper/js/bs-stepper.js"></script>
+    <script>
+      var stepper1Node = document.querySelector('#stepper1')
+      var stepper1 = new Stepper(document.querySelector('#stepper1'))
+      stepper1Node.addEventListener('show.bs-stepper', function (event) {
+  // You can call prevent to stop the rendering of your step
+  // event.preventDefault()
+
+  console.warn(event.detail.indexStep)
+})
+
+stepper1Node.addEventListener('shown.bs-stepper', function (event) {
+  console.warn('step shown')
+})
+
+    </script>
 </body>
 
 </html>
