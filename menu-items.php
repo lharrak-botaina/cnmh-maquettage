@@ -11,7 +11,7 @@
   <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
     
 
-    <?php if ($role == 'Admin') : ?>
+    <?php if ($role == 'Admin : Fouad esseraj') : ?>
     <li class="nav-item">
       <a href="/DossierBeneficiaires/DossierBeneficiairesManager.php" class="nav-link">
         <i class="fa-solid fa-hospital-user"></i>
@@ -22,7 +22,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin') : ?>
+    <?php if ($role == 'Admin : Fouad esseraj') : ?>
     <li class="nav-item">
       <a href="/Rendez-vous/Rendez-vousManager.php" class="nav-link">
         <i class="fa-regular fa-calendar-check"></i>
@@ -33,7 +33,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin') : ?>
+    <?php if ($role == 'Admin : Fouad esseraj') : ?>
     <li class="nav-item">
       <a href="/OrientationExterne/OrientationExterne/OrientationExterneManager.php" class="nav-link">
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -44,7 +44,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin') : ?>
+    <?php if ($role == 'Admin : Fouad esseraj') : ?>
     <li class="nav-item">
       <a href="/Reclamation/ReclamationManager.php" class="nav-link">
         <i class="fa-solid fa-circle-exclamation"></i>
@@ -57,7 +57,7 @@
 
 
 
-    <?php if ($role ==  $adminRole || $role ==  $dirirectriceRole) : ?>
+    <?php if ($role ==  $adminRole || $role ==  $dirirectriceRole  ) : ?>
     <li class="nav-item" id="">
 
      
@@ -72,7 +72,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin') : ?>
+    <?php if ($role == 'Admin : Fouad esseraj') : ?>
     <li class="nav-item">
       <a href="#" class="nav-link">
         <i class="fa-solid fa-gears"></i>
