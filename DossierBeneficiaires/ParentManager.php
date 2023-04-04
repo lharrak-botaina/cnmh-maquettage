@@ -1,14 +1,10 @@
+
 <div id="parent-part" class="content" >
-        <div class="card" >
+        <div class="card " >
                         <div class="card-header">
-                        <div class="step" data-target="#parent-part">
-                            <button type="button" class="step-trigger" role="tab" aria-controls="parent-part" id="parent-part-trigger">
-                                <span class="bs-stepper-circle">1</span>
-                                <span class="bs-stepper-label">Parents</span>
-                            </button>
-                        </div>
+                        
                             <div class="col-sm-12 d-flex justify-content-between p-3">
-                                <div class="d-flex justify-content-between " data-target="#parentForm">
+                                <div class="d-flex justify-content-between " id="btnADD">
                                     <a href="./ParentForm.php"   class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                                 </div>
 
@@ -254,3 +250,13 @@
 <button class="btn btn-primary"   onclick="stepper1.next()">Next</button>
 
 </div>
+<!-- <script type="text/javascript">
+        $('#btnADD').on('onClick',function(){
+            
+          
+                $('.card').hide();
+                $('.form').show();
+           
+           
+        })
+        </script> -->
