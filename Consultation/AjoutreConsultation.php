@@ -53,7 +53,7 @@
                 <div class="form-group col-md-12">
                   <label>Diagnostic</label>
                     <div id="reservationdate" data-target-input="nearest">
-                    <textarea name="Remarque" id="summernote2" class="form-control" rows="4">Diagnostic1</textarea>
+                    <textarea name="Remarque" id="summernote2" class="form-control" rows="4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, quod cum dolore vel odio cupiditate. Blanditiis debitis voluptas recusandae commodi numquam itaque a. Ullam possimus recusandae deserunt optio magni repellat.</textarea>
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                         </div> -->
