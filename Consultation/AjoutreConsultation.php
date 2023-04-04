@@ -22,7 +22,7 @@
                 <div class="form-group col-4">
                  
                    <div class="form-group">
-                        <label> type de handicap </label>
+                        <label> Type de handicap </label>
                         <select class="form-control select2" style="width: 100%;">
                             <option selected="selected">Sélectionner un type  de handicap</option>
                             <option>TSA</option>
