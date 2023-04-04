@@ -58,6 +58,6 @@
   
   
 }).then(function() {
-    window.location = "./DossierPatientManager.php";
+    window.location = "./DossierBeneficiairesManager.php";
 })}
 </script>
