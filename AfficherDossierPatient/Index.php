@@ -16,7 +16,7 @@
             <?php include("../content-header.php") ?>
 
             <!-- Button trigger modal à coupier dans l'index-->
-            <a type="button" class="btn btn-primary" href="./DossierMedical.php">
+            <a type="button" class="btn btn-primary" href="AfficherDossierPatient/AfficherDossier.php">
                 <i class="fas fa-folder">
                 </i>
                 Afficher

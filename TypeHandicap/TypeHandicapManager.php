@@ -12,7 +12,6 @@
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
-
             <?php include("../content-header.php") ?>
 
             <!-- Content Header (Page header) -->
@@ -31,21 +30,19 @@
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
+
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
                                     <a href="./TypeHandicapForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                                 </div>
-
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
 
-                                        <input type="search" class="form-control form-control-lg"
-                                            placeholder="Tapez vos mots-clés ici">
+                                        <input type="search" class="form-control form-control-lg" placeholder="Tapez vos mots-clés ici">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-lg btn-default">
                                                 <i class="fa fa-search"></i>
@@ -60,9 +57,6 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 1%">
-
-                                        </th>
                                         <th style="width: 20%">
                                             Type d'handicap
                                         </th>
@@ -77,9 +71,6 @@
                                 <tbody>
 
                                     <tr>
-                                        <td>
-
-                                        </td>
                                         <td>
                                             RETARD MENTAL
                                         </td>
@@ -107,9 +98,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
 
-                                        </td>
                                         <td>
                                             TSA
                                         </td>
@@ -137,9 +126,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
 
-                                        </td>
                                         <td>
                                             TRISOMIE 21
                                         </td>
@@ -167,9 +154,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
 
-                                        </td>
                                         <td>
                                             IMC
                                         </td>
@@ -197,9 +182,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
 
-                                        </td>
                                         <td>
                                             RPM
                                         </td>
@@ -227,9 +210,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
 
-                                        </td>
                                         <td>
                                             RETARD DE LANGUAGE
                                         </td>
@@ -257,9 +238,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
 
-                                        </td>
                                         <td>
                                             HANDICAP MOTEUR
                                         </td>
@@ -292,6 +271,7 @@
                         </div>
                         <!-- /.card-body -->
                     </div>
+
                 </div>
                 <!-- /.card -->
                 <div class="card-header row" style="display: flow-root;">
