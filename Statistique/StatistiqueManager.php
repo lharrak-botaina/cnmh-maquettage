@@ -36,7 +36,7 @@
 
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
-                                    <a href="" class="btn btn-primary"><i class="fa fa-plus"></i> </a>  
+                                    <a href="./StatistiqueForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>  
                                 </div>               
                             </div>
                         </div>
