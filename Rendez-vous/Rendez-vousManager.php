@@ -170,8 +170,8 @@
                   <label> HeureDebut </label>
                   
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                   <input  type="time" id="appt" name="appt"
-       min="09:00" max="18:00" required>
+                    <input type="time" id="appt" name="appt"
+                         min="09:00" max="18:00" required value="10:00">
 
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
