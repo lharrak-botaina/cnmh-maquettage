@@ -4,12 +4,13 @@
 <div class="card-body">
 <div class="form-group">
 
+
+
+
                   <label>DateRendezVous</label>
-                 
-                  
-                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                  <div class="col-md-6" id="reservationdate" data-target-input="nearest">
                   <input type="date" id="meeting-time"
-                  value="2023-07-22">
+                  value="2023-07-22" class="form-control datetimepicker-input">
 
                       <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                           <div class="input-group-text"><i class="fa fa-calendar"></i></div>
@@ -21,9 +22,9 @@
                   <label>HeureDebut</label>
                  
                   
-                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                  <div class=" col-md-6" id="reservationdate" data-target-input="nearest">
                   <input type="time" id="appt" name="appt"
-                         min="09:00" max="18:00" required value="10:00">
+                         min="09:00" max="18:00" required value="10:00"class="form-control datetimepicker-input">
 
                       <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                           <div class="input-group-text"><i class="fa fa-calendar"></i></div>

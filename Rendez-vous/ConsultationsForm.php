@@ -4,161 +4,148 @@
 <div class="d-flex">
                 
 <div class="card-body p-0">
-                            <table class="table table-striped projects">
+                         
+
+ <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 1%">
-                                          N°d'Ordre
-                                        </th>
-                                        <th style="width: 60%">
-                                        État
+                                    <th style="width: 5%">
                                         </th>
                                         <th style="width: 5%">
-                                        DateEnregistrement
+                                        N°
                                         </th>
                                         <th style="width: 5%">
-                                        DateConsultation
+                                            Nom
                                         </th>
                                         <th style="width: 5%">
-                                        Observation 
-                                        </th> 
-                                        <th style="width: 20%">
-                                         Diagnostic
+                                            Prénom
+                                        </th>
+                                        <th style="width: 10%">
+                                           DateEnregistrement
                                         </th>
                                         <th style="width: 20%">
-                                         Bilan
+                                            Téléphone
                                         </th>
-                                        <th style="width: 20%">
-                                         Remarque
-                                        </th>
-
-                                       
                                     </tr>
                                 </thead>
                                 <tbody>
 
                                     <tr>
-                                        <td>
-                                          1
+                                    <td class="project-actions text-left">
+                                            <!-- <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a> -->
+                                            <!-- <div class="custom-control custom-checkbox">
+                                                <input class="custom-control-input" type="checkbox" id="customCheckbox2" checked="">
+                                                <label for="customCheckbox2" class="custom-control-label"></label>
+                                                </div> -->
+                                                <div class="custom-control custom-radio">
+                          <input class="custom-control-input" type="radio" id="customRadio1" name="customRadio" checked="">
+                          <label for="customRadio1" class="custom-control-label"></label>
+                        </div>
                                         </td>
                                         <td>
-                                        enRendez-Vous
+                                            1
                                         </td>
                                         <td>
-                                        01/03/2023
+                                            Chami
                                         </td>
                                         <td>
-                                        02/03/2023
-                                        </td>
-                                        <td>
-                                        Observation1
-                                        </td>
-                                        <td>
-                                        TRISOMIE
-                                        </td>
-                                        <td>
-                                        Bilan
-                                        </td>
-                                        <td>
-                                           Remarque
+                                            Ali
                                         </td>
 
-                                      
+                                        <td>
+                                         04/04/2023
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+                                         <!-- Button trigger modal -->
+                                            <!-- Button trigger modal -->
+                                            <!-- <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                                RendezVous
+                                            </button> -->
                                     </tr>
-
                                     <tr>
-                                        <td>
-                                          2
+                                    <td class="project-actions text-left">
+                                            <!-- <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a> -->
+                                            <!-- <div class="custom-control custom-checkbox">
+                                                <input class="custom-control-input" type="checkbox" id="customCheckbox2" >
+                                                <label for="customCheckbox2" class="custom-control-label"></label>
+                                                </div> -->
+                                                <div class="custom-control custom-radio">
+                          <input class="custom-control-input" type="radio" id="customRadio2" name="customRadio" >
+                          <label for="customRadio2" class="custom-control-label"></label>
+                        </div>
                                         </td>
                                         <td>
-                                        enAttente
+                                            2
                                         </td>
                                         <td>
-                                        01/03/2023
+                                            A32
                                         </td>
                                         <td>
-                                        02/03/2023
-                                        </td>
-                                        <td>
-                                        Observation2
-                                        </td>
-                                        <td>
-                                        TRISOMIE3
-                                        </td>
-                                        <td>
-                                        Bilan2
-                                        </td>
-                                        <td>
-                                           Remarque2
+                                            Nadi
                                         </td>
 
-                                      
+                                        <td>
+                                            Ahlam
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+                                         <!-- Button trigger modal -->
+                                            <!-- Button trigger modal -->
+                                            <!-- <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                                RendezVous
+                                            </button> -->
                                     </tr>
-
                                     <tr>
-                                        <td>
-                                          3
+                                    <td class="project-actions text-left">
+                                            <!-- <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a> -->
+                                                <div class="custom-control custom-radio">
+                          <input class="custom-control-input" type="radio" id="customRadio3" name="customRadio">
+                          <label for="customRadio3" class="custom-control-label"></label>
+                        </div>
                                         </td>
                                         <td>
-                                        enConsultation
+                                            3
                                         </td>
                                         <td>
-                                        01/03/2023
+                                            A33
                                         </td>
                                         <td>
-                                        02/03/2023
-                                        </td>
-                                        <td>
-                                        Observation3
-                                        </td>
-                                        <td>
-                                        radio
-                                        </td>
-                                        <td>
-                                        Bilan3
-                                        </td>
-                                        <td>
-                                           Remarque3
+                                            moni
                                         </td>
 
-                                      
+                                        <td>
+                                            Ilham
+                                        </td>
+                                        <td>
+                                            0600000000
+                                        </td>
+                                         <!-- Button trigger modal -->
+                                            <!-- Button trigger modal -->
+                                            <!-- <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                                RendezVous
+                                            </button> -->
                                     </tr>
-
-                                    <tr>
-                                        <td>
-                                          4
-                                        </td>
-                                        <td>
-                                        enTraitement
-                                        </td>
-                                        <td>
-                                        01/03/2023
-                                        </td>
-                                        <td>
-                                        02/03/2023
-                                        </td>
-                                        <td>
-                                        Observation1
-                                        </td>
-                                        <td>
-                                        TRISOMIE
-                                        </td>
-                                        <td>
-                                        Bilan
-                                        </td>
-                                        <td>
-                                           Remarque
-                                        </td>
-
-                                      
-                                    </tr>
-                                   
-                                        
-                                    
-
                                 </tbody>
                             </table>
-                            <br> 
+                            <br>
+                        </div>
+                </div>
+                <button class="btn btn-primary"   onclick="stepper1.next()">Next</button>
                         </div>
                         
                 
@@ -168,5 +155,5 @@
               
                 </div>
               
-                      <button class="btn btn-primary"   onclick="stepper1.next()">Next</button>
+                    
 </div>
