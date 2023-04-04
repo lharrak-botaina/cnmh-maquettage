@@ -82,7 +82,7 @@
                                         <td> Hanan </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> </a>
                                         </td>
                                     </tr>
 
@@ -92,7 +92,7 @@
                                         <td> Karim </td>
                                         <td> 0645729821 </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./EmployeManager.php"> <i class="fas fa-check"> </i> </a>
                                         </td>
                                     </tr>
 
@@ -124,10 +124,7 @@
                                 <i class="fas fa-file-import"></i> import
                             </button>
                         </div><!-- /.container-fluid -->
-                        <div class="d-flex justify-content-between mt-3">
-                  <!-- <a href="PatientManager.php" class="btn btn-primary">Suivre</a> -->
-                  <a href="ReclamationManager.php" class="btn btn-outline-secondary">Annuler</a>
-                </div>
+                        
             </section>
             
             <!-- /.content -->

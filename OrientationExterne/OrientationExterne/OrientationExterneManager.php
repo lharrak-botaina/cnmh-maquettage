@@ -50,13 +50,9 @@
                             <div class="col-sm-12 d-flex justify-content-between p-3">
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex justify-content-between">
-                                        <a href="../OrientationExterne/OrientationExterneForm.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
+                                        <a href="../ParentManager.php" class="btn btn-primary"> <i class="fa fa-plus"></i> </a>
                                     </div>
-                                    <!-- <select class="btn btn-secondary dropdown-toggle ml-2" name="filter" id="filter">
-                                        <option value="">Nom</option>
-                                        <option value="">Hamza</option>
-                                        <option value="">Kamal</option>
-                                    </select> -->
+                                   
                                 </div>
                                 <!-- SEARCH FORM -->
                                 <form class="form-inline ml-3">
@@ -86,9 +82,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                   <td> Orientation 1 </td>
-                                        <td> 12/12/2022 </td>
+                                   <td> Orientation  </td>
                                         <td> Description </td>
+                                        <td> Remarque </td>
                                         <td class="project-actions text-right">
                                         <a class="btn btn-primary btn-sm" href="../OrientationExterne/OrientationAfficher.php">
                                                 <i class="fas fa-folder">
@@ -99,7 +95,7 @@
                                     </tr>
 
                                     <tr>
-                                       <td> Orientation 2 </td>
+                                       <td> Orientation 1 </td>
                                         <td> Description</td>
                                         <td> Remarque1 </td>
                                         <td class="project-actions text-right">
@@ -112,7 +108,7 @@
                                     </tr>
 
                                     <tr>
-                                       <td> Orientation 3 </td>
+                                       <td> Orientation 2 </td>
                                         <td>Description </td>
                                         <td> Remarque2 </td>
                                         <td class="project-actions text-right">
@@ -145,12 +141,7 @@
                     <div class="card-header row">
                         <div class="float-right col-md-6">
                            
-                        <div class="card-footer">
-                                    <div class="d-flex justify-content-between">
-                                        <a href="../ParentManager.php" class="btn btn-primary">Suivre</a>
-                    
-                                    </div>
-                                </div>
+                      
                         </div>
 
                         <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">

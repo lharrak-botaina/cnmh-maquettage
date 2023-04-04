@@ -94,7 +94,7 @@
                                         </td>
 
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -113,7 +113,7 @@
                                         </td>
 
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -132,7 +132,7 @@
                                         </td>
                                        
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -151,7 +151,7 @@
                                         </td>
 
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -169,47 +169,11 @@
                                             0600000000
                                         </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>
-                                         6
-                                        </td>
-                                        <td>
-                                            Yamin
-                                        </td>
-
-                                        <td>
-                                            Mohammed
-                                        </td>
-                                        <td>
-                                            0600000000
-                                        </td>
-
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                         7
-                                        </td>
-                                        <td>
-                                            Abom
-                                        </td>
-
-                                        <td>
-                                            Adil
-                                        </td>
-                                        <td>
-                                            0600000000
-                                        </td>
-
-                                        <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./PatientManager.php"> <i class="fas fa-check"> </i> Suivre </a>
-                                        </td>
-                                    </tr>
+                                   
+                                   
 
                                 </tbody>
                             </table>

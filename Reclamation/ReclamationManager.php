@@ -65,14 +65,14 @@
                                 <thead>
                                     <tr>
                                         <!-- <th style="width: 10%"> Description </th> -->
-                                        <th style="width: 20%"> Date Reclamation </th>
+                                        <th style="width: 20%"> Objet </th>
                                         <th style="width: 10%" class="">  </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                    <!-- <td> AHOUZI </td> -->
-                                        <td> 18/02/2023 </td>
+                                        <td> Réception retardée </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
@@ -80,7 +80,7 @@
 
                                     <tr>
                                        <!-- <td> Mnari </td> -->
-                                        <td> 18/02/2023 </td>
+                                        <td> Réception retardée </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
@@ -88,7 +88,7 @@
 
                                     <tr>
                                        <!-- <td> alami </td> -->
-                                        <td> 18/02/2023 </td>
+                                        <td> Réception retardée </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
@@ -96,7 +96,7 @@
 
                                     <tr>
                                        <!-- <td> Nwino </td> -->
-                                        <td> 18/02/2023 </td>
+                                        <td> Réception retardée </td>
                                         <td class="project-actions text-right">
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> Afficher </a>
                                         </td>
