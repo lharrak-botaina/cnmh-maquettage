@@ -1,6 +1,8 @@
 <?php 
- $adminRole = "Admin";
- $dirirectriceRole = "Derictrice";
+ $adminRole = "Admin : Fouad esseraj";
+ $dirirectriceRole = "Derictrice : Fatima zahrae serghini";
+ $ServiceSocialeRole = "Service social : Khawla souan";
+ $InfirMièreMédecinGénéraleeRole = "Infirmière médecin générale : Algamot asia";
  // ajoutes les autres rôles
  $currentURL = $_SERVER["SCRIPT_NAME"];
 
