@@ -44,8 +44,8 @@
                 <div class="bs-stepper" id="stepper1">
                   <div class="bs-stepper-header" role="tablist">
                     <!-- your steps here -->
-                    <div class="step" data-target="#logins-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="logins-part" id="logins-part-trigger">
+                    <div class="step" data-target="#parent-part">
+                      <button type="button" class="step-trigger" role="tab" aria-controls="parent-part" id="parent-part-trigger">
                         <span class="bs-stepper-circle">1</span>
                         <span class="bs-stepper-label">Parents</span>
                       </button>
@@ -57,13 +57,7 @@
                         <span class="bs-stepper-label">Patient</span>
                       </button>
                     </div>
-                    <div class="line"></div>
-                    <div class="step"  id="step3" data-target="#orientation-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="orientation-part" id="orientation-part-trigger">
-                        <span class="bs-stepper-circle">3</span>
-                        <span class="bs-stepper-label">Orientation externe</span>
-                      </button>
-                    </div>
+                    
                     <div class="line"></div>
                     <div class="step"  id="step3" data-target="#Entretien-part">
                       <button type="button" class="step-trigger" role="tab" aria-controls="Entretien-part" id="Entretien-part-trigger">
@@ -71,13 +65,8 @@
                         <span class="bs-stepper-label">Entretien social</span>
                       </button>
                     </div>
-                    <div class="line"></div>
-                    <div class="step"  id="step3" data-target="#RendezVous-part">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="RendezVous-part" id="RendezVous-part-trigger">
-                        <span class="bs-stepper-circle">5</span>
-                        <span class="bs-stepper-label">Render-Vous</span>
-                      </button>
-                    </div>
+                   
+                    
                     <div class="line"></div>
                     <div class="step"  id="step3" data-target="#ListAttente-part">
                       <button type="button" class="step-trigger" role="tab" aria-controls="ListAttente-part" id="ListAttente-part-trigger">
@@ -89,11 +78,11 @@
                   </div>
                   <div class="bs-stepper-content">
                     <!-- your steps content here -->
-                    <?php include("./ParentForm.php") ?>
+                    <?php include("./ParentManager.php") ?>
                     <?php include("./PatientForm.php") ?>
-                    <?php include("./OrientationForm.php") ?>
+                    
                     <?php include("./EntretienSocialForm.php") ?>
-                    <?php include("./RendezVousForm.php") ?>
+                   
                     <?php include("./ListAttenteForm.php") ?>
                   </div>
                 </div>
