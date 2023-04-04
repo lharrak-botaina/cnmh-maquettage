@@ -12,19 +12,19 @@
     
 
     <?php if ($role == 'Admin : Fouad esseraj') : ?>
-    <li class="nav-item">
-      <a href="/DossierBeneficiaires/DossierBeneficiairesManager.php" class="nav-link">
+      <li class="nav-item">
+      <a href="/DossierBeneficiaires/DossierBeneficiairesManager.php" class="nav-link <?php if($currentURL == "/DossierBeneficiaires/DossierBeneficiairesManager.php") { echo("active"); } ?>">
         <i class="fa-solid fa-hospital-user"></i>
         <p class="pl-2">
           Gestion des patients
         </p>
       </a>
-    </li>
+      </li>
     <?php endif; ?>
 
     <?php if ($role == 'Admin : Fouad esseraj') : ?>
     <li class="nav-item">
-      <a href="/Rendez-vous/Rendez-vousManager.php" class="nav-link">
+      <a href="/Rendez-vous/Rendez-vousManager.php" class="nav-link <?php if($currentURL == "/Rendez-vous/Rendez-vousManager.php") { echo("active"); } ?>">
         <i class="fa-regular fa-calendar-check"></i>
         <p class="pl-2">
           Rendez-vous
@@ -34,19 +34,19 @@
     <?php endif; ?>
 
     <?php if ($role == 'Admin : Fouad esseraj') : ?>
-    <li class="nav-item">
-      <a href="/OrientationExterne/OrientationExterne/OrientationExterneManager.php" class="nav-link">
-        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        <p class="pl-2">
-          Orientations externes
-        </p>
-      </a>
-    </li>
+      <li class="nav-item">
+        <a href="/OrientationExterne/OrientationExterne/OrientationExterneManager.php" class="nav-link <?php if($currentURL == "/OrientationExterne/OrientationExterne/OrientationExterneManager.php") { echo("active"); } ?>">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <p class="pl-2">
+            Orientations externes
+          </p>
+        </a>
+      </li>
     <?php endif; ?>
 
     <?php if ($role == 'Admin : Fouad esseraj') : ?>
     <li class="nav-item">
-      <a href="/Reclamation/ReclamationManager.php" class="nav-link">
+      <a href="/Reclamation/ReclamationManager.php" class="nav-link <?php if($currentURL == "/Reclamation/ReclamationManager.php") { echo("active"); } ?>  ">
         <i class="fa-solid fa-circle-exclamation"></i>
         <p class="pl-2">
           Réclamations
@@ -63,7 +63,7 @@
      
 
 
-      <a href="/Statistique/StatistiqueManager.php"  class="nav-link <?php if($currentURL == "/Reclamation/ReclamationManager.php") { echo("active"); } ?>  ">
+      <a href="/Statistique/StatistiqueManager.php"  class="nav-link <?php if($currentURL == "/Statistique/StatistiqueManager.php") { echo("active"); } ?>  ">
         <i class="fa-solid fa-circle-exclamation"></i>
         <p class="pl-2">
           Statistique
@@ -82,16 +82,16 @@
         </p>
       </a>
       <ul class="nav nav-treeview" style="display: none;">
-        <li class="nav-item">
-          <a href="/TypeService/TypeServiceManager.php" class="nav-link">
-            <p>Gestion des Services</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link">
-            <p>Gestion du type d'handicap</p>
-          </a>
-        </li>
+      <li class="nav-item">
+        <a href="/TypeService/TypeServiceManager.php" class="nav-link <?php if($currentURL == "/TypeService/TypeServiceManager.php") { echo("active"); } ?>">
+          <p>Gestion des Services</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/TypeHandicap/TypeHandicapManager.php" class="nav-link <?php if($currentURL == "/TypeHandicap/TypeHandicapManager.php") { echo("active"); } ?>">
+          <p>Gestion du type d'handicap</p>
+        </a>
+      </li>
         <li class="nav-item">
           <a href="/CouvertureMedicale/CouvertureMedicaleManager.php" class="nav-link">
             <p>Gestion de Couverture Médicale</p>
