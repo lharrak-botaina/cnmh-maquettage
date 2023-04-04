@@ -67,24 +67,24 @@
                                             Etat
                                         </th>
                                         <th style="width: 10%">
-                                            DateEnregistrement
+                                            Date Enregistrement
                                         </th>
                                         <th style="width: 10%">
-                                            DateConsultation
+                                            Date Consultation
                                         </th>
-                                        <th style="width: 15%">
+                                        <!-- <th style="width: 15%">
                                             Observation
                                         </th>
                                         <th style="width: 15%">
                                             Diagnostic
-                                        </th>
+                                        </th> -->
                                         <!-- <th style="width: 15%">
                                         Bilan
                                         </th> -->
                                         <!-- <th style="width: 15%">
                                         Remarque
                                         </th> -->
-                                        <th style="width: 50%">
+                                        <th style="width: 20%">
                                         </th>
                                     </tr>
                                 </thead>
@@ -104,12 +104,12 @@
                                         <td>
                                             03/04/2023
                                         </td>
-                                        <td>
+                                        <!-- <td>
                                             observation1
                                         </td>
                                         <td>
                                             TRISOMIE 21
-                                        </td>
+                                        </td> -->
                                         <!-- <td>
                                             Bilan1
                                         </td> -->
@@ -144,12 +144,12 @@
                                         <td>
                                             03/05/2023
                                         </td>
-                                        <td>
+                                        <!-- <td>
                                             observation1
                                         </td>
                                         <td>
                                             TRISOMIE 21
-                                        </td>
+                                        </td> -->
                                         <!-- <td>
                                             Bilan1
                                         </td> -->
