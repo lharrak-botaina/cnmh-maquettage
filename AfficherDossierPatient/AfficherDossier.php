@@ -502,15 +502,15 @@
                                     <div class="tab-pane fade" id="custom-tabs-five-normal1" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Médecin responsable</th>
                                                 <th>Numero d'ordre</th>
+                                                <th>Médecin responsable</th>
                                                 <th>Date de consultation</th>
                                                 <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>8</td>
+                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>03/04/2022</td>
                                                     <td>
                                                         <a class="btn btn-primary btn-sm" href="#">
@@ -526,15 +526,15 @@
                                     <div class="tab-pane fade" id="custom-tabs-five-normal2" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Médecin responsable</th>
                                                 <th>Numero d'ordre</th>
+                                                <th>Médecin responsable</th>
                                                 <th>Date de consultation</th>
                                                 <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>8</td>
+                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>03/04/2022</td>
                                                     <td>
                                                         <a class="btn btn-primary btn-sm" href="#">
@@ -550,15 +550,15 @@
                                     <div class="tab-pane fade" id="custom-tabs-five-normal3" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Médecin responsable</th>
                                                 <th>Numero d'ordre</th>
+                                                <th>Médecin responsable</th>
                                                 <th>Date de consultation</th>
                                                 <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>8</td>
+                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>03/04/2022</td>
                                                     <td>
                                                         <a class="btn btn-primary btn-sm" href="#">
@@ -574,15 +574,15 @@
                                     <div class="tab-pane fade" id="custom-tabs-five-normal4" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Médecin responsable</th>
                                                 <th>Numero d'ordre</th>
+                                                <th>Médecin responsable</th>
                                                 <th>Date de consultation</th>
                                                 <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>8</td>
+                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>03/04/2022</td>
                                                     <td>
                                                         <a class="btn btn-primary btn-sm" href="#">
@@ -598,15 +598,15 @@
                                     <div class="tab-pane fade" id="custom-tabs-five-normal5" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Médecin responsable</th>
                                                 <th>Numero d'ordre</th>
+                                                <th>Médecin responsable</th>
                                                 <th>Date de consultation</th>
                                                 <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>8</td>
+                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>03/04/2022</td>
                                                     <td>
                                                         <a class="btn btn-primary btn-sm" href="#">
@@ -622,15 +622,15 @@
                                     <div class="tab-pane fade" id="custom-tabs-five-normal6" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Médecin responsable</th>
                                                 <th>Numero d'ordre</th>
+                                                <th>Médecin responsable</th>
                                                 <th>Date de consultation</th>
                                                 <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>8</td>
+                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>03/04/2022</td>
                                                     <td>
                                                         <a class="btn btn-primary btn-sm" href="#">
@@ -646,15 +646,15 @@
                                     <div class="tab-pane fade" id="custom-tabs-five-normal7" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Médecin responsable</th>
                                                 <th>Numero d'ordre</th>
+                                                <th>Médecin responsable</th>
                                                 <th>Date de consultation</th>
                                                 <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>8</td>
+                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>03/04/2022</td>
                                                     <td>
                                                         <a class="btn btn-primary btn-sm" href="#">
@@ -670,15 +670,15 @@
                                     <div class="tab-pane fade" id="custom-tabs-five-normal9" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Médecin responsable</th>
                                                 <th>Numero d'ordre</th>
+                                                <th>Médecin responsable</th>
                                                 <th>Date de consultation</th>
                                                 <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>8</td>
+                                                    <td>Mr. NAJIM Iman</td>
                                                     <td>03/04/2022</td>
                                                     <td>
                                                         <a class="btn btn-primary btn-sm" href="#">
