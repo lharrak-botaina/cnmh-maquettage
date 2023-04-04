@@ -95,7 +95,7 @@
                                         </td>
                                         <td class="project-actions text-right">
                                         
-                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i>  </a>
                                        
                                         </td>
                                     </tr>
@@ -112,7 +112,7 @@
                                            0611223344
                                         </td>
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                    </tr>
                                    <tr>
@@ -128,7 +128,7 @@
                                         </td>
                     
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                    </tr>
                                    <tr>
@@ -144,7 +144,7 @@
                                         </td>
                     
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                    </tr>
                                    <tr>
@@ -161,7 +161,7 @@
                                         </td>
                                                        
                                         <td class="project-actions text-right">
-                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i> Suivre </a>
+                                            <a class="btn btn-primary btn-sm" href="./OrientationExterne/OrientationExterneForm.php"> <i class="fas fa-check"> </i>  </a>
                                         </td>
                                    </tr>
                                 </tbody>
