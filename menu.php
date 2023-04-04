@@ -34,10 +34,7 @@
     </div>
     <!-- Sidebar Menu -->
     <nav class="mt-2">
-    <?php include("Menu/Admin.php"); ?>
-    <?php include("Menu/Directrice.php"); ?>
-    <?php include("Menu/ServiceSocial.php"); ?>
-    <?php include("Menu/InfMedGenerale.php"); ?>
+    <?php include("menu-items.php"); ?>
     </nav>
     <!-- /.sidebar-menu -->
   </div>
