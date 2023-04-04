@@ -19,7 +19,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Dossier patient numero: _numDossier_ <h6>(_etat_de_doosier_)</h6>
+                            <h1 class="m-0">Dossier patient n°:  A5692 <h5>Etat de dossier: Dossier médical</h5>
                             </h1>
                         </div><!-- /.col -->
 
@@ -40,7 +40,7 @@
                                         <a class="nav-link active" id="custom-tabs-two-home-tab" data-toggle="pill" href="#custom-tabs-two-home" role="tab" aria-controls="custom-tabs-two-home" aria-selected="true">Patient et Parent</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="custom-tabs-two-settings-tab" data-toggle="pill" href="#custom-tabs-two-settings" role="tab" aria-controls="custom-tabs-two-settings" aria-selected="false">Entretien socials</a>
+                                        <a class="nav-link" id="custom-tabs-two-settings-tab" data-toggle="pill" href="#custom-tabs-two-settings" role="tab" aria-controls="custom-tabs-two-settings" aria-selected="false">Entretien social</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" id="custom-tabs-two-settings2-tab" data-toggle="pill" href="#custom-tabs-two-settings2" role="tab" aria-controls="custom-tabs-two-settings2" aria-selected="false">Rendez-vous</a>
@@ -62,12 +62,14 @@
 
                             <div class="card-body">
                                 <div class="tab-content" id="custom-tabs-two-tabContent">
-                                    <div class="tab-pane fade show active d-flex" id="custom-tabs-two-home" role="tabpanel" aria-labelledby="custom-tabs-two-home-tab">
+
+                                    <div class="tab-pane fade show active" id="custom-tabs-two-home" role="tabpanel" aria-labelledby="custom-tabs-two-home-tab">
                                         <!-- /.col -->
-                                        <div class="col-md-6">
+                                        <br>
+                                        <div class="col-md-12">
                                             <div class="card card-primary">
                                                 <div class="card-header">
-                                                    <h3 class="card-title">Patient/Bénéficiaire</h3>
+                                                    <h4 class="card-title">Patient/Bénéficiaire</h4>
 
                                                     <div class="card-tools">
                                                         <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="AfficherDossier.php" data-source-selector="#card-refresh-content" data-load-on-init="false">
@@ -88,28 +90,35 @@
                                                         <tbody>
                                                             <tr>
                                                                 <td>
-                                                                    id:
-                                                                </td>
-                                                                <td>
-                                                                    101
-                                                                </td>
-                                                            </tr>
+                                                                    <img  width="99" height="99" src="../assets/dist/img/User-avatar.svg.png">
+                                                                    </td>
+                                                                 <td> 
+                                                                 </td>
                                                             <tr>
-                                                                <td>
-                                                                    Nom:
+                                                                 <td>
+                                                                         Numero:
+                                                                 </td>
+                                                                 <td>
+                                                                         101
+                                                                 </td>
+                                                             </tr>
+                                                             <tr>
+                                                                 <td>
+                                                                         Nom:
+                                                                 </td>
+                                                                 <td>
+                                                                         AHOUZI
+                                                                 </td>
+                                                             </tr>
+                                                             <tr>
+                                                                 <td>
+                                                                         Prénom:
+                                                                 </td>
+                                                                 <td>
+                                                                         Hasnae
                                                                 </td>
-                                                                <td>
-                                                                    AHOUZI
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    Prénom:
-                                                                </td>
-                                                                <td>
-                                                                    Hasnae
-                                                                </td>
-                                                            </tr>
+                                                             </tr>
+
                                                             <tr>
                                                                 <td>
                                                                     Sexe:
@@ -120,34 +129,10 @@
                                                             </tr>
                                                             <tr>
                                                                 <td>
-                                                                    Niveau scolaire:
+                                                                Date de naissance:
                                                                 </td>
                                                                 <td>
-                                                                    4ème année primaire
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    Types d'handicapes:
-                                                                </td>
-                                                                <td>
-                                                                    <ul>
-                                                                        <li>RETARD DE LANGUAGE</li>
-                                                                        <li>RETARD Mental</li>
-                                                                    </ul>
-
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    Services demandés:
-                                                                </td>
-                                                                <td>
-                                                                    <ul>
-                                                                        <li>service social</li>
-                                                                        <li>service médical</li>
-                                                                        <li>service éducatif</li>
-                                                                    </ul>
+                                                                   03 .09 .2011
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -155,6 +140,7 @@
                                                                     Telephone:
                                                                 </td>
                                                                 <td>
+                                                                    06 70 33 08 45
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -175,6 +161,26 @@
                                                             </tr>
                                                             <tr>
                                                                 <td>
+                                                                    Date d'enregistrement:
+                                                                </td>
+                                                                <td>
+                                                                    03 .09 .2011 / 2:45PM
+                                                                </td>
+                                                            </tr>
+                                                            <!-- <tr>
+                                                                <td>
+                                                                    Services demandés:
+                                                                </td>
+                                                                <td>
+                                                                    <ol>
+                                                                        <li>service social</li>
+                                                                        <li>service médical</li>
+                                                                        <li>service éducatif</li>
+                                                                    </ol>
+                                                                </td>
+                                                            </tr> -->
+                                                            <tr>
+                                                                <td>
                                                                     Remarques:
                                                                 </td>
                                                                 <td>
@@ -191,10 +197,10 @@
                                         </div>
                                         <!-- /.col -->
                                         <!-- /.col -->
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="card card-primary">
                                                 <div class="card-header">
-                                                    <h3 class="card-title">Parent/Tuteur</h3>
+                                                    <h4 class="card-title">Parent/Tuteur</h4>
 
                                                     <div class="card-tools">
                                                         <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="AfficherDossier.php" data-source-selector="#card-refresh-content" data-load-on-init="false">
@@ -213,14 +219,14 @@
                                                 <div class="card-body">
                                                     <table class="table table-striped projects">
                                                         <tbody>
-                                                            <tr>
+                                                            <!-- <tr>
                                                                 <td>
-                                                                    id:
+                                                                    Numero:
                                                                 </td>
                                                                 <td>
                                                                     207
                                                                 </td>
-                                                            </tr>
+                                                            </tr> -->
                                                             <tr>
                                                                 <td>
                                                                     Nom:
@@ -245,14 +251,14 @@
                                                                     Homme
                                                                 </td>
                                                             </tr>
-                                                            <tr>
+                                                            <!-- <tr>
                                                                 <td>
-                                                                    Situation Familial:
+                                                                    Situation familial:
                                                                 </td>
                                                                 <td>
                                                                     Marié
                                                                 </td>
-                                                            </tr>
+                                                            </tr> -->
                                                             <tr>
                                                                 <td>
                                                                     Telephone:
@@ -290,7 +296,7 @@
                                                                     Remarques:
                                                                 </td>
                                                                 <td>
-                                                                    ceci est un remarque dit par le parent
+                                                                    ceci est une remarque dit par le parent
                                                                 </td>
                                                             </tr>
 
@@ -304,17 +310,362 @@
                                         <!-- /.col -->
                                     </div>
                                     <div class="tab-pane fade" id="custom-tabs-two-settings" role="tabpanel" aria-labelledby="custom-tabs-two-settings-tab">
-                                        .....
+                                        <br>
+                                        <table class="table table-striped projects">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                Responsable d'entretien:
+                                                                </td>
+                                                                <td>
+                                                                    AHOUZI Rania
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Date et heur d'entretien:
+                                                                </td>
+                                                                <td>
+                                                                2023-04-04  / 8:30AM
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Couverture médicale:
+                                                                </td>
+                                                                <td>
+                                                                    CNOPS
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Situation familial:
+                                                                </td>
+                                                                <td>
+                                                                    Célibataire
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Types d'handicapes:
+                                                                </td>
+                                                                <td>
+                                                                    <ul>
+                                                                        <li>RETARD DE LANGUAGE</li>
+                                                                        <li>RETARD Mental</li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Niveau scolaire:
+                                                                </td>
+                                                                <td>
+                                                                    4ème année primaire
+                                                                </td>
+                                                            </tr>
+                                                             <tr>
+                                                                <td>
+                                                                    Services demandés:
+                                                                </td>
+                                                                <td>
+                                                                    <ol>
+                                                                        <li>service social</li>
+                                                                        <li>service médical</li>
+                                                                        <li>service éducatif</li>
+                                                                    </ol>
+                                                                </td>
+                                                            </tr> 
+                                                            <tr>
+                                                                <td>
+                                                                    Remarques:
+                                                                </td>
+                                                                <td>
+                                                                    remarques dites durant l'entretien social
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
                                     </div>
                                     <div class="tab-pane fade" id="custom-tabs-two-settings2" role="tabpanel" aria-labelledby="custom-tabs-two-settings2-tab">
-                                        ../.
+                                            <h3> Liste des rendez-vous </h3>                                      
+                                            <br> 
+                                        <table class="table table-striped projects">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 15%">
+                                                    Rendez-vous  N°
+                                                    </th>
+                                                    <th>
+                                                    N°d'Ordre
+                                                    </th>
+                                                    <!-- <th>
+                                                    Téléphone
+                                                    </th> -->
+                                                    <th>
+                                                    Date 
+                                                    </th>
+                                                    <th>
+                                                    Heur 
+                                                    </th>
+                                                    <th>
+                                                    Sujet 
+                                                    </th>
+                                                    <th>
+                                                    Etat 
+                                                    </th>
+                                                    <th>
+                                                    Remarque
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                    1
+                                                    </td>
+                                                    <td>
+                                                    32
+                                                    </td>
+                                                    <td>
+                                                        3.3.2022
+                                                    </td>
+                                                    <td>
+                                                        2:00 PM
+                                                    </td>
+                                                    <td>
+                                                        orientation exterieur
+                                                    </td>
+                                                    <td>
+                                                    <span class="badge bg-danger">Non Approuvé</span>
+                                                    </td>
+                                                    <td>
+                                                        rendez-vous remarque.......
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                    2
+                                                    </td>
+                                                    <td>
+                                                    18
+                                                    </td>
+                                                    <td>
+                                                        3.2.2023
+                                                    </td>
+                                                    <td>
+                                                        10:00 AM
+                                                    </td>
+                                                    <td>
+                                                        seance
+                                                    </td>
+                                                    <td>
+                                                    <span class="badge bg-success">Approuvé</span>
+                                                    </td>
+                                                    <td>
+                                                        rendez-vous remarque.......
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                    3
+                                                    </td>
+                                                    <td>
+                                                    5
+                                                    </td>
+                                                    <td>
+                                                        3.4.2023
+                                                    </td>
+                                                    <td>
+                                                        9:00 AM
+                                                    </td>
+                                                    <td>
+                                                        consultation 
+                                                    </td>
+                                                    <td>
+                                                    <span class="badge bg-success">Approuvé</span>
+                                                    </td>
+                                                    <td>
+                                                        rendez-vous remarque.......
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                    4
+                                                    </td>
+                                                    <td>
+                                                    14
+                                                    </td>
+                                                    <td>
+                                                        3.2.2023
+                                                    </td>
+                                                    <td>
+                                                        10:00 AM
+                                                    </td>
+                                                    <td>
+                                                        seance
+                                                    </td>
+                                                    <td> <span class="badge bg-primary">En attente</span>
+                                                </td>
+                                                    <td>
+                                                        rendez-vous remarque.......
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        5                                        
+                                                    </td>
+                                                    <td>
+                                                    33
+                                                    </td>
+                                                    <td>
+                                                        3.4.2024
+                                                    </td>
+                                                    <td>
+                                                        9:00 AM
+                                                    </td>
+                                                    <td>
+                                                        consultation 
+                                                    </td>
+                                                    <td>
+                                                <span class="badge bg-danger">Annuler</span> 
+                                                    </td>
+                                                    <td>
+                                                        rendez-vous remarque.......
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+
+                                                    6                                        
+                                                </td>
+                                                    <td>
+                                                    65
+                                                    </td>
+                                                    <td>
+                                                        3.2.2023
+                                                    </td>
+                                                    <td>
+                                                        10:00 AM
+                                                    </td>
+                                                    <td>
+                                                        seance
+                                                    </td>
+                                                    <td>
+                                                    <span class="badge bg-danger">Annuler</span>
+                                                    </td>
+                                                    <td>
+                                                        rendez-vous remarque.......
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        7                                        
+                                                    </td>
+                                                        <td>
+                                                        3
+                                                    </td>
+                                                    <td>
+                                                        3.4.2024
+                                                    </td>
+                                                    <td>
+                                                        9:00 AM
+                                                    </td>
+                                                    <td>
+                                                        consultation 
+                                                    </td>
+                                                    <td>
+                                                    <span class="badge bg-primary">En attente</span>
+                                                    </td>
+                                                    <td>
+                                                        rendez-vous remarque.......
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                     <div class="tab-pane fade" id="custom-tabs-two-settings3" role="tabpanel" aria-labelledby="custom-tabs-two-settings3-tab">
-                                        .KLMM
+                                       Ce dossier ne se touve dans aucun list d'attente
                                     </div>
                                     <div class="tab-pane fade" id="custom-tabs-two-settings1" role="tabpanel" aria-labelledby="custom-tabs-two-settings1-tab">
-                                        ./
-                                    </div>
+                                        <div class="col-md-4">
+                                                <div class="card card-primary">
+                                                    <div class="card-header">
+                                                        <h4 class="card-title">Servce 1:  </h4>
+
+                                                        <div class="card-tools">
+                                                            <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="AfficherDossier.php" data-source-selector="#card-refresh-content" data-load-on-init="false">
+                                                                <i class="fas fa-sync-alt"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-tool" data-card-widget="maximize">
+                                                                <i class="fas fa-expand"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                <i class="fas fa-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <!-- /.card-tools -->
+                                                    </div>
+                                                    <!-- /.card-header -->
+                                                    <div class="card-body">      
+                                                    </div>
+                                                    <!-- /.card-body -->
+                                                </div>
+                                                <!-- /.card -->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                                <div class="card card-primary">
+                                                    <div class="card-header">
+                                                        <h4 class="card-title">Servce 2:  </h4>
+
+                                                        <div class="card-tools">
+                                                            <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="AfficherDossier.php" data-source-selector="#card-refresh-content" data-load-on-init="false">
+                                                                <i class="fas fa-sync-alt"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-tool" data-card-widget="maximize">
+                                                                <i class="fas fa-expand"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                <i class="fas fa-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <!-- /.card-tools -->
+                                                    </div>
+                                                    <!-- /.card-header -->
+                                                    <div class="card-body">      
+                                                    </div>
+                                                    <!-- /.card-body -->
+                                                </div>
+                                                <!-- /.card -->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                                <div class="card card-primary">
+                                                    <div class="card-header">
+                                                        <h4 class="card-title">Servce 3:  </h4>
+
+                                                        <div class="card-tools">
+                                                            <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="AfficherDossier.php" data-source-selector="#card-refresh-content" data-load-on-init="false">
+                                                                <i class="fas fa-sync-alt"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-tool" data-card-widget="maximize">
+                                                                <i class="fas fa-expand"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                <i class="fas fa-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <!-- /.card-tools -->
+                                                    </div>
+                                                    <!-- /.card-header -->
+                                                    <div class="card-body">      
+                                                    </div>
+                                                    <!-- /.card-body -->
+                                                </div>
+                                                <!-- /.card -->
+                                            </div>
+                                        </div>
                                     <div class="tab-pane fade" id="custom-tabs-two-profile" role="tabpanel" aria-labelledby="custom-tabs-two-profile-tab">
                                         ..
                                     </div>
