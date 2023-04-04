@@ -21,7 +21,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Rendez-vous médecin generale</h1>
+                            <h1 class="m-0">Gestion des Rendez-vous</h1>
                         </div><!-- /.col -->
 
                     </div><!-- /.row -->
@@ -117,7 +117,7 @@
 
                                       
                                         <td class="project-actions text-fex">
-                                            <a class="btn btn-primary btn-sm" href="#">
+                                            <a class="btn btn-primary btn-sm" href="../Rendez-vous/Affichage.php">
                                                 <i class="fas fa-folder">
                                                 </i>
                                                 Afficher
@@ -157,7 +157,7 @@
 
                                      
                                        <td class="project-actions text-fex">
-                                            <a class="btn btn-primary btn-sm" href="#">
+                                            <a class="btn btn-primary btn-sm" href="../Rendez-vous/Affichage.php">
                                                 <i class="fas fa-folder">
                                                 </i>
                                                 Afficher
