@@ -87,15 +87,16 @@
                                         <td>
                                             2
                                         </td>
+                                       
                                         <td>
-                                            A32
-                                        </td>
-                                        <td>
-                                            Nadi
+                                            Madani
                                         </td>
 
                                         <td>
-                                            Ahlam
+                                            Fatima
+                                        </td>
+                                        <td>
+                                         24/12/2022
                                         </td>
                                         <td>
                                             0600000000
@@ -121,15 +122,16 @@
                                         <td>
                                             3
                                         </td>
+                                      
                                         <td>
-                                            A33
-                                        </td>
-                                        <td>
-                                            moni
+                                            Ben
                                         </td>
 
                                         <td>
-                                            Ilham
+                                            Mohammed
+                                        </td>
+                                        <td>
+                                         17/02/2023
                                         </td>
                                         <td>
                                             0600000000
@@ -146,6 +148,10 @@
                         </div>
                 </div>
                 <button class="btn btn-primary"   onclick="stepper1.next()">Next</button>
+                <div class="text-right">
+                 
+
+                 <a href="../Rendez-Vous/Rendez-vousManager.php" class="btn btn-outline-secondary">Annuler</a>
                         </div>
                         
                 
