@@ -588,9 +588,9 @@
                                         </table>
                                     </div>
                                     <div class="tab-pane fade" id="custom-tabs-two-settings3" role="tabpanel" aria-labelledby="custom-tabs-two-settings3-tab">
-                                        <h3>Services en liste d'attante: 
+                                        <h3>Services en liste d'attante:
                                         </h3>
-                                        <span>Ce dossier ne se touve que dans une seul liste d'attente</span> 
+                                        <span>Ce dossier ne se touve que dans une seul liste d'attente</span>
                                         <br><br>
                                         <table class="table table-striped projects">
                                             <thead>
@@ -607,7 +607,7 @@
                                                         Ergothérapie
                                                     </td>
                                                     <td>
-                                                        Consultation 
+                                                        Consultation
                                                     </td>
                                                     <td>
                                                         18
@@ -633,14 +633,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -685,14 +695,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -711,14 +731,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -737,14 +767,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -763,14 +803,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -815,14 +865,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -841,14 +901,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
