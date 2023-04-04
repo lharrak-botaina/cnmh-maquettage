@@ -76,18 +76,26 @@
                             <option data-select2-id="102">Tennessee</option>
                             <option data-select2-id="103">Texas</option>
                             <option data-select2-id="104">Washington</option>
+                            
                         </div>
+                        
                 <!-- /.form-group -->
               </div>
+              
               <!-- /.col -->
             </div>
+            
             <!-- /.row -->
           </div>
           <!-- /.card-body -->
           
         </div>
-        </section>
-        </div>
+    
+    </section>
+</div>
+
+          
+        
 
         <?php include("../footer.php") ?>
     </div>
