@@ -1,8 +1,8 @@
 <?php 
- $adminRole = "Admin : Fouad esseraj";
- $dirirectriceRole = "Derictrice : Fatima zahrae serghini";
- $ServiceSocialeRole = "Service social : Khawla souan";
- $InfirMièreMédecinGénéraleeRole = "Infirmière médecin générale : Algamot asia";
+ $adminRole = "Admin ";
+ $dirirectriceRole = "Derictrice ";
+ $ServiceSocialeRole = "Service social";
+ $InfirMièreMédecinGénéraleeRole = "Infirmière médecin générale ";
  // ajoutes les autres rôles
  $currentURL = $_SERVER["SCRIPT_NAME"];
 
@@ -11,7 +11,7 @@
   <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
     
 
-    <?php if ($role == 'Admin : Fouad esseraj') : ?>
+    <?php if ($role == 'Admin ') : ?>
     <li class="nav-item">
       <a href="/DossierBeneficiaires/DossierBeneficiairesManager.php" class="nav-link">
         <i class="fa-solid fa-hospital-user"></i>
@@ -22,7 +22,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin : Fouad esseraj') : ?>
+    <?php if ($role == 'Admin ') : ?>
     <li class="nav-item">
       <a href="/Rendez-vous/Rendez-vousManager.php" class="nav-link">
         <i class="fa-regular fa-calendar-check"></i>
@@ -33,7 +33,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin : Fouad esseraj') : ?>
+    <?php if ($role == 'Admin ') : ?>
     <li class="nav-item">
       <a href="/OrientationExterne/OrientationExterne/OrientationExterneManager.php" class="nav-link">
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -44,7 +44,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin : Fouad esseraj') : ?>
+    <?php if ($role == 'Admin ') : ?>
     <li class="nav-item">
       <a href="/Reclamation/ReclamationManager.php" class="nav-link">
         <i class="fa-solid fa-circle-exclamation"></i>
@@ -72,7 +72,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin : Fouad esseraj') : ?>
+    <?php if ($role == 'Admin ') : ?>
     <li class="nav-item">
       <a href="#" class="nav-link">
         <i class="fa-solid fa-gears"></i>
