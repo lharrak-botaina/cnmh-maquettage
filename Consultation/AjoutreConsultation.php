@@ -42,7 +42,7 @@
                 <div class="form-group col-md-12">
                   <label>Observation</label>
                     <div id="reservationdate" data-target-input="nearest">
-                    <textarea name="Observation" id="summernote" class="form-control" rows="4">observation1</textarea>
+                    <textarea name="Observation" id="summernote" class="form-control" rows="4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo modi quisquam iure voluptatum fugit quia facere atque, sint obcaecati ipsam totam sunt ipsum incidunt doloremque repellendus omnis voluptas tempora.</textarea>
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                         </div> -->
@@ -66,7 +66,7 @@
                 <div class="form-group col-md-12">
                   <label>Bilan</label>
                     <div id="reservationdate" data-target-input="nearest">
-                    <textarea name="Diagnostic" id="summernote3" class="form-control" rows="4">Bilan1</textarea>
+                    <textarea name="Diagnostic" id="summernote3" class="form-control" rows="4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus iusto delectus fugit totam, fuga esse sit reiciendis, maiores non tempore repudiandae! Suscipit repellat eius sunt incidunt sequi, tempore quae!</textarea>
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                         </div> -->
@@ -77,7 +77,7 @@
                 <div class="form-group col-md-12">
                   <label>Remarque</label>
                     <div id="reservationdate" data-target-input="nearest">
-                    <textarea name="Remarque" id="summernote5" class="form-control" rows="4">Remarque1</textarea>
+                    <textarea name="Remarque" id="summernote5" class="form-control" rows="4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati distinctio ut quod eum quis iste porro blanditiis molestiae nesciunt quam dolorum, cupiditate dicta ducimus corporis, aliquid sapiente numquam quaerat atque.</textarea>
                         <!-- <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                         </div> -->
