@@ -61,7 +61,7 @@
      
 
 
-      <a href="/Reclamation/ReclamationManager.php"  class="nav-link <?php if($currentURL == "/Reclamation/ReclamationManager.php") { echo("active"); } ?>  ">
+      <a href="/Statistique/StatistiqueManager.php"  class="nav-link <?php if($currentURL == "/Reclamation/ReclamationManager.php") { echo("active"); } ?>  ">
         <i class="fa-solid fa-circle-exclamation"></i>
         <p class="pl-2">
           Statistique
