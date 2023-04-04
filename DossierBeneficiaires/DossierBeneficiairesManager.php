@@ -20,7 +20,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des dossiers bénéficiaires </h1>
+                            <h1 class="m-0">Gestion des patients</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
@@ -61,17 +61,18 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10%"> Numéro dossier </th>
-                                        <th style="width: 10%"> Parent </th>
-                                        <th style="width: 10%"> Etat </th>
+                                        <th style="width: 5%"> Numéro dossier </th>
+                                        <th style="width: 5%"> Patient </th>
+                                       
+                                        <th style="width: 5%"> Etat </th>
                                         
-                                        <th style="width: 10%" class="text-center"> Actions </th>
+                                        <th style="width: 15%" class="text-center"> Actions </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <td> 123 </td>
-                                        <td class="text-capitalize">  lharrak botaina </td>
+                                    <td> A101 </td>
+                                        <td class="text-capitalize"> Madani ali </td>
                                         <td> <span class="badge bg-primary">Accueil</span> </td>
                                        
                                         <td class="project-actions text-right">
@@ -82,11 +83,12 @@
                                     </tr>
 
                                     <tr>
-                                        <td>234</td>
-                                        <td class="text-capitalize"> Nada stito </td>
+                                        <td>A102</td>
+                                        <td class="text-capitalize"> Chami mouad </td>
                                         <td> <span class="badge bg-primary">Entretien social</span> </td>
                                        
                                         <td class="project-actions text-right">
+
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
                                             <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
                                             <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
@@ -94,11 +96,12 @@
                                     </tr>
 
                                     <tr>
-                                        <td>1113 </td>
-                                        <td class="text-capitalize"> Hicham </td>
-                                        <td>  <span class="badge bg-success">Dossier social</span> </td>
+                                        <td>A103 </td>
+                                        <td class="text-capitalize"> Fatima madani</td>
+                                        <td>  <span class="badge bg-primary">Dossier social</span> </td>
                                        
                                         <td class="project-actions text-right">
+
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
                                             <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
                                             <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
@@ -106,11 +109,26 @@
                                     </tr>
 
                                     <tr>
-                                        <td> 645 </td>
-                                        <td class="text-capitalize"> yahya </td>
+                                        <td> A104 </td>
+                                        <td class="text-capitalize"> Amina chamia </td>
                                         <td> <span class="badge bg-primary">Dossier médical</span> </td>
                                        
                                         <td class="project-actions text-right">
+                                        <a class="btn btn-secondary btn-sm" href="#"> <i class="fas fa-folder"> </i> Dossier medical </a>
+
+                                            <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
+                                            <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                                            <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> A105 </td>
+                                        <td class="text-capitalize"> Mohammed Madani </td>
+                                        <td> <span class="badge bg-primary">Dossier médical</span> </td>
+                                       
+                                        <td class="project-actions text-right">
+                                        <a class="btn btn-secondary btn-sm" href="#"> <i class="fas fa-folder"> </i> Dossier medical </a>
+
                                             <a class="btn btn-primary btn-sm" href="#"> <i class="fas fa-folder"> </i> View </a>
                                             <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
                                             <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
