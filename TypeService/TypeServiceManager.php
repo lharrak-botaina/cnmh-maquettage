@@ -186,7 +186,8 @@
                                           Service sport
                                        </td>
                                        <td class="text-truncate" style="max-width: 150px;">
-                                       Établit le planning d'utilisation des gymnases et du stade en collaboration avec l'Office Municipal des Sports (OMS).                                       <td class="project-actions text-right">
+                                       Établit le planning d'utilisation des gymnases et du stade en collaboration avec l'Office Municipal des Sports (OMS).                                       
+                                       <td class="project-actions text-right">
                                            <a class="btn btn-primary btn-sm" href="#">
                                                <i class="fas fa-folder">
                                                </i>

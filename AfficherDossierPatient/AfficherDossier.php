@@ -19,7 +19,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Dossier patient n°: A5692 <h5>Etat de dossier: Dossier médical</h5>
+                            <h1 class="m-0">Dossier patient n°: A5692
                             </h1>
                         </div><!-- /.col -->
 
@@ -72,9 +72,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link" id="custom-tabs-five-normal-tab17" data-toggle="pill" href="#custom-tabs-five-normal7" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false"> Infirmière médecin générale</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" id="custom-tabs-five-normal-tab8" data-toggle="pill" href="#custom-tabs-five-normal8" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false">Service social</a>
-                                    </li>
+                                    </li> -->
                                     <li class="nav-item">
                                         <a class="nav-link" id="custom-tabs-five-normal-tab9" data-toggle="pill" href="#custom-tabs-five-normal9" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false">Infirmière neurologue</a>
                                     </li>
@@ -396,12 +396,6 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <tr>
-                                                    <th style="width: 15%">
-                                                        Rendez-vous N°
-                                                    </th>
-                                                    <th>
-                                                        Numero d'ordre
-                                                    </th>
                                                     <th>
                                                         Date
                                                     </th>
@@ -409,209 +403,98 @@
                                                         Heur
                                                     </th>
                                                     <th>
-                                                        Type de service
+                                                        Service
                                                     </th>
                                                     <th>
                                                         Etat
                                                     </th>
-                                                    <th>
-                                                        Remarque
-                                                    </th>
+                                                    <th></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        1
-                                                    </td>
-                                                    <td>
-                                                        32
-                                                    </td>
-                                                    <td>
-                                                        3.3.2022
+                                                        03/03/2022
                                                     </td>
                                                     <td>
                                                         2:00 PM
                                                     </td>
                                                     <td>
-                                                        orientation exterieur
+                                                        Ergothérapie
                                                     </td>
                                                     <td>
-                                                        <span class="badge bg-danger">Non Approuvé</span>
+                                                        <span class="badge bg-danger">Absence</span>
                                                     </td>
                                                     <td>
-                                                        rendez-vous remarque.......
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        2
-                                                    </td>
-                                                    <td>
-                                                        18
-                                                    </td>
-                                                    <td>
-                                                        3.2.2023
+                                                        03/02/2023
                                                     </td>
                                                     <td>
                                                         10:00 AM
                                                     </td>
                                                     <td>
-                                                        seance
+                                                        Infirmière dentiste
                                                     </td>
                                                     <td>
-                                                        <span class="badge bg-success">Approuvé</span>
+                                                        <span class="badge bg-success">Planifié</span>
                                                     </td>
                                                     <td>
-                                                        rendez-vous remarque.......
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        3
-                                                    </td>
-                                                    <td>
-                                                        5
-                                                    </td>
-                                                    <td>
-                                                        3.4.2023
+                                                        03/04/2024
                                                     </td>
                                                     <td>
                                                         9:00 AM
                                                     </td>
                                                     <td>
-                                                        consultation
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge bg-success">Approuvé</span>
-                                                    </td>
-                                                    <td>
-                                                        rendez-vous remarque.......
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        4
-                                                    </td>
-                                                    <td>
-                                                        14
-                                                    </td>
-                                                    <td>
-                                                        3.2.2023
-                                                    </td>
-                                                    <td>
-                                                        10:00 AM
-                                                    </td>
-                                                    <td>
-                                                        seance
-                                                    </td>
-                                                    <td> <span class="badge bg-primary">En attente</span>
-                                                    </td>
-                                                    <td>
-                                                        rendez-vous remarque.......
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        5
-                                                    </td>
-                                                    <td>
-                                                        33
-                                                    </td>
-                                                    <td>
-                                                        3.4.2024
-                                                    </td>
-                                                    <td>
-                                                        9:00 AM
-                                                    </td>
-                                                    <td>
-                                                        consultation
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge bg-danger">Annuler</span>
-                                                    </td>
-                                                    <td>
-                                                        rendez-vous remarque.......
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-
-                                                        6
-                                                    </td>
-                                                    <td>
-                                                        65
-                                                    </td>
-                                                    <td>
-                                                        3.2.2023
-                                                    </td>
-                                                    <td>
-                                                        10:00 AM
-                                                    </td>
-                                                    <td>
-                                                        seance
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge bg-danger">Annuler</span>
-                                                    </td>
-                                                    <td>
-                                                        rendez-vous remarque.......
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        7
-                                                    </td>
-                                                    <td>
-                                                        3
-                                                    </td>
-                                                    <td>
-                                                        3.4.2024
-                                                    </td>
-                                                    <td>
-                                                        9:00 AM
-                                                    </td>
-                                                    <td>
-                                                        consultation
+                                                        Infirmière neurologue
                                                     </td>
                                                     <td>
                                                         <span class="badge bg-primary">En attente</span>
                                                     </td>
                                                     <td>
-                                                        rendez-vous remarque.......
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                     <div class="tab-pane fade" id="custom-tabs-two-settings3" role="tabpanel" aria-labelledby="custom-tabs-two-settings3-tab">
-                                        <h3>Services en liste d'attante:
+                                        <h3>Consultation en attente:
                                         </h3>
-                                        <span>Ce dossier ne se touve que dans une seul liste d'attente</span>
-                                        <br><br>
+                                        <br>
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <tr>
-                                                    <th>Services demandés </th>
-                                                    <th>Type de Services </th>
-                                                    <th>N°d'Ordre</th>
-                                                    <th>Remarque</th>
+                                                    <th>Services demandés</th>
+                                                    <th>N° dans la list d'attente</th>
+                                                    <th>Date d'enregistrement</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>
-                                                        Ergothérapie
-                                                    </td>
-                                                    <td>
-                                                        Consultation
-                                                    </td>
-                                                    <td>
-                                                        18
-                                                    </td>
-                                                    <td>
-                                                        liste d'attente remarque.......
-                                                    </td>
+                                                    <td> Ergothérapie </td>
+                                                    <td> 18 </td>
+                                                    <td> 03/06/2019 </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -620,34 +503,22 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
+                                                <th>Numero d'ordre</th>
+                                                <th>Date de consultation</th>
+                                                <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
                                                     <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                    <td>03/04/2022</td>
+                                                    <td>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -656,24 +527,22 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
+                                                <th>Numero d'ordre</th>
+                                                <th>Date de consultation</th>
+                                                <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
                                                     <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                    <td>03/04/2022</td>
+                                                    <td>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -682,34 +551,22 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
+                                                <th>Numero d'ordre</th>
+                                                <th>Date de consultation</th>
+                                                <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
                                                     <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                    <td>03/04/2022</td>
+                                                    <td>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -718,34 +575,22 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
+                                                <th>Numero d'ordre</th>
+                                                <th>Date de consultation</th>
+                                                <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
                                                     <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                    <td>03/04/2022</td>
+                                                    <td>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -754,34 +599,22 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
+                                                <th>Numero d'ordre</th>
+                                                <th>Date de consultation</th>
+                                                <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
                                                     <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                    <td>03/04/2022</td>
+                                                    <td>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -790,34 +623,22 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
+                                                <th>Numero d'ordre</th>
+                                                <th>Date de consultation</th>
+                                                <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
                                                     <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                    <td>03/04/2022</td>
+                                                    <td>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -826,60 +647,22 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
+                                                <th>Numero d'ordre</th>
+                                                <th>Date de consultation</th>
+                                                <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
                                                     <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="custom-tabs-five-normal8" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                        <table class="table table-striped projects">
-                                            <thead>
-                                                <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                    <td>03/04/2022</td>
+                                                    <td>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -888,34 +671,22 @@
                                         <table class="table table-striped projects">
                                             <thead>
                                                 <th>Médecin responsable</th>
-                                                <th>Date de la 1re consultation</th>
-                                                <th>Nombre de séances effectuées</th>
-                                                <th>Nombre de séances ratées</th>
-                                                <th>Date de la dernière séance</th>
-                                                <th>Date de la Prochaine séance</th>
-                                                <th>Nombre de seances resté</th>
-                                                <th>Remarques</th>
+                                                <th>Numero d'ordre</th>
+                                                <th>Date de consultation</th>
+                                                <th></th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
                                                     <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Mr. NAJIM Iman</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>8</td>
-                                                    <td>2</td>
-                                                    <td>30.03.2023</td>
-                                                    <td>30.04.2023</td>
-                                                    <td>1</td>
-                                                    <td>le patient avance bien dans le traitement.....</td>
+                                                    <td>03/04/2022</td>
+                                                    <td>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -925,59 +696,20 @@
                                         <br>
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Numero</th>
                                                 <th>Accompagnateur</th>
-                                                <th>Médecin suivi</th>
                                                 <th>Sujet d'orientation</th>
-                                                <th>Date et heur d'orientation</th>
-                                                <th>Lieu d'orientation</th>
-                                                <th>Remarques</th>
+                                                <th>Date d'orientation</th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td> 01 </td>
-                                                    <td>MR. AHOUZI Omar</td>
                                                     <td>MR. AHOUZI Imrane</td>
-                                                    <td>Annalyses de cervaux détaillé</td>
-                                                    <td>03.04.2022 à 14:30</td>
-                                                    <td>Hopital Mohammed5 </td>
-                                                    <td>remarque ecrite par le developpeur</td>
+                                                    <td>annalyser de cervaux détaillé</td>
+                                                    <td>03/04/2022</td>
                                                 </tr>
                                                 <tr>
-                                                    <td> 02 </td>
                                                     <td>MR. AHOUZI Omar</td>
-                                                    <td>MR. AHOUZI Imrane</td>
-                                                    <td>Annalyses de cervaux détaillé</td>
-                                                    <td>03.04.2022 à 14:30</td>
-                                                    <td>Hopital Mohammed5 </td>
-                                                    <td>remarque ecrite par le developpeur</td>
-                                                </tr>
-                                                <tr>
-                                                    <td> 03 </td>
-                                                    <td>MR. AHOUZI Omar</td>
-                                                    <td>MR. AHOUZI Imrane</td>
-                                                    <td>Annalyses de cervaux détaillé</td>
-                                                    <td>03.04.2022 à 14:30</td>
-                                                    <td>Hopital Mohammed5 </td>
-                                                    <td>remarque ecrite par le developpeur</td>
-                                                </tr>
-                                                <tr>
-                                                    <td> 04 </td>
-                                                    <td>MR. AHOUZI Omar</td>
-                                                    <td>MR. AHOUZI Imrane</td>
-                                                    <td>Annalyses de cervaux détaillé</td>
-                                                    <td>03.04.2022 à 14:30</td>
-                                                    <td>Hopital Mohammed5 </td>
-                                                    <td>remarque ecrite par le developpeur</td>
-                                                </tr>
-                                                <tr>
-                                                    <td> 05 </td>
-                                                    <td>MR. AHOUZI Omar</td>
-                                                    <td>MR. AHOUZI Imrane</td>
-                                                    <td>Annalyses de cervaux détaillé</td>
-                                                    <td>03.04.2022 à 14:30</td>
-                                                    <td>Hopital Mohammed5 </td>
-                                                    <td>remarque ecrite par le developpeur</td>
+                                                    <td>validiter de la carte nationnal</td>
+                                                    <td>03/04/2022</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -987,331 +719,36 @@
                                         <br>
                                         <table class="table table-striped projects">
                                             <thead>
-                                                <th>Numero</th>
-                                                <th>Sujet de réclamation</th>
                                                 <th>Date de réclamation</th>
-                                                <th>Decription de la réclamation</th>
-                                                <th>Etat de réclamation</th>
-                                                <th>Remarques</th>
+                                                <th>Sujet du réclamation</th>
+                                                <th>Détail du réclamation</th>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>01 </td>
+                                                    <td>03/04/2022</td>
                                                     <td>violence</td>
-                                                    <td>03.04.2022</td>
-                                                    <td>la fille à été violé de la part de son accompagnateur</td>
                                                     <td>
-                                                        <span class="badge bg-danger">Non traité</span>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
                                                     </td>
-                                                    <td>la fille à des traces sur son corp .....</td>
                                                 </tr>
                                                 <tr>
-                                                    <td> 02 </td>
+                                                    <td>04/04/2022</td>
                                                     <td>retard</td>
-                                                    <td>04.04.2022</td>
-                                                    <td>le parent à domander des papiers administratives mais encore transferé</td>
                                                     <td>
-                                                        <span class="badge bg-success">Traité</span>
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Détail
+                                                        </a>
                                                     </td>
-                                                    <td>desc .....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td> 03 </td>
-                                                    <td>retard</td>
-                                                    <td>04.04.2022</td>
-                                                    <td>le parent à domander des papiers administratives mais encore transferé</td>
-                                                    <td>
-                                                        <span class="badge bg-success">Traité</span>
-                                                    </td>
-                                                    <td>desc .....</td>
-                                                </tr>
-                                                <tr>
-                                                    <td> 04 </td>
-                                                    <td>retard</td>
-                                                    <td>04.04.2022</td>
-                                                    <td>le parent à domander des papiers administratives mais encore transferé</td>
-                                                    <td>
-                                                        <span class="badge bg-success">Traité</span>
-                                                    </td>
-                                                    <td>desc .....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
-
-                                    <!-- <div class="tab-pane fade" id="custom-tabs-two-settings1" role="tabpanel" aria-labelledby="custom-tabs-two-settings1-tab">
-                                        <div class="card card-primary card-tabs">
-                                            <div class="card-header p-0 pt-1">
-                                                <ul class="nav nav-tabs" id="custom-tabs-five-tab" role="tablist">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link active" id="custom-tabs-five-normal-tab1" data-toggle="pill" href="#custom-tabs-five-normal1" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="true">Psychomotricité</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="custom-tabs-five-normal-tab2" data-toggle="pill" href="#custom-tabs-five-normal2" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false"> Kinésithérapeute</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="custom-tabs-five-normal-tab3" data-toggle="pill" href="#custom-tabs-five-normal3" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false"> Orthophoniste</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="custom-tabs-five-normal-tab4" data-toggle="pill" href="#custom-tabs-five-normal4" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false"> Orthoptiste</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="custom-tabs-five-normal-tab5" data-toggle="pill" href="#custom-tabs-five-normal5" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false"> Ergothérapie</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="custom-tabs-five-normal-tab6" data-toggle="pill" href="#custom-tabs-five-normal6" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false"> Infirmière dentiste</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="custom-tabs-five-normal-tab17" data-toggle="pill" href="#custom-tabs-five-normal7" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false"> Infirmière médecin générale</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="custom-tabs-five-normal-tab8" data-toggle="pill" href="#custom-tabs-five-normal8" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false">Service social</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="custom-tabs-five-normal-tab9" data-toggle="pill" href="#custom-tabs-five-normal9" role="tab" aria-controls="custom-tabs-five-normal" aria-selected="false">Infirmière neurologue</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content" id="custom-tabs-five-tabContent">
-                                                    <div class="tab-pane fade show active" id="custom-tabs-five-normal1" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="custom-tabs-five-normal2" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="custom-tabs-five-normal3" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="custom-tabs-five-normal4" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="custom-tabs-five-normal5" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="custom-tabs-five-normal6" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="custom-tabs-five-normal7" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="custom-tabs-five-normal8" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="custom-tabs-five-normal9" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
-                                                        <table class="table table-striped projects">
-                                                            <thead>
-                                                                <th>Médecin responsable</th>
-                                                                <th>Date de la 1re consultation</th>
-                                                                <th>Nombre de séances effectuées</th>
-                                                                <th>Nombre de séances ratées</th>
-                                                                <th>Date de la dernière séance</th>
-                                                                <th>Date de la Prochaine séance</th>
-                                                                <th>Nombre de seances resté</th>
-                                                                <th>Remarques</th>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                    <td>data ecrite par le developpeur</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
                                 </div>
                             </div>
                         </div>
