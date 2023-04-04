@@ -3,6 +3,7 @@
 
 <head>
     <?php include("../head.php") ?>
+    
     <link rel="stylesheet" href="https://unpkg.com/bs-stepper/dist/css/bs-stepper.min.css">
 <script src="https://unpkg.com/bs-stepper/dist/js/bs-stepper.min.js"></script>
 
@@ -67,13 +68,19 @@
                    
                     
                   </div>
+                  
                   <div class="bs-stepper-content">
                     <!-- your steps content here -->
+                    
                    
                     <?php include("./AjouterForm.php") ?>
                     <?php include("./ListPatient.php") ?>
                     <?php include("./ConsultationsForm.php") ?>
+                    
                   
+                    
+                 
+               
                   </div>
                 </div>
               </div>
@@ -115,6 +122,7 @@
     <?php include("../scripts.php") ?>
     <script src="../assets/plugins/bs-stepper/js/bs-stepper.js"></script>
     <script>
+      
       var stepper1Node = document.querySelector('#stepper1')
       var stepper1 = new Stepper(document.querySelector('#stepper1'))
       stepper1Node.addEventListener('show.bs-stepper', function (event) {
