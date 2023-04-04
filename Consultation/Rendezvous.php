@@ -162,6 +162,8 @@
         </div>
     </div>
     <br>
+   
+    <a class="btn btn-primary" href="./consultation.php">Annuler </a>
     <a class="btn btn-primary" href="#">Ajouter sans RendezVous </a>
     <button class="btn btn-primary" onclick="stepper1.next()">Next</button>
 </div>
