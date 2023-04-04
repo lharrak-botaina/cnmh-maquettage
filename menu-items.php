@@ -2,15 +2,19 @@
  $adminRole = "Admin";
  $dirirectriceRole = "Derictrice";
  // ajoutes les autres rôles
-
+ $currentURL = $_SERVER["SCRIPT_NAME"];
 
 ?>
-
+  
   <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
     
     <?php if ($role ==  $adminRole || $role ==  $dirirectriceRole) : ?>
-    <li class="nav-item">
-      <a href="/Reclamation/ReclamationManager.php" class="nav-link">
+    <li class="nav-item" id="">
+
+     
+
+
+      <a href="/Reclamation/ReclamationManager.php"  class="nav-link <?php if($currentURL == "/Reclamation/ReclamationManager.php") { echo("active"); } ?>  ">
         <i class="fa-solid fa-circle-exclamation"></i>
         <p class="pl-2">
           Statistique
