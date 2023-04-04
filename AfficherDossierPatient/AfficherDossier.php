@@ -400,11 +400,8 @@
                                                         Rendez-vous N°
                                                     </th>
                                                     <th>
-                                                        N°d'Ordre
+                                                        Numero d'ordre
                                                     </th>
-                                                    <!-- <th>
-                                                    Téléphone
-                                                    </th> -->
                                                     <th>
                                                         Date
                                                     </th>
@@ -669,14 +666,14 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -839,14 +836,14 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
-                                                    <td>data ecrite par le developpeur</td>
+                                                    <td>Mr. NAJIM Iman</td>
+                                                    <td>03.04.2022</td>
+                                                    <td>8</td>
+                                                    <td>2</td>
+                                                    <td>30.03.2023</td>
+                                                    <td>30.04.2023</td>
+                                                    <td>1</td>
+                                                    <td>le patient avance bien dans le traitement.....</td>
                                                 </tr>
                                             </tbody>
                                         </table>
