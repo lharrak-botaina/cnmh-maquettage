@@ -3,7 +3,7 @@
 
 <head>
     <?php include("../head.php") ?>
-    
+
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -61,77 +61,114 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 5%">
-                                         N°d'Ordre
+                                            N°d'Ordre
                                         </th>
                                         <th style="width: 5%">
-                                         Etat
+                                            Etat
                                         </th>
                                         <th style="width: 10%">
                                             DateEnregistrement
                                         </th>
                                         <th style="width: 10%">
-                                        DateConsultation
+                                            DateConsultation
                                         </th>
-                                        <th style="width: 20%">
-                                        Observation
+                                        <th style="width: 15%">
+                                            Observation
                                         </th>
-                                        <th style="width: 20%">
-                                        Diagnostic
+                                        <th style="width: 15%">
+                                            Diagnostic
                                         </th>
-                                        <th style="width: 20%">
+                                        <!-- <th style="width: 15%">
                                         Bilan
-                                        </th>
-                                        <th style="width: 20%">
-                                        Remarque
-                                        </th>
-                                        <!-- <th style="width: 50%">
                                         </th> -->
+                                        <!-- <th style="width: 15%">
+                                        Remarque
+                                        </th> -->
+                                        <th style="width: 50%">
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
 
                                     <tr>
                                         <td>
-                                          1
+                                            1
                                         </td>
                                         <td>
-                                        enRendezVous
+                                            enRendezVous
                                         </td>
                                         <td>
                                             03/03/2023
                                         </td>
 
                                         <td>
-                                        03/04/2023
+                                            03/04/2023
                                         </td>
                                         <td>
                                             observation1
                                         </td>
                                         <td>
-                                        TRISOMIE 21
+                                            TRISOMIE 21
                                         </td>
-                                        <td>
+                                        <!-- <td>
                                             Bilan1
-                                        </td>
-                                        <td>
+                                        </td> -->
+                                        <!-- <td>
                                             Remarque1
-                                        </td>
+                                        </td> -->
 
-                                        <!-- <td class="project-actions text-right">
+                                        <td class="project-actions text-right d-flex d-md-block">
                                             <a class="btn btn-primary btn-sm" href="#">
                                                 <i class="fas fa-folder">
                                                 </i>
                                                 Afficher
-                                            </a> -->
-                                            
-                                          <!-- Button trigger modal -->
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
-  RendezVous
-</button> -->
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            enRendezVous
+                                        </td>
+                                        <td>
+                                            03/04/2023
+                                        </td>
 
+                                        <td>
+                                            03/05/2023
+                                        </td>
+                                        <td>
+                                            observation1
+                                        </td>
+                                        <td>
+                                            TRISOMIE 21
+                                        </td>
+                                        <!-- <td>
+                                            Bilan1
+                                        </td> -->
+                                        <!-- <td>
+                                            Remarque1
+                                        </td> -->
 
-                                   
+                                        <td class="project-actions text-right d-flex d-md-block">
+                                            <a class="btn btn-primary btn-sm" href="#">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>
+                                            <a class="btn btn-info btn-sm" href="#">
+                                                <i class="fas fa-pencil-alt">
+                                                </i>
+                                                Modifier
+                                            </a>
+                                        </td>
                                     </tr>
 
                                 </tbody>
@@ -141,31 +178,32 @@
                     </div>
                     <!-- /.card -->
                     <div class="card-header row" style="display: flow-root;">
-                    <div style="display: flex;  justify-content: space-between;">
+                        <div style="display: flex;  justify-content: space-between;">
 
-                        <ul class="pagination pagination my-0">
-                            <li class="page-item"><a class="page-link" href="#">«</a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">»</a></li>
-                        </ul>
-                        <div class="">
+                            <ul class="pagination pagination my-0">
+                                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">»</a></li>
+                            </ul>
+                            <div class="">
 
-                            <button type="button" class="btn btn-default swalDefaultQuestion">
-                                <i class="fas fa-download"></i> Export
-                            </button>
-                            <button type="button" class="btn btn-default swalDefaultQuestion">
-                                <i class="fas fa-file-import"></i> Import
-                            </button>
+                                <button type="button" class="btn btn-default swalDefaultQuestion">
+                                    <i class="fas fa-download"></i> Export
+                                </button>
+                                <button type="button" class="btn btn-default swalDefaultQuestion">
+                                    <i class="fas fa-file-import"></i> Import
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                </div><!-- /.container-fluid -->
+                    </div><!-- /.container-fluid -->
+                </div>
             </section>
 
-            
+
             <!-- Modal -->
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -216,12 +254,12 @@
     </div>
   </div>
 </div> -->
-</div>
+        <!-- </div> -->
 
-            <!-- /.content -->
-        </div>
+        <!-- /.content -->
+    </div>
 
-        <?php include("../footer.php") ?>
+    <?php include("../footer.php") ?>
     </div>
     <?php include("../scripts.php") ?>
 </body>

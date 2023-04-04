@@ -90,7 +90,7 @@
         </div>
 
                     <!-- /.card -->
-                    <div class="card-header row" style="display: flow-root;">
+                    <!-- <div class="card-header row" style="display: flow-root;">
                         <div style="display: flex;  justify-content: space-between;">
 
                             <ul class="pagination pagination my-0">
@@ -110,7 +110,8 @@
                                 </button>
                             </div>
                         </div>
-                    </div><!-- /.container-fluid -->
+                    </div> -->
+                    <!-- /.container-fluid -->
             </section>
             <!-- /.content -->
         </div>
@@ -146,7 +147,29 @@ $(document).ready(function() {
         height: 100
       });
             $('.dropdown-toggle').dropdown();
+            // mmmmmmmmmmmmm
+            $('#summernote2').summernote({
+        placeholder: 'Saisir une description du service.',
+       
+        height: 100
+      });
+            $('.dropdown-toggle').dropdown();
+            // mmmmmmmmmmmm
+            $('#summernote3').summernote({
+        placeholder: 'Saisir une description du service.',
+       
+        height: 100
+      });
+            $('.dropdown-toggle').dropdown();
+            //mmmmmmmmmmmmmmmmm
+            $('#summernote4').summernote({
+        placeholder: 'Saisir une description du service.',
+       
+        height: 100
+      });
+            $('.dropdown-toggle').dropdown();
         }); 
+        
     </script>
    
 
