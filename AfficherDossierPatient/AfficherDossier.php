@@ -310,7 +310,6 @@
                                         <!-- /.col -->
                                     </div>
                                     <div class="tab-pane fade" id="custom-tabs-two-settings" role="tabpanel" aria-labelledby="custom-tabs-two-settings-tab">
-                                        <br>
                                         <table class="table table-striped projects">
                                                         <tbody>
                                                             <tr>
