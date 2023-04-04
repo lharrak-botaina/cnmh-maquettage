@@ -2,7 +2,7 @@
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
       <li class="nav-item">
-      <a href="/Rendez-vouz/Rendez-vousManager.php" class="nav-link">
+      <a href="/Rendez-vous/Rendez-vousManager.php" class="nav-link">
         <i class="fa-regular fa-calendar-check"></i>
         <p class="pl-2">
           Rendez-vous

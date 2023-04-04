@@ -78,7 +78,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a href="/Rendez-vouz/Rendez-vousManager.php" class="nav-link">
+      <a href="/Rendez-vous/Rendez-vousManager.php" class="nav-link">
         <i class="fa-regular fa-calendar-check"></i>
         <p class="pl-2">
           Rendez-vous
