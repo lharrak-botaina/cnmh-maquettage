@@ -60,9 +60,6 @@
     <?php if ($role ==  $adminRole || $role ==  $dirirectriceRole  ) : ?>
     <li class="nav-item" id="">
 
-     
-
-
       <a href="/Statistique/StatistiqueManager.php"  class="nav-link <?php if($currentURL == "/Statistique/StatistiqueManager.php") { echo("active"); } ?>  ">
         <i class="fa-solid fa-circle-exclamation"></i>
         <p class="pl-2">
@@ -73,7 +70,9 @@
     <?php endif; ?>
 
     <?php if ($role == 'Admin : Fouad esseraj') : ?>
-    <li class="nav-item">
+    <!-- the <li> element for the "Parameters" dropdown menu has a conditional "menu-open"
+     class added based on whether any of its child elements are active -->
+    <li class="nav-item <?php if($currentURL == "/TypeService/TypeServiceManager.php" || $currentURL == "/TypeHandicap/TypeHandicapManager.php" || $currentURL == "/CouvertureMedicale/CouvertureMedicaleManager.php" || $currentURL == "/Employe/EmployeManager.php") { echo("menu-open"); } ?>">
       <a href="#" class="nav-link">
         <i class="fa-solid fa-gears"></i>
         <p class="pl-2">
@@ -81,7 +80,9 @@
           <i class="right fas fa-angle-left"></i>
         </p>
       </a>
-      <ul class="nav nav-treeview" style="display: none;">
+      <!-- "display: block;" style added based on whether any of the child elements are active.
+     This will ensure that the active page is visible when clicked, even if it's under the "Parameters" dropdown menu -->
+      <ul class="nav nav-treeview" style="<?php if($currentURL == "/TypeService/TypeServiceManager.php" || $currentURL == "/TypeHandicap/TypeHandicapManager.php" || $currentURL == "/CouvertureMedicale/CouvertureMedicaleManager.php" || $currentURL == "/Employe/EmployeManager.php") { echo("display: block;"); } ?>">
       <li class="nav-item">
         <a href="/TypeService/TypeServiceManager.php" class="nav-link <?php if($currentURL == "/TypeService/TypeServiceManager.php") { echo("active"); } ?>">
           <p>Gestion des Services</p>
@@ -93,12 +94,12 @@
         </a>
       </li>
         <li class="nav-item">
-          <a href="/CouvertureMedicale/CouvertureMedicaleManager.php" class="nav-link">
+          <a href="/CouvertureMedicale/CouvertureMedicaleManager.php" class="nav-link <?php if($currentURL == "/CouvertureMedicale/CouvertureMedicaleManager.php") { echo("active"); } ?>">
             <p>Gestion de Couverture Médicale</p>
           </a>
         </li>
         <li class="nav-item">
-          <a href="/Employe/EmployeManager.php" class="nav-link">
+          <a href="/Employe/EmployeManager.php" class="nav-link <?php if($currentURL == "/Employe/EmployeManager.php") { echo("active"); } ?>">
             <p>Gestion des Employés</p>
           </a>
         </li>
