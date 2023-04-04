@@ -30,7 +30,7 @@
       </div><!-- /.container-fluid -->
     </div>
             <!-- Main content -->
-            <section class="content">
+       <section class="content">
                 <div class="container-fluid">
                     <!-- Default box -->
                 
@@ -79,8 +79,8 @@
                   <div class="bs-stepper-content">
                     <!-- your steps content here -->
                     <?php include("./ParentManager.php") ?>
+                   
                     <?php include("./PatientForm.php") ?>
-                    
                     <?php include("./EntretienSocialForm.php") ?>
                    
                     <?php include("./ListAttenteForm.php") ?>
@@ -116,7 +116,7 @@
                             </div>
                         </div>
                     </div><!-- /.container-fluid -->
-            </section>
+        </section>
             <!-- /.content -->
         </div>
 
