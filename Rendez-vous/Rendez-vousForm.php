@@ -47,13 +47,20 @@
                     <div class="step" data-target="#information-part">
                       <button type="button" class="step-trigger" role="tab" aria-controls="logins-part" id="logins-part-trigger">
                         <span class="bs-stepper-circle">1</span>
-                        <span class="bs-stepper-label">Consultation</span>
+                        <span class="bs-stepper-label">List Attende</span>
+                      </button>
+                    </div>
+                    <div class="line"></div>
+                    <div class="step" data-target="#orientation-part">
+                      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
+                        <span class="bs-stepper-circle">2</span>
+                        <span class="bs-stepper-label">Patient</span>
                       </button>
                     </div>
                     <div class="line"></div>
                     <div class="step" data-target="#logins-part">
                       <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-                        <span class="bs-stepper-circle">2</span>
+                        <span class="bs-stepper-circle">3</span>
                         <span class="bs-stepper-label">Ajouter Un Rendez-Vous </span>
                       </button>
                     </div>
@@ -64,6 +71,7 @@
                     <!-- your steps content here -->
                    
                     <?php include("./AjouterForm.php") ?>
+                    <?php include("./ListPatient.php") ?>
                     <?php include("./ConsultationsForm.php") ?>
                   
                   </div>
@@ -77,7 +85,7 @@
         </div>
 
                     <!-- /.card -->
-                    <div class="card-header row" style="display: flow-root;">
+                    <!-- <div class="card-header row" style="display: flow-root;">
                         <div style="display: flex;  justify-content: space-between;">
 
                             <ul class="pagination pagination my-0">
@@ -97,7 +105,7 @@
                                 </button>
                             </div>
                         </div>
-                    </div><!-- /.container-fluid -->
+                    </div>/.container-fluid -->
             </section>
             <!-- /.content -->
         </div>
