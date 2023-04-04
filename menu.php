@@ -27,7 +27,7 @@
           Fatima zahrae serghini<br/>
           <span style="font-size: small;">Derictrice</span>
         <?php endif; ?>
-        <?php if ($role == 'Admin '): ?>
+        <?php if ($role == 'Admin'): ?>
           Fouad esseraj <br/>
           <span style="font-size: small;">Admin</span>
         <?php endif; ?>

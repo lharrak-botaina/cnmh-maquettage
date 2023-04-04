@@ -6,7 +6,7 @@
       $role = $_POST["role"];
 
       $_SESSION["role"] = $role;
-    
+   
       header("Location: index.php");
       exit();
   }
