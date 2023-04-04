@@ -168,6 +168,13 @@ $(document).ready(function() {
         height: 100
       });
             $('.dropdown-toggle').dropdown();
+             //mmmmmmmmmmmmmmmmm
+             $('#summernote5').summernote({
+        placeholder: 'Saisir une description du service.',
+       
+        height: 100
+      });
+            $('.dropdown-toggle').dropdown();
         }); 
         
     </script>
