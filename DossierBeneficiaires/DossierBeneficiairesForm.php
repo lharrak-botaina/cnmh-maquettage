@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js%22%3E"></script> -->
     <?php include("../head.php") ?>
     <link rel="stylesheet" href="https://unpkg.com/bs-stepper/dist/css/bs-stepper.min.css">
 <script src="https://unpkg.com/bs-stepper/dist/js/bs-stepper.min.js"></script>
