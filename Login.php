@@ -6,7 +6,7 @@
       $role = $_POST["role"];
 
       $_SESSION["role"] = $role;
-
+    
       header("Location: index.php");
       exit();
   }
@@ -32,7 +32,7 @@
 <body class="hold-transition login-page">
   <div class="login-box" style="width: 479px">
     <div class="login-logo">
-      <a href="/assets/index2.html"><b>CNMH</b></a>
+      <a href="#"><b>CNMH</b></a>
     </div>
     <!-- /.login-logo -->
     <div class="card">
@@ -49,10 +49,17 @@
           </div> -->
           <div class="input-group mb-3">
             <select name="role" class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-              <option data-select2-id="1">Admin : Fouad esseraj</option>
-              <option data-select2-id="2">Derictrice : Fatima zahrae serghini</option>
-              <option data-select2-id="3">Service social : Khawla souan  </option>
-              <option data-select2-id="4">Infirmière médecin générale : Algamot asia </option>
+              <option value="Admin" data-select2-id="1">Admin : Fouad esseraj</option>
+              <option value="Directrice" data-select2-id="2">Directrice : Fatima zahrae serghini</option>
+              <option value="Service social" data-select2-id="3">Service social : Khawla souan  </option>
+              <option value="Infirmière médecin générale" data-select2-id="4">Infirmière médecin générale : Algamot asia </option>
+              <option value="Infirmière neurologue" data-select2-id="5">Infirmière neurologue  </option>
+              <option value="Infirmière-dentiste" data-select2-id="6">Infirmière-dentiste : Tallaoui sanae </option>
+              <option value="Psychomotricité" data-select2-id="7">Psychomotricité  </option>
+              <option value="Kinésithérapeute" data-select2-id="8">Kinésithérapeute : Nassima El Ouazzani </option>
+              <option value="Orthophoniste" data-select2-id="9">Orthophoniste : Samia kabbaj </option>
+              <option value="Orthoptiste" data-select2-id="10">Orthoptiste : Imane Errahmouni </option>
+              <option value="Ergothérapie" data-select2-id="11">Ergothérapie : Alaoui Ghita </option>
             </select>
         </div>
          

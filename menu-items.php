@@ -1,8 +1,15 @@
 <?php 
- $adminRole = "Admin : Fouad esseraj";
- $dirirectriceRole = "Derictrice : Fatima zahrae serghini";
- $ServiceSocialeRole = "Service social : Khawla souan";
- $InfirMièreMédecinGénéraleeRole = "Infirmière médecin générale : Algamot asia";
+ $adminRole = "Admin";
+ $dirirectriceRole = "Directrice";
+ $ServiceSocialeRole = "Service social";
+ $InfirMièreMédecinGénéraleeRole = "Infirmière médecin générale";
+ $InfirmièreNeurologueRole = "Infirmière neurologue";
+ $InfirmièreDentisteRole = "Infirmière-dentiste";
+ $PsychomotricitéRole = "Psychomotricité";
+ $KinésithérapeuteRole = "Kinésithérapeute";
+ $OrthophonisteRole = "Orthophoniste";
+ $OrthoptisteRole = "Orthoptiste";
+ $ErgothérapieRole = "Ergothérapie";
  // ajoutes les autres rôles
  $currentURL = $_SERVER["SCRIPT_NAME"];
 
@@ -11,7 +18,7 @@
   <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
     
 
-    <?php if ($role == 'Admin : Fouad esseraj' || $role == 'Derictrice : Fatima zahrae serghini' || $role == 'Service social : Khawla souan') : ?>
+    <?php if ($role == $adminRole || $role == $dirirectriceRole || $role == $ServiceSocialeRole || $role == $InfirMièreMédecinGénéraleeRole) : ?>
       <li class="nav-item">
       <a href="/DossierBeneficiaires/DossierBeneficiairesManager.php" class="nav-link <?php if($currentURL == "/DossierBeneficiaires/DossierBeneficiairesManager.php") { echo("active"); } ?>">
         <i class="fa-solid fa-hospital-user"></i>
@@ -22,7 +29,7 @@
       </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin : Fouad esseraj' || $role == 'Derictrice : Fatima zahrae serghini' || $role == 'Service social : Khawla souan') : ?>
+    <?php if ($role == $adminRole || $role == $dirirectriceRole  || $role == $InfirMièreMédecinGénéraleeRole) : ?>
       <li class="nav-item">
       <a href="/Consultation/consultation.php" class="nav-link <?php if($currentURL == "/Consultation/consultation.php") { echo("active"); } ?>">
         <i class="fa-solid fa-hospital-user"></i>
@@ -32,9 +39,8 @@
       </a>
       </li>
     <?php endif; ?>
-
-
-    <?php if ($role == 'Admin : Fouad esseraj' || $role == 'Derictrice : Fatima zahrae serghini') : ?>
+      
+    <?php if ($role == $adminRole || $role == $dirirectriceRole || $role == $ServiceSocialeRole || $role == $InfirMièreMédecinGénéraleeRole || $role ==  $InfirmièreNeurologueRole || $role ==  $InfirmièreDentisteRole || $role ==  $PsychomotricitéRole || $role ==  $KinésithérapeuteRole || $role ==  $OrthophonisteRole || $role ==  $OrthoptisteRole || $role ==  $ErgothérapieRole) : ?>
     <li class="nav-item">
       <a href="/Rendez-vous/Rendez-vousManager.php" class="nav-link <?php if($currentURL == "/Rendez-vous/Rendez-vousManager.php") { echo("active"); } ?>">
         <i class="fa-regular fa-calendar-check"></i>
@@ -45,7 +51,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin : Fouad esseraj' || $role == 'Derictrice : Fatima zahrae serghini' || $role == 'Service social : Khawla souan') : ?>
+    <?php if ($role == $adminRole || $role == $dirirectriceRole || $role == $ServiceSocialeRole) : ?>
       <li class="nav-item">
         <a href="/OrientationExterne/OrientationExterne/OrientationExterneManager.php" class="nav-link <?php if($currentURL == "/OrientationExterne/OrientationExterne/OrientationExterneManager.php") { echo("active"); } ?>">
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -56,7 +62,7 @@
       </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin : Fouad esseraj' || $role == 'Derictrice : Fatima zahrae serghini') : ?>
+    <?php if ($role == $adminRole || $role == $dirirectriceRole || $role == $ServiceSocialeRole) : ?>
     <li class="nav-item">
       <a href="/Reclamation/ReclamationManager.php" class="nav-link <?php if($currentURL == "/Reclamation/ReclamationManager.php") { echo("active"); } ?>  ">
         <i class="fa-solid fa-circle-exclamation"></i>
@@ -81,7 +87,7 @@
     </li>
     <?php endif; ?>
 
-    <?php if ($role == 'Admin : Fouad esseraj' || $role == 'Derictrice : Fatima zahrae serghini') : ?>
+    <?php if ($role == $adminRole || $role == $dirirectriceRole) : ?>
     <!-- the <li> element for the "Parameters" dropdown menu has a conditional "menu-open"
      class added based on whether any of its child elements are active -->
     <li class="nav-item <?php if($currentURL == "/TypeService/TypeServiceManager.php" || $currentURL == "/TypeHandicap/TypeHandicapManager.php" || $currentURL == "/CouvertureMedicale/CouvertureMedicaleManager.php" || $currentURL == "/Employe/EmployeManager.php") { echo("menu-open"); } ?>">
