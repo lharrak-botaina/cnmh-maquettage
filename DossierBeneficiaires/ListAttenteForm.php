@@ -13,8 +13,8 @@
             <div class="col-sm-12 d-flex justify-content-between p-3">
                 <p class="text-capitalize"> <span class="font-weight-bold text-capitalize">Patient :</span> Madani ali</p>
                 <p class="text-capitalize"><span class="font-weight-bold text-capitalize">Type d'handycape :</span> <span class="text-primary">RETARD MENTAL</span> </p>
-                <div class="d-flex justify-content-between " id="btnADD">
-                    <a href="" class="btn btn-primary">Ajouter a la list d'attente </a>
+                <div class="d-flex justify-content-between " >
+                    <a onclick="done()" class="btn btn-primary">Ajouter a la list d'attente </a>
                 </div>
 
                 <!-- SEARCH FORM -->
@@ -26,20 +26,20 @@
                 <thead>
                     <tr>
 
-                        <th style="width: 5%">
+                        <!-- <th style="width: 5%">
                             N°
+                        </th> -->
+                        <th style="width: 20%">
+                            Numéro  dossier
                         </th>
                         <th style="width: 20%">
-                            Numero  dossier
-                        </th>
-                        <th style="width: 20%">
-                            Prénom
+                            Patient
                         </th>
                         <th style="width: 30%">
-                            Téléphone
+                            Type d'handicapé
                         </th>
 
-                        <th class="text-center" style="width: 15%">
+                        <th class="text-center" style="width: 60%">
                             Actions
                         </th>
                     </tr>
@@ -49,22 +49,40 @@
                     <tr>
 
 
+                       
                         <td>
-                            1
-                        </td>
-                        <td>
-                            Radi
+                            A101
                         </td>
 
                         <td>
-                            Said
+                            Said chami
                         </td>
                         <td>
-                            0600000000
+                            TSA
                         </td>
 
                         <td class="project-actions text-right">
-                            <a class="btn btn-primary btn-sm" href="../Parent/ParentManager.php">
+                            <a class="btn btn-primary btn-sm" href="../AfficherDossierPatient/AfficherDossier.php">
+                                <i class="fas fa-folder">
+                                </i>
+                                Afficher
+                            </a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                         <td>
+                            A104
+                        </td>
+                        <td>
+                            Ahmed madani
+                        </td>
+                        <td>
+                          RETARD MENTAL
+                        </td>
+
+                        <td class="project-actions text-right">
+                            <a class="btn btn-primary btn-sm" href="../AfficherDossierPatient/AfficherDossier.php">
                                 <i class="fas fa-folder">
                                 </i>
                                 Afficher
@@ -75,21 +93,20 @@
                     <tr>
 
                         <td>
-                            2
+                            A105
                         </td>
                         <td>
-                            Ben
+                            Chair yassine
                         </td>
 
                         <td>
-                            Ahmed
+                         HANDICAP MOTEUR
                         </td>
-                        <td>
-                            0600000000
-                        </td>
+                       
+
 
                         <td class="project-actions text-right">
-                            <a class="btn btn-primary btn-sm" href="../Parent/ParentManager.php">
+                            <a class="btn btn-primary btn-sm" href="../AfficherDossierPatient/AfficherDossier.php">
                                 <i class="fas fa-folder">
                                 </i>
                                 Afficher
@@ -99,23 +116,19 @@
                     </tr>
                     <tr>
 
+                        
                         <td>
-                            3
+                            A106
                         </td>
                         <td>
-                            Chair
-                        </td>
-
-                        <td>
-                            Yassin
+                            Fatima smiris
                         </td>
                         <td>
-                            0600000000
+                         TRISOMIE 21
                         </td>
-
 
                         <td class="project-actions text-right">
-                            <a class="btn btn-primary btn-sm" href="../Parent/ParentManager.php">
+                            <a class="btn btn-primary btn-sm" href="../AfficherDossierPatient/AfficherDossier.php">
                                 <i class="fas fa-folder">
                                 </i>
                                 Afficher
@@ -125,22 +138,19 @@
                     </tr>
                     <tr>
 
+                        
                         <td>
-                            4
+                            A107
                         </td>
                         <td>
-                            lani
-                        </td>
-
-                        <td>
-                            Fatima
+                            Anissa chamia
                         </td>
                         <td>
-                            0600000000
+                          IMC
                         </td>
 
                         <td class="project-actions text-right">
-                            <a class="btn btn-primary btn-sm" href="../Parent/ParentManager.php">
+                            <a class="btn btn-primary btn-sm" href="../AfficherDossierPatient/AfficherDossier.php">
                                 <i class="fas fa-folder">
                                 </i>
                                 Afficher
@@ -150,47 +160,19 @@
                     </tr>
                     <tr>
 
+                       
                         <td>
-                            5
+                            A108
                         </td>
                         <td>
-                            Riyad
-                        </td>
-
-                        <td>
-                            Anissa
+                            Mohammed ali
                         </td>
                         <td>
-                            0600000000
+                         RPM
                         </td>
 
                         <td class="project-actions text-right">
-                            <a class="btn btn-primary btn-sm" href="../Parent/ParentManager.php">
-                                <i class="fas fa-folder">
-                                </i>
-                                Afficher
-                            </a>
-
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                            6
-                        </td>
-                        <td>
-                            Yamin
-                        </td>
-
-                        <td>
-                            Mohammed
-                        </td>
-                        <td>
-                            0600000000
-                        </td>
-
-                        <td class="project-actions text-right">
-                            <a class="btn btn-primary btn-sm" href="../Parent/ParentManager.php">
+                            <a class="btn btn-primary btn-sm" href="../AfficherDossierPatient/AfficherDossier.php">
                                 <i class="fas fa-folder">
                                 </i>
                                 Afficher
@@ -201,22 +183,19 @@
                     </tr>
                     <tr>
 
-                        <td>
-                            7
+                       
+                         <td>
+                            A109
                         </td>
                         <td>
-                            Abom
-                        </td>
-
-                        <td>
-                            Adil
+                            Adil chami
                         </td>
                         <td>
-                            0600000000
+                         RETARD DE LANGUAGE
                         </td>
 
                         <td class="project-actions text-right">
-                            <a class="btn btn-primary btn-sm" href="../Parent/ParentManager.php">
+                            <a class="btn btn-primary btn-sm" href="../AfficherDossierPatient/AfficherDossier.php">
                                 <i class="fas fa-folder">
                                 </i>
                                 Afficher
@@ -230,6 +209,22 @@
             </table>
 
         </div>
+                <div class="card-header row d-flex justify-content-between">
+                        <div class="float-right col-md-6">
+                            <ul class="pagination pagination-sm">
+                                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">»</a></li>
+                            </ul>
+                        </div>
+                        <div style="margin-left:300px;" >
+                            <label class="text-secondary" for="">Total : 7</label>
+                            <div class="line"></div>
+                        </div>
+                      
+                </div>
 
         <!-- /.card-body -->
     </div>
@@ -240,14 +235,11 @@
     <div class="justify-content-between d-flex">
         <div>
             <button class="btn btn-primary" onclick="stepper1.previous()">Previous</button>
-            <button class="btn btn-primary" data-target="#orientation-part">Enregistrer</button>
+           <a class="btn btn-primary" href="./DossierBeneficiairesManager.php"> Enregistrer</a>
         </div>
 
         <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-        <div class="mr-2">
-            <label class="text-secondary" for="">Total : 7</label>
-            <div class="line"></div>
-        </div>
+       
 
     </div>
 
@@ -266,8 +258,9 @@
             confirmButtonText: 'OK',
 
 
-        }).then(function() {
-            window.location = "./DossierBeneficiairesManager.php";
         })
+        // .then(function() {
+        //     window.location = "./DossierBeneficiairesManager.php";
+        // })
     }
 </script>
