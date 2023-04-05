@@ -2,16 +2,16 @@
     <div class="card ">
         <div class="card-header">
 
-            <div class="col-sm-12 d-flex justify-content-between p-3">
-                <div class="d-flex justify-content-between " id="btnADD">
+            <div class="col-sm-12 d-flex justify-content-end p-3">
+                <!-- <div class="d-flex justify-content-between " id="btnADD">
                     <a href="./ParentForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
-                </div>
+                </div> -->
 
                 <!-- SEARCH FORM -->
                 <form class="form-inline ml-3">
                     <div class="input-group input-group-sm">
 
-                        <input type="search" class="form-control form-control-lg" placeholder="Type your keywords here">
+                        <input type="search" class="form-control form-control-lg" placeholder="Rechercher">
                         <div class="input-group-append">
                             <button type="submit" class="btn btn-lg btn-default">
                                 <i class="fa fa-search"></i>
@@ -50,7 +50,7 @@
                     <tr>
 
                         <td>
-                            <input type="checkbox" aria-label="Checkbox for following text input">
+                        <input type="radio" name="parentRadio" aria-label="Radio button for following text input" checked>
                         </td>
                         <td>
                             1
@@ -77,7 +77,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" aria-label="Checkbox for following text input">
+                          <input type="radio" name="parentRadio" aria-label="Radio button for following text input">
                         </td>
                         <td>
                             2
@@ -104,7 +104,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" aria-label="Checkbox for following text input">
+                          <input type="radio" name="parentRadio" aria-label="Radio button for following text input">
                         </td>
                         <td>
                             3
@@ -132,7 +132,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" aria-label="Checkbox for following text input">
+                          <input type="radio" name="parentRadio" aria-label="Radio button for following text input">
                         </td>
                         <td>
                             4
@@ -159,7 +159,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" aria-label="Checkbox for following text input">
+                          <input type="radio" name="parentRadio" aria-label="Radio button for following text input">
                         </td>
                         <td>
                             5
@@ -186,7 +186,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" aria-label="Checkbox for following text input">
+                          <input type="radio" name="parentRadio" aria-label="Radio button for following text input">
                         </td>
                         <td>
                             6
@@ -214,7 +214,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" aria-label="Checkbox for following text input">
+                          <input type="radio" name="parentRadio" aria-label="Radio button for following text input">
                         </td>
                         <td>
                             7
@@ -243,7 +243,20 @@
 
                 </tbody>
             </table>
+
         </div>
+        <div class="card-header row">
+                        <div class="float-right col-md-6">
+                            <ul class="pagination pagination-sm">
+                                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">»</a></li>
+                            </ul>
+                        </div>
+                       
+                    </div>
         <!-- /.card-body -->
     </div>
     <button class="btn btn-primary" onclick="stepper1.next()">Next</button>

@@ -167,6 +167,7 @@
                                 <i class="fas fa-file-import"></i> Import
                             </button>
                         </div><!-- /.container-fluid -->
+                    </div>
             </section>
             <!-- /.content -->
         </div>

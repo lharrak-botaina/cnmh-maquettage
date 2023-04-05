@@ -6,7 +6,7 @@
       $role = $_POST["role"];
 
       $_SESSION["role"] = $role;
-    
+   
       header("Location: index.php");
       exit();
   }
@@ -55,7 +55,7 @@
               <option value="Infirmière médecin générale" data-select2-id="4">Infirmière médecin générale : Algamot asia </option>
               <option value="Infirmière neurologue" data-select2-id="5">Infirmière neurologue  </option>
               <option value="Infirmière-dentiste" data-select2-id="6">Infirmière-dentiste : Tallaoui sanae </option>
-              <option value="Psychomotricité" data-select2-id="7">Psychomotricité  </option>
+              <option value="Psychomotricité" data-select2-id="7">Psychomotricité : Salma likram  </option>
               <option value="Kinésithérapeute" data-select2-id="8">Kinésithérapeute : Nassima El Ouazzani </option>
               <option value="Orthophoniste" data-select2-id="9">Orthophoniste : Samia kabbaj </option>
               <option value="Orthoptiste" data-select2-id="10">Orthoptiste : Imane Errahmouni </option>
