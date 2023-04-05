@@ -1,11 +1,16 @@
+<div style="display:none" class="formAdd"  data-target="#btADD">
+   
+    <?php include "./ParentForm.php"?>
+</div>
+<div class="table">
 <div id="parent-part" class="content">
     <div class="card ">
         <div class="card-header">
 
             <div class="col-sm-12 d-flex justify-content-end p-3">
-                <!-- <div class="d-flex justify-content-between " id="btnADD">
-                    <a href="./ParentForm.php" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
-                </div> -->
+                <div class="d-flex justify-content-between " id="btnADD">
+                    <button href="./ParentForm.php" onclick="myFunction()" class="btn btn-primary"> Ajouter</button>
+                </div>
 
                 <!-- SEARCH FORM -->
                 <form class="form-inline ml-3">
@@ -245,6 +250,7 @@
             </table>
 
         </div>
+        
         <div class="card-header row">
                         <div class="float-right col-md-6">
                             <ul class="pagination pagination-sm">
@@ -256,19 +262,32 @@
                             </ul>
                         </div>
                        
-                    </div>
+        </div>
         <!-- /.card-body -->
     </div>
+    
     <button class="btn btn-primary" onclick="stepper1.next()">Next</button>
-
 </div>
-<!-- <script type="text/javascript">
-        $('#btnADD').on('onClick',function(){
-            
-          
-                $('.card').hide();
-                $('.form').show();
-           
-           
-        })
-        </script> -->
+</div>
+
+<script>
+    function myFunction(){
+    var parentTable =  document.getElementsByClassName('table');
+    var formAdd =  document.getElementsByClassName('formAdd');
+
+    //  console.log(parentTable)
+    formAdd[0].style.display = "inline";
+    parentTable[0].style.display = "none";
+    //   $('#parent-table').hide();
+    }
+    function ajouter(){
+        var parentTable =  document.getElementsByClassName('table');
+    var formAdd =  document.getElementsByClassName('formAdd');
+
+    //  console.log(parentTable)
+    formAdd[0].style.display = "none";
+    parentTable[0].style.display = "inline";
+    //   $('#parent-table').hide();
+    }
+
+</script>
