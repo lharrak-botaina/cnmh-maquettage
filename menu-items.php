@@ -39,9 +39,8 @@
       </a>
       </li>
     <?php endif; ?>
-
-
-    <?php if ($role == $adminRole || $role == $dirirectriceRole || $ServiceSocialeRole || $InfirMièreMédecinGénéraleeRole) : ?>
+      
+    <?php if ($role == $adminRole || $role == $dirirectriceRole || $role == $ServiceSocialeRole || $role == $InfirMièreMédecinGénéraleeRole || $role ==  $InfirmièreNeurologueRole || $role ==  $InfirmièreDentisteRole || $role ==  $PsychomotricitéRole || $role ==  $KinésithérapeuteRole || $role ==  $OrthophonisteRole || $role ==  $OrthoptisteRole || $role ==  $ErgothérapieRole) : ?>
     <li class="nav-item">
       <a href="/Rendez-vous/Rendez-vousManager.php" class="nav-link <?php if($currentURL == "/Rendez-vous/Rendez-vousManager.php") { echo("active"); } ?>">
         <i class="fa-regular fa-calendar-check"></i>
@@ -63,7 +62,7 @@
       </li>
     <?php endif; ?>
 
-    <?php if ($role == $adminRole || $role == $dirirectriceRole || $ServiceSocialeRole) : ?>
+    <?php if ($role == $adminRole || $role == $dirirectriceRole || $role == $ServiceSocialeRole) : ?>
     <li class="nav-item">
       <a href="/Reclamation/ReclamationManager.php" class="nav-link <?php if($currentURL == "/Reclamation/ReclamationManager.php") { echo("active"); } ?>  ">
         <i class="fa-solid fa-circle-exclamation"></i>
