@@ -32,7 +32,7 @@
 <body class="hold-transition login-page">
   <div class="login-box" style="width: 479px">
     <div class="login-logo">
-      <a href="/assets/index2.html"><b>CNMH</b></a>
+      <a href="#"><b>CNMH</b></a>
     </div>
     <!-- /.login-logo -->
     <div class="card">
