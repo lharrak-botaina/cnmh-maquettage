@@ -11,8 +11,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
   <a href="#" class="brand-link" >
-    <img src="/assets/dist/img/logo-cnmh.png" alt="CNMH Logo" class="brand-image" style="opacity: .8">
-    <span class="brand-text font-weight-light">CNMH</span>
+    <img src="/assets/dist/img/logo-cnmh.png" alt="CNMH Logo" class="" style="max-width: 100%;">
+    <span class="brand-text font-weight-light"></span>
   </a>
 
   <!-- Sidebar -->
