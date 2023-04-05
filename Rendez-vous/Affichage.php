@@ -20,7 +20,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Affichage</h1>
+                            <h1 class="m-0">Détail du rendez vous</h1>
                         </div><!-- /.col -->
 
                     </div><!-- /.row -->
@@ -41,30 +41,34 @@
                                 <thead>
                                 <tr>
                                       
-                                      <th style="width: 5%">
+                                      <th style="width: 1%">
                                        N°Dossier
                                       </th>
-                                      <th style="width: 10%">
-                                          Nom
+                                      <th style="width: 5%">
+                                        Etat 
                                       </th>
-                                      <th style="width: 10%">
-                                      Prénom
-                                      </th>
-                                    
                                       <th style="width: 20%">
-                                      Date 
+                                      Date du Rendez-Vous
                                       </th>
-                                      <th style="width: 10%">
+                                      <th style="width: 15%">
                                       Heure 
                                       </th>
-                                      <th style="width: 10%">
+                                      <th style="width: 5%">
+                                      Médecin
+                                      </th>
+                                      <th style="width: 30%">
+                                      Adresse
+                                      </th>
+                                      <th style="width: 5%">
                                       Téléphone
                                       </th>
-                                      <th style="width: 20%">
-                                      État
+                                      
+                                      <th style="width: 30%">
+                                      Le prochain rendez-vous
                                       </th>
 
-                                      <th style="width: 50%">
+                                      <th style="width: 30%">
+                                      Remarques
                                       </th>
                                   </tr>
                               </thead>
@@ -76,24 +80,32 @@
                                        A31
                                       </td>
                                       <td>
-                                          Radi
+                                      <span class="badge bg-primary">En Attende</span>
+                                      </td>
+                                      <td>
+                                      10/04/2023 
                                       </td>
 
                                       <td>
-                                          Said
+                                      10:00 AM 
                                       </td>
                                       <td>
-                                          10/04/2023
+                                         Kamal 
                                       </td>
                                       <td>
-                                          10:00 AM
+                                      TANGER MAROC 
                                       </td>
                                       <td>
-                                          0600000000
+                                       0600000000
                                       </td>
                                       <td>
-                                      <span class="badge bg-primary">En Attende</span>
+                                      17/04/2023
                                       </td>
+                                      <td>
+                                      ceci est une remarque 
+                                      </td>
+                                     
+                                     
 
                                     
                                     

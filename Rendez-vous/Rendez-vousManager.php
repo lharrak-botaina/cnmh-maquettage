@@ -21,7 +21,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Rendez-vous</h1>
+                            <h1 class="m-0">Gestion des Rendez-vous Médecin general</h1>
                         </div><!-- /.col -->
 
                     </div><!-- /.row -->
@@ -45,7 +45,7 @@
                                 <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
 
-                                        <input type="search" class="form-control form-control-lg" placeholder="Type your keywords here">
+                                        <input type="search" class="form-control form-control-lg" placeholder="Recherche">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-lg btn-default">
                                                 <i class="fa fa-search"></i>

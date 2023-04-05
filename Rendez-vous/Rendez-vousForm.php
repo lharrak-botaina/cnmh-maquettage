@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://unpkg.com/bs-stepper/dist/css/bs-stepper.min.css">
 <script src="https://unpkg.com/bs-stepper/dist/js/bs-stepper.min.js"></script>
 
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -121,6 +124,7 @@
     </div>
     <?php include("../scripts.php") ?>
     <script src="../assets/plugins/bs-stepper/js/bs-stepper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
     <script>
       
       var stepper1Node = document.querySelector('#stepper1')
@@ -135,6 +139,14 @@
 stepper1Node.addEventListener('shown.bs-stepper', function (event) {
   console.warn('step shown')
 })
+$(document).ready(function() {
+          $('#summernote').summernote({
+        placeholder: 'Saisir une description du service.',
+       
+        height: 100
+      });
+    })
+
       
     </script>
 </body>
