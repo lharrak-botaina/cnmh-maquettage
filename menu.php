@@ -23,7 +23,7 @@
       </div>
       <div class="info">
         <a href="#" class="d-block">
-        <?php if ($role == 'Derictrice'): ?>
+        <?php if ($role == 'Directrice'): ?>
           Fatima zahrae serghini<br/>
           <span style="font-size: small;">Derictrice</span>
         <?php endif; ?>
@@ -31,7 +31,7 @@
           Fouad esseraj <br/>
           <span style="font-size: small;">Admin</span>
         <?php endif; ?>
-        <?php if ($role == 'Service social '): ?>
+        <?php if ($role == 'Service social'): ?>
           Khawla souan <br/>
           <span style="font-size: small;">Service social</span>
         <?php endif; ?>
@@ -48,8 +48,9 @@
           <span style="font-size: small;">Infirmière-dentiste</span>
         <?php endif; ?>
         <?php if ($role == 'Psychomotricité'): ?>
-          <br/>
+          Salma likram <br/>
           <span style="font-size: small;">Psychomotricité</span>
+          
         <?php endif; ?>
         <?php if ($role == 'Kinésithérapeute'): ?>
           Nassima El Ouazzani <br/>
