@@ -17,7 +17,15 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <?php include("../content-header.php") ?>
-
+      <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0">Ajouter un nouveau patient</h1>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
       <!-- Content Header (Page header) -->
       <div class="content-header">
         <div class="container-fluid">
@@ -71,22 +79,22 @@
         <div class="line"></div>
         <div class="step"  id="step3" data-target="#Entretien-part">
           <button type="button" class="step-trigger" role="tab" aria-controls="Entretien-part" id="Entretien-part-trigger">
-            <span class="bs-stepper-circle">4</span>
+            <span class="bs-stepper-circle">3</span>
             <span class="bs-stepper-label">Entretien social</span>
           </button>
         </div>
         <div class="line"></div>
         <div class="step"  id="step3" data-target="#ListAttente-part">
           <button type="button" class="step-trigger" role="tab" aria-controls="ListAttente-part" id="ListAttente-part-trigger">
-            <span class="bs-stepper-circle">6</span>
+            <span class="bs-stepper-circle">4</span>
             <span class="bs-stepper-label">List d'attente</span>
           </button>
         </div>
       </div>
       <div class="bs-stepper-content">
         <!-- your steps content here -->
-        <?php include("./ParentManager.php") ?>
-        <?php include("./PatientForm.php") ?>
+        <?php  include("./ParentManager.php") ?>
+        <?php include("./PatientManager.php") ?>
         <?php include("./EntretienSocialForm.php") ?>
         <?php include("./ListAttenteForm.php") ?>
       </div>
