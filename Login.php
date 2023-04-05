@@ -50,7 +50,7 @@
           <div class="input-group mb-3">
             <select name="role" class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
               <option value="Admin" data-select2-id="1">Admin : Fouad esseraj</option>
-              <option value="Derictrice" data-select2-id="2">Derictrice : Fatima zahrae serghini</option>
+              <option value="Directrice" data-select2-id="2">Directrice : Fatima zahrae serghini</option>
               <option value="Service social" data-select2-id="3">Service social : Khawla souan  </option>
               <option value="Infirmière médecin générale" data-select2-id="4">Infirmière médecin générale : Algamot asia </option>
               <option value="Infirmière neurologue" data-select2-id="5">Infirmière neurologue  </option>
