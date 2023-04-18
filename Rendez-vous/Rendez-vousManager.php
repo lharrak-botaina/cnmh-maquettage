@@ -21,7 +21,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gestion des Rendez-vous</h1>
+                            <h1 class="m-0">Gestion des Rendez-vous Médecin general</h1>
                         </div><!-- /.col -->
 
                     </div><!-- /.row -->
@@ -45,7 +45,7 @@
                                 <form class="form-inline ml-3">
                                     <div class="input-group input-group-sm">
 
-                                        <input type="search" class="form-control form-control-lg" placeholder="Type your keywords here">
+                                        <input type="search" class="form-control form-control-lg" placeholder="Recherche">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-lg btn-default">
                                                 <i class="fa fa-search"></i>
@@ -60,9 +60,7 @@
                             <table class="table table-striped projects">
                                 <thead>
                                     <tr>
-                                        <th style="width: 5%">
-                                         N°d'Ordre
-                                        </th>
+                                      
                                         <th style="width: 5%">
                                          N°Dossier
                                         </th>
@@ -72,8 +70,18 @@
                                         <th style="width: 10%">
                                         Prénom
                                         </th>
-                                        <th style="width: 50%">
+                                      
+                                        <th style="width: 20%">
+                                        Date 
+                                        </th>
+                                        <th style="width: 10%">
+                                        Heure 
+                                        </th>
+                                        <th style="width: 10%">
                                         Téléphone
+                                        </th>
+                                        <th style="width: 20%">
+                                        État
                                         </th>
 
                                         <th style="width: 50%">
@@ -83,9 +91,7 @@
                                 <tbody>
 
                                     <tr>
-                                        <td>
-                                          1
-                                        </td>
+                                       
                                         <td>
                                          A31
                                         </td>
@@ -97,21 +103,107 @@
                                             Said
                                         </td>
                                         <td>
+                                            10/04/2023
+                                        </td>
+                                        <td>
+                                            10:00 AM
+                                        </td>
+                                        <td>
                                             0600000000
+                                        </td>
+                                        <td>
+                                        <span class="badge bg-primary">En Attende</span>
                                         </td>
 
                                       
-                                            <td>                                      
+                                        <td class="project-actions text-fex">
+                                            <a class="btn btn-primary btn-sm" href="../Rendez-vous/Affichage.php">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a>                                     
                                           <!-- Button trigger modal -->
 <!-- Button trigger modal -->
-                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
-                                        Afficher
-                                        </button>
+                                       
                                         </td> 
 
 
                                    
                                     </tr>
+                                    <tr>
+                                       
+                                       <td>
+                                        A12
+                                       </td>
+                                       <td>
+                                           Chami
+                                       </td>
+
+                                       <td>
+                                           Ali
+                                       </td>
+                                       <td>
+                                           10/04/2023
+                                       </td>
+                                       <td>
+                                           11:00 AM
+                                       </td>
+                                       <td>
+                                           0600000000
+                                       </td>
+                                       <td>
+                                       <span class="badge bg-success">Planifié</span>
+                                       </td>
+
+                                     
+                                       <td class="project-actions text-fex">
+                                            <a class="btn btn-primary btn-sm" href="../Rendez-vous/Affichage.php">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a> 
+                                       </td> 
+
+
+                                  
+                                   </tr>
+
+                                   <tr>
+                                       
+                                       <td>
+                                        A03
+                                       </td>
+                                       <td>
+                                           Madani
+                                       </td>
+
+                                       <td>
+                                           Fatima
+                                       </td>
+                                       <td>
+                                           10/04/2023
+                                       </td>
+                                       <td>
+                                           12:00 AM
+                                       </td>
+                                       <td>
+                                           0600000000
+                                       </td>
+                                       <td>
+                                       <span class="badge bg-danger">Absence</span>
+                                       </td>
+
+                                       <td class="project-actions text-fex">
+                                            <a class="btn btn-primary btn-sm" href="../Rendez-vous/Affichage.php">
+                                                <i class="fas fa-folder">
+                                                </i>
+                                                Afficher
+                                            </a> 
+                                       </td> 
+
+
+                                  
+                                   </tr>
 
                                 </tbody>
                             </table>
